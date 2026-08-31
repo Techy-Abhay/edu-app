@@ -74,7 +74,7 @@ Practice defaults (question counts, subject list, cache duration) live in [src/c
 
 ## Deployment
 
-The app deploys to GitHub Pages via [.github/workflows/deploy.yml](.github/workflows/deploy.yml) on every push to `master`.
+The app deploys to GitHub Pages via [.github/workflows/deploy.yml](.github/workflows/deploy.yml) on every push to `main`.
 
 One-time setup:
 
