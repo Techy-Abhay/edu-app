@@ -11,12 +11,25 @@
 .practice-header {
   display: flex;
   justify-content: space-between;
-  align-items: center;
+  align-items: flex-start;
+  gap: var(--spacing-md);
   margin-bottom: var(--spacing-sm);
+}
+
+.practice-info {
+  min-width: 0;
 }
 
 .practice-info h2 {
   margin-bottom: var(--spacing-xs);
+}
+
+.practice-title-icon {
+  margin-right: var(--spacing-sm);
+}
+
+.practice-header > .btn {
+  flex: 0 0 auto;
 }
 
 .quick-header {
@@ -28,7 +41,8 @@
   align-items: center;
   justify-content: space-between;
   gap: var(--spacing-lg);
-  width: 100%;
+  flex: 1;
+  min-width: 0;
 }
 
 .quick-title-line h2 {
@@ -239,9 +253,23 @@
 
 @media (max-width: 768px) {
   .practice-header {
-    flex-direction: column;
     align-items: flex-start;
-    gap: var(--spacing-md);
+    gap: var(--spacing-sm);
+  }
+
+  .practice-info h2,
+  .quick-title-line h2 {
+    font-size: 1.25rem;
+  }
+
+  .quick-stats-inline {
+    display: flex;
+    gap: var(--spacing-sm);
+  }
+
+  .stat-inline {
+    font-size: 0.875rem;
+    padding: 0.25rem 0.5rem;
   }
   
   .question-card {

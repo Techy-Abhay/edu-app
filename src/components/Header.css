@@ -11,6 +11,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  position: relative;
   padding: var(--spacing-md) 0;
 }
 
@@ -19,7 +20,7 @@
   align-items: center;
   gap: var(--spacing-sm);
   text-decoration: none;
-  color: var(--text-primary);
+  color: #000;
   font-size: 1.5rem;
   font-weight: 700;
 }
@@ -35,7 +36,7 @@
 .class-badge {
   font-size: 0.875rem;
   font-weight: 500;
-  background: var(--primary);
+  background: #0078D4;
   color: white;
   padding: 0.25rem 0.75rem;
   border-radius: var(--radius-full);
@@ -46,43 +47,104 @@
   display: flex;
   gap: var(--spacing-md);
   align-items: center;
-  flex-wrap: wrap;
 }
 
-.nav > * {
-  flex-shrink: 0;
+.primary-nav,
+.utility-nav,
+.landing-actions {
+  display: flex;
+  align-items: center;
+  gap: var(--spacing-md);
 }
 
-.nav-link.settings-link {
-  background: #f59e0b;
-  color: white;
+.tools-menu {
+  position: relative;
+}
+
+.nav-action {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  height: 2.5rem;
+  box-sizing: border-box;
+  padding: 0 var(--spacing-md);
+  border: 1px solid transparent;
+  border-radius: var(--radius-md);
+  background: transparent;
+  color: var(--text-primary);
+  font: inherit;
+  font-weight: 500;
+  text-decoration: none;
+  cursor: pointer;
+  transition: all 0.15s;
+}
+
+.nav-action:hover {
+  background: var(--bg-secondary);
+  color: var(--text-primary);
+}
+
+.tools-dropdown {
+  position: absolute;
+  z-index: 110;
+  top: calc(100% + 0.5rem);
+  left: 0;
+  min-width: 11rem;
+  padding: 0.5rem;
+  background: var(--bg-primary);
+  border: 1px solid var(--border-color);
+  border-radius: var(--radius-md);
+  box-shadow: var(--shadow-lg);
+}
+
+.tools-dropdown a {
+  display: block;
+  width: 100%;
+  box-sizing: border-box;
+  padding: 0.75rem;
+  border: 0;
+  border-radius: var(--radius-sm);
+  background: var(--bg-secondary);
+  color: var(--text-primary);
+  text-align: left;
+  font: inherit;
   font-weight: 600;
+  text-decoration: none;
 }
 
-.nav-link.settings-link:hover {
-  background: #d97706;
-  color: white;
+.tools-dropdown a:hover {
+  background: var(--bg-tertiary);
+  color: var(--text-primary);
 }
 
 .creator-credit {
   font-size: 0.875rem;
   color: var(--text-tertiary);
   font-style: italic;
-  margin-left: var(--spacing-md);
+}
+
+.menu-button,
+.mobile-menu {
+  display: none;
 }
 
 .nav-link {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  height: 2.5rem;
+  padding: 0 var(--spacing-md);
   text-decoration: none;
-  color: var(--text-secondary);
+  color: var(--text-primary);
   font-weight: 500;
-  padding: var(--spacing-sm) var(--spacing-md);
   border-radius: var(--radius-md);
-  transition: all 0.2s;
+  border: 1px solid transparent;
+  transition: all 0.15s;
 }
 
 .nav-link:hover {
-  color: var(--primary);
   background: var(--bg-secondary);
+  color: var(--text-primary);
 }
 
 .nav-link-secondary {
@@ -91,20 +153,164 @@
 }
 
 @media (max-width: 768px) {
+  .header-content {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) auto;
+    padding: var(--spacing-sm) 0 0;
+  }
+
+  .logo {
+    font-size: 1.125rem;
+    gap: 0.4rem;
+    min-width: 0;
+  }
+
+  .logo-icon {
+    font-size: 1.5rem;
+  }
+
   .logo-text {
-    font-size: 1.25rem;
+    font-size: 1.125rem;
+    white-space: nowrap;
   }
-  
+
+  .class-badge {
+    margin-left: 0;
+    padding: 0.2rem 0.5rem;
+    font-size: 0.75rem;
+  }
+
   .nav {
-    gap: var(--spacing-sm);
+    display: contents;
   }
-  
-  .nav-link {
-    padding: var(--spacing-sm);
-    font-size: 0.875rem;
+
+  .primary-nav {
+    grid-column: 1 / -1;
+    grid-row: 2;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 0;
+    width: 100%;
+    margin-top: var(--spacing-sm);
+    border-top: 1px solid var(--border-color);
   }
-  
-  .creator-credit {
+
+  .utility-nav {
     display: none;
+  }
+
+  .landing-actions {
+    grid-column: 1 / -1;
+    grid-row: 2;
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: var(--spacing-sm);
+    width: 100%;
+    margin-top: var(--spacing-sm);
+    padding: var(--spacing-sm) 0;
+    border-top: 1px solid var(--border-color);
+  }
+
+  .landing-actions .sync-button-wrapper,
+  .landing-actions .sync-button,
+  .landing-actions .nav-action,
+  .landing-actions .tools-menu {
+    min-width: 0;
+    width: 100%;
+  }
+
+  .landing-actions .sync-button,
+  .landing-actions .nav-action {
+    justify-content: center;
+    padding: 0 0.25rem;
+    font-size: 0.813rem;
+  }
+
+  .landing-actions .sync-icon {
+    display: none;
+  }
+
+  .landing-actions .tools-dropdown {
+    left: 0;
+    width: 12rem;
+  }
+
+  .nav-link {
+    padding: 0.75rem 0.25rem;
+    font-size: 0.875rem;
+    text-align: center;
+    border-radius: 0;
+  }
+
+  .menu-button {
+    display: block;
+    grid-column: 2;
+    grid-row: 1;
+    align-self: center;
+    width: 2.5rem;
+    height: 2.5rem;
+    border: 0;
+    border-radius: var(--radius-md);
+    background: transparent;
+    color: var(--text-primary);
+    font-size: 1.75rem;
+    line-height: 1;
+    cursor: pointer;
+  }
+
+  .menu-button:hover,
+  .menu-button:focus-visible {
+    background: var(--bg-secondary);
+  }
+
+  .mobile-menu {
+    display: flex;
+    position: absolute;
+    z-index: 110;
+    top: calc(100% + 0.5rem);
+    right: 0;
+    width: min(15rem, calc(100vw - 2rem));
+    flex-direction: column;
+    gap: 0.25rem;
+    padding: 0.5rem;
+    background: var(--bg-primary);
+    border: 1px solid var(--border-color);
+    border-radius: var(--radius-md);
+    box-shadow: var(--shadow-lg);
+  }
+
+  .mobile-menu a,
+  .mobile-menu .sync-button {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 0.75rem;
+    border-radius: var(--radius-sm);
+    color: var(--text-primary);
+    font-weight: 600;
+    text-align: left;
+    text-decoration: none;
+  }
+
+  .mobile-menu .sync-button {
+    justify-content: flex-start;
+    color: var(--text-primary);
+  }
+
+  .menu-class-label,
+  .menu-credit {
+    padding: 0.5rem 0.75rem;
+    color: var(--text-secondary);
+    font-size: 0.813rem;
+  }
+
+  .menu-class-label {
+    border-bottom: 1px solid var(--border-color);
+    font-weight: 700;
+    color: var(--text-primary);
+  }
+
+  .menu-credit {
+    border-top: 1px solid var(--border-color);
+    text-align: center;
   }
 }

@@ -44,17 +44,7 @@ const SyncButton = ({ onSyncComplete }: SyncButtonProps) => {
         disabled={syncing}
         title="Sync with server to get latest questions"
       >
-        {syncing ? (
-          <>
-            <span className="sync-icon spinning">🔄</span>
-            <span className="sync-text">Syncing...</span>
-          </>
-        ) : (
-          <>
-            <span className="sync-icon">🔄</span>
-            <span className="sync-text">Sync Data</span>
-          </>
-        )}
+        {syncing ? 'Syncing...' : 'Sync Data'}
       </button>
       
       {showMessage && (

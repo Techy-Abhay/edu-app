@@ -24,8 +24,15 @@ const SubjectSelection = () => {
         ]);
         
         // Filter by class on client-side
-        setTopics(topicsData.filter(t => t.class === classLevel));
-        setAllQuestions(questionsData.filter(q => q.class === classLevel));
+        const filteredTopics = topicsData.filter(t => t.class === classLevel);
+        const filteredQuestions = questionsData.filter(q => q.class === classLevel);
+        
+        console.log(`📚 ${subject} - Total topics: ${topicsData.length}, Filtered for Class ${classLevel}: ${filteredTopics.length}`);
+        console.log(`📝 ${subject} - Total questions: ${questionsData.length}, Filtered for Class ${classLevel}: ${filteredQuestions.length}`);
+        console.log('Topics:', filteredTopics);
+        
+        setTopics(filteredTopics);
+        setAllQuestions(filteredQuestions);
       } catch (err) {
         setError(err instanceof Error ? err.message : 'Failed to load data');
         console.error('Error loading data:', err);
@@ -111,24 +118,31 @@ const SubjectSelection = () => {
         {/* Topics */}
         <div className="section">
           <h2>Practice by Topic</h2>
-          <div className="topic-grid">
-            {topics.map(topic => {
-              const topicQuestions = allQuestions.filter(q => q.topic === topic.topicName);
-              return (
-                <Link 
-                  key={topic.topicId}
-                  to={`/class/${classLevel}/practice/${subject}/topic?topic=${topic.topicName}`}
-                  className="topic-card"
-                >
-                  <h3>{topic.topicName}</h3>
-                  <p className="topic-description">{topic.description}</p>
-                  <div className="topic-meta">
-                    <span className="badge">{topicQuestions.length} questions</span>
-                  </div>
-                </Link>
-              );
-            })}
-          </div>
+          {topics.length === 0 ? (
+            <div className="empty-state">
+              <p>No topics available for Class {classLevel} yet.</p>
+              <p className="text-secondary">Topics may need to be synced from the server.</p>
+            </div>
+          ) : (
+            <div className="topic-grid">
+              {topics.map(topic => {
+                const topicQuestions = allQuestions.filter(q => q.topic === topic.topicName);
+                return (
+                  <Link 
+                    key={topic.topicId}
+                    to={`/class/${classLevel}/practice/${subject}/topic?topic=${topic.topicName}`}
+                    className="topic-card"
+                  >
+                    <h3>{topic.topicName}</h3>
+                    <p className="topic-description">{topic.description}</p>
+                    <div className="topic-meta">
+                      <span className="badge">{topicQuestions.length} questions</span>
+                    </div>
+                  </Link>
+                );
+              })}
+            </div>
+          )}
         </div>
       </div>
     </div>

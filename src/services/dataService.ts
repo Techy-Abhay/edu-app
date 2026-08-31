@@ -27,7 +27,26 @@ export async function getQuestions(subject: string, topic?: string, forceRefresh
       const cachedQuestions = await storage.getQuestions(subject, topic);
       if (cachedQuestions.length > 0) {
         console.log(`💾 Loaded ${cachedQuestions.length} questions from local storage for ${subject}${topic ? ` - ${topic}` : ''}`);
-        return cachedQuestions;
+        
+        // Normalize cached data in case it has old PascalCase format
+        const normalizedCached = cachedQuestions.map((q: any) => ({
+          questionId: q.questionId || q.QuestionID,
+          class: typeof q.class === 'number' ? q.class : (typeof (q.Class || q.class) === 'string' ? parseInt(q.Class || q.class) : (q.Class || q.class)) as ClassLevel,
+          subject: q.subject || q.Subject,
+          topic: q.topic || q.Topic,
+          question: q.question || q.Question,
+          optionA: q.optionA || q.OptionA,
+          optionB: q.optionB || q.OptionB,
+          optionC: q.optionC || q.OptionC,
+          optionD: q.optionD || q.OptionD,
+          correctAnswer: (q.correctAnswer || q.CorrectAnswer) as 'A' | 'B' | 'C' | 'D',
+          explanation: q.explanation || q.Explanation,
+          difficulty: (q.difficulty || q.Difficulty) as 'Easy' | 'Medium' | 'Hard',
+          source: q.source || q.Source,
+          active: q.active !== undefined ? q.active : (q.Active !== undefined ? q.Active : true)
+        })) as Question[];
+        
+        return normalizedCached;
       }
     }
     
@@ -36,13 +55,27 @@ export async function getQuestions(subject: string, topic?: string, forceRefresh
       try {
         console.log(`🌐 Fetching from API for ${subject}${topic ? ` - ${topic}` : ''}...`);
         const questions = await api.getQuestions(subject, topic);
-        console.log(`✅ Loaded ${questions.length} questions from API`);
+        console.log(`✅ Loaded ${questions.length} questions from API`, questions[0]);
         
-        // Normalize class field to ClassLevel (Google Sheets might return string)
-        const normalizedQuestions = questions.map(q => ({
-          ...q,
-          class: (typeof q.class === 'string' ? parseInt(q.class) : q.class) as ClassLevel
+        // Normalize data from Google Sheets format to app format
+        const normalizedQuestions = questions.map((q: any) => ({
+          questionId: q.QuestionID || q.questionId,
+          class: (typeof (q.Class || q.class) === 'string' ? parseInt(q.Class || q.class) : (q.Class || q.class)) as ClassLevel,
+          subject: q.Subject || q.subject,
+          topic: q.Topic || q.topic,
+          question: q.Question || q.question,
+          optionA: q.OptionA || q.optionA,
+          optionB: q.OptionB || q.optionB,
+          optionC: q.OptionC || q.optionC,
+          optionD: q.OptionD || q.optionD,
+          correctAnswer: (q.CorrectAnswer || q.correctAnswer) as 'A' | 'B' | 'C' | 'D',
+          explanation: q.Explanation || q.explanation,
+          difficulty: (q.Difficulty || q.difficulty) as 'Easy' | 'Medium' | 'Hard',
+          source: q.Source || q.source,
+          active: q.Active !== undefined ? q.Active : (q.active !== undefined ? q.active : true)
         })) as Question[];
+        
+        console.log(`🔧 Normalized questions:`, normalizedQuestions[0]);
         
         // Cache the data - but only save all questions if fetching all
         if (!topic) {
@@ -94,7 +127,18 @@ export async function getTopics(subject: string, forceRefresh = false): Promise<
       const cachedTopics = await storage.getTopics(subject);
       if (cachedTopics.length > 0) {
         console.log(`💾 Loaded ${cachedTopics.length} topics from local storage for ${subject}`);
-        return cachedTopics;
+        
+        // Normalize cached data in case it has old PascalCase format
+        const normalizedCached = cachedTopics.map((t: any) => ({
+          topicId: t.topicId || t.TopicID,
+          class: (typeof (t.Class || t.class) === 'string' ? parseInt(t.Class || t.class) : (t.Class || t.class)) as ClassLevel,
+          subject: t.subject || t.Subject,
+          topicName: t.topicName || t.TopicName,
+          description: t.description || t.Description
+        })) as Topic[];
+        
+        console.log(`🔧 Normalized cached topics (first):`, normalizedCached[0]);
+        return normalizedCached;
       }
     }
     
@@ -103,13 +147,18 @@ export async function getTopics(subject: string, forceRefresh = false): Promise<
       try {
         console.log(`🌐 Fetching topics from API for ${subject}...`);
         const topics = await api.getTopics(subject);
-        console.log(`✅ Loaded ${topics.length} topics from API`);
+        console.log(`✅ Loaded ${topics.length} topics from API`, topics[0]);
         
-        // Normalize class field to ClassLevel
-        const normalizedTopics = topics.map(t => ({
-          ...t,
-          class: (typeof t.class === 'string' ? parseInt(t.class) : t.class) as ClassLevel
+        // Normalize data from Google Sheets format to app format
+        const normalizedTopics = topics.map((t: any) => ({
+          topicId: t.TopicID || t.topicId,
+          class: (typeof (t.Class || t.class) === 'string' ? parseInt(t.Class || t.class) : (t.Class || t.class)) as ClassLevel,
+          subject: t.Subject || t.subject,
+          topicName: t.TopicName || t.topicName,
+          description: t.Description || t.description
         })) as Topic[];
+        
+        console.log(`🔧 Normalized topics:`, normalizedTopics[0]);
         
         // Cache the data
         await storage.saveTopics(normalizedTopics);
@@ -214,13 +263,19 @@ export async function syncFromServer(): Promise<{ success: boolean; message: str
     }
 
     console.log('🔄 Starting manual sync from server...');
+    
+    // Clear old cached data first to ensure fresh normalization
+    console.log('🗑️ Clearing old cached data...');
+    await storage.clearQuestions();
+    await storage.clearTopics();
+    
     const subjects = ['English', 'Mathematics', 'Science', 'GK', 'Sports'];
     let totalQuestions = 0;
     let totalTopics = 0;
 
     for (const subject of subjects) {
       try {
-        // Force refresh from API
+        // Force refresh from API (now with empty cache, will fetch fresh)
         const questions = await getQuestions(subject, undefined, true);
         totalQuestions += questions.length;
 

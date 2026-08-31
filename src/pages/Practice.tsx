@@ -26,6 +26,11 @@ const Practice = () => {
   
   const isLearningMode = mode === 'random' || mode === 'topic';
   const currentQuestion = questions[currentIndex];
+  const practiceTitle = subject === 'random'
+    ? { icon: '🎲', label: 'Random Practice' }
+    : mode === 'test'
+      ? { icon: '📝', label: 'Mock Test' }
+      : { icon: '📚', label: topic ? `${subject} • ${topic}` : `${subject} Practice` };
 
   // Load settings from localStorage
   const getQuestionCount = (practiceType: 'random' | 'topic') => {
@@ -53,13 +58,19 @@ const Practice = () => {
         let selectedQuestions: Question[] = [];
         
         if (subject && subject !== 'random') {
-          // Fetch questions from backend (with fallback to mock data)
-          const apiQuestions = await dataService.getQuestions(subject, topic || undefined);
+          // Fetch ALL questions for subject (don't filter by topic at API level to ensure caching works)
+          const apiQuestions = await dataService.getQuestions(subject);
           console.log(`📚 Received ${apiQuestions.length} questions for ${subject}`, apiQuestions[0]);
           
           // Filter by class on client-side
-          const classQuestions = apiQuestions.filter(q => q.class === classLevel);
+          let classQuestions = apiQuestions.filter(q => q.class === classLevel);
           console.log(`🎓 After filtering for class ${classLevel}: ${classQuestions.length} questions`);
+          
+          // If topic is specified, filter by topic on client-side
+          if (topic) {
+            classQuestions = classQuestions.filter(q => q.topic === topic);
+            console.log(`📝 After filtering for topic '${topic}': ${classQuestions.length} questions`);
+          }
           
           // Prevent duplicates by shuffling and using slice
           const shuffled = [...classQuestions].sort(() => Math.random() - 0.5);
@@ -71,6 +82,12 @@ const Practice = () => {
             const questionCount = getQuestionCount('topic');
             selectedQuestions = shuffled.slice(0, Math.min(questionCount, shuffled.length));
           }
+          
+          // Check if we have questions after filtering
+          if (selectedQuestions.length === 0 && topic) {
+            throw new Error(`No questions found for topic "${topic}" in ${subject} for Class ${classLevel}. Try syncing data or choose another topic.`);
+          }
+          
           console.log(`✅ Selected ${selectedQuestions.length} unique questions for practice`);
         } else if (subject === 'random') {
           // Fetch questions from all subjects
@@ -161,7 +178,7 @@ const Practice = () => {
       sessionId,
       userId: 'local-user', // TODO: Add user authentication
       class: classLevel,
-      subject: subject || 'Random',
+      subject: subject === 'random' ? 'Random Practice' : subject || 'Random Practice',
       topic: topic || null,
       mode: mode === 'random' ? 'Practice' as const : mode === 'topic' ? 'Topic Practice' as const : 'Practice' as const,
       startTime: new Date(startTime).toISOString(),
@@ -237,17 +254,21 @@ const Practice = () => {
     return (
       <div className="practice">
         <div className="container">
-          <p>No questions available</p>
-          <button onClick={() => navigate(`/class/${classLevel}/dashboard`)} className="btn btn-primary">
-            Go Back
-          </button>
+          <div className="error-message">
+            <p>No questions available for this practice session.</p>
+            {topic && <p className="text-secondary">Topic: {topic} may not have questions yet.</p>}
+            <button onClick={() => navigate(`/class/${classLevel}/dashboard`)} className="btn btn-primary">
+              Go Back
+            </button>
+          </div>
         </div>
       </div>
     );
   }
 
   const progress = ((currentIndex + 1) / questions.length) * 100;
-  const isCorrect = selectedAnswer === currentQuestion.correctAnswer;
+  const correctLabel = shuffledOptionsMap.get(currentQuestion.questionId)?.correctLabel;
+  const isCorrect = selectedAnswer === correctLabel;
 
   return (
     <div className="practice">
@@ -256,7 +277,7 @@ const Practice = () => {
           {/* Header */}
           <div className="practice-header">
             <div className="practice-info">
-              <h2>{subject} {topic && `• ${topic}`}</h2>
+              <h2><span className="practice-title-icon">{practiceTitle.icon}</span>{practiceTitle.label}</h2>
               <p className="text-secondary">
                 Question {currentIndex + 1} of {questions.length}
               </p>
@@ -291,13 +312,13 @@ const Practice = () => {
             <div className="options">
               {shuffledOptionsMap.get(currentQuestion.questionId)?.shuffledOptions.map(option => {
                 const isSelected = selectedAnswer === option.label;
-                const correctLabel = shuffledOptionsMap.get(currentQuestion.questionId)?.correctLabel;
-                const isCorrectOption = option.label === correctLabel;
+                const optionCorrectLabel = shuffledOptionsMap.get(currentQuestion.questionId)?.correctLabel;
+                const isCorrectOption = option.label === optionCorrectLabel;
                 
                 let className = 'option';
                 if (showFeedback) {
                   if (isCorrectOption) className += ' option-correct';
-                  else if (isSelected && !isCorrect) className += ' option-incorrect';
+                  else if (isSelected) className += ' option-incorrect';
                 } else if (isSelected) {
                   className += ' option-selected';
                 }

@@ -134,9 +134,15 @@ function getQuestions(subject, topic = null) {
     // Filter by topic if specified
     if (topic && row[colIndex['Topic']] !== topic) continue;
     
+    // Clean the class value - remove leading apostrophe if present
+    let classValue = row[colIndex['Class']];
+    if (typeof classValue === 'string') {
+      classValue = classValue.replace(/^'/, ''); // Remove leading apostrophe
+    }
+    
     questions.push({
       questionId: row[colIndex['QuestionID']],
-      class: row[colIndex['Class']],  // Added class field
+      class: classValue,
       subject: row[colIndex['Subject']],
       topic: row[colIndex['Topic']],
       question: row[colIndex['Question']],
@@ -231,9 +237,15 @@ function getTopics(subject) {
     const row = data[i];
     
     if (row[colIndex['Subject']] === subject) {
+      // Clean the class value - remove leading apostrophe if present
+      let classValue = row[colIndex['Class']];
+      if (typeof classValue === 'string') {
+        classValue = classValue.replace(/^'/, ''); // Remove leading apostrophe
+      }
+      
       topics.push({
         topicId: row[colIndex['TopicID']],
-        class: row[colIndex['Class']],  // Added class field
+        class: classValue,
         subject: row[colIndex['Subject']],
         topicName: row[colIndex['TopicName']],
         description: row[colIndex['Description']] || ''

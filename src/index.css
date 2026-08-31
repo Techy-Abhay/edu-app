@@ -1,8 +1,8 @@
 :root {
   /* Colors */
-  --primary: #4F46E5;
-  --primary-dark: #4338CA;
-  --primary-light: #818CF8;
+  --primary: #0078D4;
+  --primary-dark: #005A9E;
+  --primary-light: #C7E0F4;
   --secondary: #10B981;
   --secondary-dark: #059669;
   --danger: #EF4444;
@@ -103,36 +103,38 @@ p {
   font-size: 1rem;
   font-weight: 500;
   border-radius: var(--radius-md);
-  border: none;
+  border: 1px solid transparent;
   cursor: pointer;
-  transition: all 0.2s;
+  transition: all 0.15s;
   text-decoration: none;
   gap: var(--spacing-sm);
 }
 
 .btn:disabled {
-  opacity: 0.6;
+  opacity: 0.5;
   cursor: not-allowed;
 }
 
 .btn-primary {
   background: var(--primary);
   color: white;
+  border-color: var(--primary);
 }
 
 .btn-primary:hover:not(:disabled) {
   background: var(--primary-dark);
-  transform: translateY(-1px);
-  box-shadow: var(--shadow-md);
+  border-color: var(--primary-dark);
 }
 
 .btn-secondary {
-  background: var(--bg-tertiary);
+  background: var(--bg-secondary);
   color: var(--text-primary);
+  border-color: var(--border-color);
 }
 
 .btn-secondary:hover:not(:disabled) {
-  background: var(--border-color);
+  background: var(--bg-tertiary);
+  border-color: var(--text-secondary);
 }
 
 .btn-success {

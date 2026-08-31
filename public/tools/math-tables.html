@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Math Tables Game</title>
+    <style>
+        :root {
+            --primary: #0078D4;
+            --primary-dark: #005A9E;
+            --success: #10b981;
+            --bg: #f9fafb;
+            --surface: #ffffff;
+            --text: #111827;
+            --muted: #6b7280;
+            --border: #e5e7eb;
+        }
+
+        * { box-sizing: border-box; }
+
+        body {
+            min-height: 100vh;
+            margin: 0;
+            padding: 24px 16px;
+            background: var(--bg);
+            color: var(--text);
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+            text-align: center;
+        }
+        .app-shell { max-width: 640px; margin: 0 auto; }
+        .app-bar {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            margin-bottom: 24px;
+            padding: 12px 16px;
+            background: var(--surface);
+            border: 1px solid var(--border);
+            border-radius: 8px;
+        }
+        .app-bar a {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            color: #000;
+            font-weight: 700;
+            font-size: 1.5rem;
+            text-decoration: none;
+        }
+        .app-bar a .icon {
+            font-size: 2rem;
+        }
+        .app-bar span { color: var(--muted); font-size: 14px; }
+        .header-section {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            gap: 16px;
+            margin-bottom: 24px;
+        }
+        h1 {
+            margin: 0;
+            font-size: 28px;
+        }
+        .config {
+            margin-bottom: 24px;
+            padding: 24px;
+            background: var(--surface);
+            border: 1px solid var(--border);
+            border-radius: 8px;
+            box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+        }
+        .config h2 { margin-top: 0; font-size: 20px; }
+        .config input {
+            width: 72px;
+            padding: 8px;
+            margin: 0 8px;
+            border: 1px solid var(--border);
+            border-radius: 4px;
+            font-size: 16px;
+        }
+        .question-area {
+            display: none;
+            padding: 24px;
+            background: var(--surface);
+            border: 1px solid var(--border);
+            border-radius: 8px;
+            box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+        }
+        .question {
+            font-size: 48px;
+            margin: 24px 0 32px;
+            font-weight: 900;
+            line-height: 1.4;
+        }
+        .answer {
+            font-size: 28px;
+            color: var(--success);
+            margin: 24px 0;
+            min-height: 40px;
+            font-weight: 800;
+        }
+        .timer {
+            width: 70px;
+            height: 70px;
+            border-radius: 50%;
+            background: var(--primary);
+            color: white;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 20px;
+            font-weight: 800;
+            box-shadow: 0 4px 6px rgba(79, 70, 229, 0.25);
+            flex-shrink: 0;
+        }
+        .occurrence {
+            font-size: 18px;
+            color: var(--muted);
+            margin-top: 10px;
+            font-weight: 700;
+        }
+        button {
+            min-height: 44px;
+            padding: 10px 18px;
+            font-size: 16px;
+            margin: 8px;
+            cursor: pointer;
+            background-color: var(--primary);
+            color: white;
+            border: none;
+            border-radius: 6px;
+            font-weight: 700;
+        }
+        button:hover {
+            background-color: var(--primary-dark);
+        }
+        .hidden {
+            visibility: hidden;
+        }
+        .credit {
+            margin-top: 24px;
+            font-size: 13px;
+            color: var(--muted);
+            font-style: italic;
+        }
+        @media (max-width: 480px) {
+            body { padding: 16px; }
+            .app-bar { padding: 10px 12px; }
+            .header-section { align-items: flex-start; }
+            h1 { font-size: 24px; text-align: left; }
+            .timer { width: 52px; height: 52px; font-size: 16px; }
+            .config, .question-area { padding: 20px 14px; }
+            .question { font-size: 38px; margin: 20px 0 28px; }
+            .answer { font-size: 22px; }
+            button { width: calc(100% - 16px); margin: 6px 8px; }
+        }
+    </style>
+</head>
+<body>
+    <main class="app-shell">
+    <div class="app-bar"><a href="../"><span class="icon">📚</span>Learning Hub</a><span>Table Practice</span></div>
+    <div class="header-section">
+        <h1>Math Tables</h1>
+        <div class="timer" id="timer" style="visibility: hidden;">0s</div>
+    </div>
+    
+    <div class="config" id="configPanel">
+        <h2>Configure Tables Range</h2>
+        <label>
+            Start Table: <input type="number" id="startTable" value="2" min="1" max="100">
+        </label>
+        <br><br>
+        <label>
+            End Table: <input type="number" id="endTable" value="20" min="1" max="100">
+        </label>
+        <br>
+        <button onclick="startGame()">Start Game</button>
+    </div>
+
+    <div class="question-area" id="questionArea">
+        <div class="question" id="question"></div>
+        <div class="occurrence" id="occurrence"></div>
+        <div class="answer" id="answer"></div>
+        <button onclick="showAnswer()" id="showBtn">Show Answer</button>
+        <button onclick="nextQuestion()" id="nextBtn">Next Question</button>
+        <br><br>
+        <button onclick="backToConfig()">Change Settings</button>
+    </div>
+
+    <div class="credit">Built by Techy-Abhay</div>
+    </main>
+
+    <script>
+        let startTable = 2;
+        let endTable = 10;
+        let currentNum1, currentNum2, currentAnswer;
+        let timerInterval = null;
+        let seconds = 0;
+        let questionHistory = {};
+
+        function startGame() {
+            startTable = parseInt(document.getElementById('startTable').value);
+            endTable = parseInt(document.getElementById('endTable').value);
+            
+            if (startTable > endTable) {
+                alert('Start table must be less than or equal to end table!');
+                return;
+            }
+            
+            if (startTable < 1 || endTable > 100) {
+                alert('Tables must be between 1 and 100!');
+                return;
+            }
+            
+            questionHistory = {};
+            document.getElementById('configPanel').style.display = 'none';
+            document.getElementById('questionArea').style.display = 'block';
+            nextQuestion();
+        }
+
+        function generateQuestion() {
+            stopTimer();
+            currentNum1 = Math.floor(Math.random() * (endTable - startTable + 1)) + startTable;
+            currentNum2 = Math.floor(Math.random() * 10) + 1;
+            currentAnswer = currentNum1 * currentNum2;
+            
+            const questionKey = `${currentNum1}x${currentNum2}`;
+            if (questionHistory[questionKey]) {
+                questionHistory[questionKey]++;
+            } else {
+                questionHistory[questionKey] = 1;
+            }
+            
+            const occurrenceCount = questionHistory[questionKey];
+            const occurrenceText = occurrenceCount > 1 ? 
+                `This question appeared ${occurrenceCount} times` : '';
+            
+            document.getElementById('question').textContent = `${currentNum1} × ${currentNum2} = ?`;
+            document.getElementById('occurrence').textContent = occurrenceText;
+            document.getElementById('answer').textContent = '';
+            document.getElementById('answer').classList.add('hidden');
+            document.getElementById('showBtn').disabled = false;
+            document.getElementById('timer').style.visibility = 'visible';
+            startTimer();
+        }
+
+        function startTimer() {
+            seconds = 0;
+            document.getElementById('timer').textContent = '0s';
+            timerInterval = setInterval(function() {
+                seconds++;
+                document.getElementById('timer').textContent = `${seconds}s`;
+            }, 1000);
+        }
+
+        function stopTimer() {
+            if (timerInterval) {
+                clearInterval(timerInterval);
+                timerInterval = null;
+            }
+        }
+
+        function showAnswer() {
+            stopTimer();
+            document.getElementById('answer').textContent = `Answer: ${currentAnswer} (took ${seconds}s)`;
+            document.getElementById('answer').classList.remove('hidden');
+            document.getElementById('showBtn').disabled = true;
+        }
+
+        function nextQuestion() {
+            generateQuestion();
+        }
+
+        function backToConfig() {
+            stopTimer();
+            document.getElementById('timer').style.visibility = 'hidden';
+            document.getElementById('configPanel').style.display = 'block';
+            document.getElementById('questionArea').style.display = 'none';
+        }
+
+        document.addEventListener('keypress', function(event) {
+            if (event.key === 'Enter') {
+                if (document.getElementById('questionArea').style.display === 'block') {
+                    if (!document.getElementById('showBtn').disabled) {
+                        showAnswer();
+                    } else {
+                        nextQuestion();
+                    }
+                }
+            }
+        });
+    </script>
+</body>
+</html>
