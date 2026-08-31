@@ -1,0 +1,131 @@
+.subject-selection {
+  padding: var(--spacing-2xl) 0;
+}
+
+.back-link {
+  display: inline-flex;
+  align-items: center;
+  text-decoration: none;
+  color: var(--primary);
+  font-weight: 500;
+  margin-bottom: var(--spacing-lg);
+  transition: all 0.2s;
+}
+
+.back-link:hover {
+  transform: translateX(-4px);
+}
+
+.subject-header {
+  display: flex;
+  align-items: center;
+  gap: var(--spacing-lg);
+  margin-bottom: var(--spacing-2xl);
+  padding: var(--spacing-xl);
+  background: var(--bg-primary);
+  border-radius: var(--radius-lg);
+  box-shadow: var(--shadow-md);
+}
+
+.subject-icon-large {
+  font-size: 4rem;
+}
+
+.subject-header h1 {
+  margin-bottom: var(--spacing-xs);
+}
+
+.mode-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: var(--spacing-lg);
+}
+
+.mode-card {
+  background: var(--bg-primary);
+  border-radius: var(--radius-lg);
+  padding: var(--spacing-xl);
+  text-decoration: none;
+  color: var(--text-primary);
+  border: 2px solid var(--primary);
+  transition: all 0.3s;
+  text-align: center;
+}
+
+.mode-card:hover {
+  background: var(--primary);
+  color: white;
+  transform: translateY(-4px);
+  box-shadow: var(--shadow-lg);
+}
+
+.mode-icon {
+  font-size: 3rem;
+  display: block;
+  margin-bottom: var(--spacing-md);
+}
+
+.mode-card h3 {
+  margin-bottom: var(--spacing-sm);
+}
+
+.mode-card p {
+  margin: 0;
+  font-size: 0.875rem;
+  opacity: 0.8;
+}
+
+.topic-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: var(--spacing-lg);
+}
+
+.topic-card {
+  background: var(--bg-primary);
+  border-radius: var(--radius-lg);
+  padding: var(--spacing-lg);
+  text-decoration: none;
+  color: var(--text-primary);
+  border: 1px solid var(--border-color);
+  box-shadow: var(--shadow-sm);
+  transition: all 0.2s;
+  display: flex;
+  flex-direction: column;
+}
+
+.topic-card:hover {
+  box-shadow: var(--shadow-md);
+  border-color: var(--primary);
+  transform: translateY(-2px);
+}
+
+.topic-card h3 {
+  margin-bottom: var(--spacing-sm);
+  color: var(--primary);
+}
+
+.topic-description {
+  flex: 1;
+  font-size: 0.875rem;
+  color: var(--text-secondary);
+  margin-bottom: var(--spacing-md);
+}
+
+.topic-meta {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+@media (max-width: 768px) {
+  .subject-header {
+    flex-direction: column;
+    text-align: center;
+  }
+  
+  .mode-grid,
+  .topic-grid {
+    grid-template-columns: 1fr;
+  }
+}
