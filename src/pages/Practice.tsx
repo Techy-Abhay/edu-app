@@ -131,15 +131,21 @@ const Practice = () => {
 
   const handleAnswerSelect = (answer: string) => {
     if (showFeedback) return;
+    console.log('📝 Answer selected:', answer, 'for question:', currentQuestion?.questionId);
     setSelectedAnswer(answer);
   };
 
   const handleSubmit = () => {
-    if (!selectedAnswer || !currentQuestion) return;
+    if (!selectedAnswer || !currentQuestion) {
+      console.warn('⚠️ Submit clicked but no answer selected');
+      return;
+    }
     
+    console.log('✅ Submitting answer:', selectedAnswer, 'for question:', currentQuestion.questionId);
     const newAnswers = new Map(answers);
     newAnswers.set(currentQuestion.questionId, selectedAnswer);
     setAnswers(newAnswers);
+    console.log('💾 Answers map now has', newAnswers.size, 'entries');
     
     if (isLearningMode) {
       setShowFeedback(true);
@@ -197,9 +203,13 @@ const Practice = () => {
       console.log('✅ Session saved to local storage:', sessionId);
       
       // Save session details for review
+      const answersObj = Object.fromEntries(answers);
+      console.log('💾 Saving session with', answers.size, 'answers:', answersObj);
+      console.log('🔀 ShuffledOptionsMap keys:', Array.from(shuffledOptionsMap.keys()));
+      
       await dataService.saveSessionDetails(sessionId, {
         questions: questions.map(q => ({...q})), // Deep copy
-        answers: Object.fromEntries(answers),
+        answers: answersObj,
         shuffledOptionsMap: Object.fromEntries(shuffledOptionsMap),
       });
       console.log('✅ Session details saved for review');
@@ -328,6 +338,13 @@ const Practice = () => {
                     key={option.label}
                     className={className}
                     onClick={() => handleAnswerSelect(option.label)}
+                    onTouchEnd={(e) => {
+                      // Ensure touch events work on mobile
+                      e.preventDefault();
+                      if (!showFeedback) {
+                        handleAnswerSelect(option.label);
+                      }
+                    }}
                     disabled={showFeedback}
                   >
                     <span className="option-label">{option.label}</span>

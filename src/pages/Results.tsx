@@ -150,6 +150,15 @@ const Results = () => {
                     const correctLabel = shuffledData?.correctLabel || question.correctAnswer;
                     const isCorrect = userAnswer === correctLabel;
                     
+                    // Debug logging for N/A issue
+                    if (!userAnswer) {
+                      console.warn('⚠️ No answer recorded for question', question.questionId, {
+                        questionId: question.questionId,
+                        answersKeys: Object.keys(sessionDetails.answers),
+                        shuffledDataExists: !!shuffledData
+                      });
+                    }
+                    
                     // Find the text for user's answer and correct answer
                     const userOption = shuffledData?.shuffledOptions.find((opt: any) => opt.label === userAnswer);
                     const correctOption = shuffledData?.shuffledOptions.find((opt: any) => opt.label === correctLabel);
@@ -169,7 +178,11 @@ const Results = () => {
                           <div className={`review-answer ${isCorrect ? 'review-answer-correct' : 'review-answer-wrong'}`}>
                             <span className="review-answer-label">Your answer:</span>
                             <span className="review-answer-value">
-                              {userAnswer} - <MathText text={userOption?.text || 'N/A'} />
+                              {userAnswer ? (
+                                <><MathText text={`${userAnswer} - ${userOption?.text || question[`option${userAnswer}`] || 'N/A'}`} /></>
+                              ) : (
+                                <span className="text-muted">Not answered</span>
+                              )}
                             </span>
                           </div>
                           {!isCorrect && (
@@ -343,7 +356,11 @@ const Results = () => {
                           <div className="review-answer review-answer-wrong">
                             <span className="review-answer-label">Your answer:</span>
                             <span className="review-answer-value">
-                              {userAnswer} - {userOption?.text || 'N/A'}
+                              {userAnswer ? (
+                                <>{userAnswer} - {userOption?.text || question[`option${userAnswer}`] || 'N/A'}</>
+                              ) : (
+                                <span className="text-muted">Not answered</span>
+                              )}
                             </span>
                           </div>
                           <div className="review-answer review-answer-correct">

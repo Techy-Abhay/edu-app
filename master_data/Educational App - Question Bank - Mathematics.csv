@@ -1,0 +1,101 @@
+QuestionID,Class,Subject,Topic,Question,OptionA,OptionB,OptionC,OptionD,CorrectAnswer,Explanation,Difficulty,Source,Active
+MATH001,6,Mathematics,Number System,"What is the place value of 5 in the number 4,52,389?","50,000","5,000",500,50,A,"5 is in the ten-thousands place, so place value is 5 * 10,000 = 50,000.",Easy,RMS/Sainik Prep,True
+MATH002,6,Mathematics,Number System,"What is the difference between the place value and face value of 7 in 74,321?","69,993","70,000",7,"69,930",A,"Place value = 70,000; Face value = 7; Difference = 70,000 - 7 = 69,993.",Medium,RMS/Sainik Prep,True
+MATH003,6,Mathematics,Number System,Which of the following is the smallest prime number?,2,1,0,3,A,2 is the smallest prime number and the only even prime number.,Easy,RMS/Sainik Prep,True
+MATH004,6,Mathematics,Number System,Find the HCF of 24 and 36.,12,6,72,4,A,"Factors of 24: 1,2,3,4,6,8,12,24; 36: 1,2,3,4,6,9,12,18,36. Greatest common is 12.",Easy,RMS/Sainik Prep,True
+MATH005,6,Mathematics,Number System,"Find the LCM of 12, 15, and 20.",60,120,30,180,A,"12=2^2*3, 15=3*5, 20=2^2*5. LCM = 2^2*3*5 = 60.",Easy,RMS/Sainik Prep,True
+MATH006,6,Mathematics,Number System,What is the sum of the first 5 prime numbers?,28,26,18,31,A,First 5 primes: 2 + 3 + 5 + 7 + 11 = 28.,Medium,RMS/Sainik Prep,True
+MATH007,6,Mathematics,Number System,Evaluate in Roman Numerals: LVI + XXIV = ?,LXXX,LXX,XC,LXXXX,A,"LVI = 56, XXIV = 24. 56 + 24 = 80 = LXXX.",Medium,RMS/Sainik Prep,True
+MATH008,6,Mathematics,Number System,"What is the smallest 5-digit number formed using digits 4, 0, 9, 1, 7 without repetition?","10,479","01,479","10,749","40,179",A,"Arranging digits ascendingly with non-zero first gives 1, 0, 4, 7, 9 -> 10,479.",Easy,RMS/Sainik Prep,True
+MATH009,6,Mathematics,Number System,"If a number is divisible by both 3 and 4, it must be divisible by ______.",12,7,1,24,A,LCM of co-prime numbers 3 and 4 is 12.,Easy,RMS/Sainik Prep,True
+MATH010,6,Mathematics,Number System,What is the predecessor of the smallest 6-digit number?,"99,999","100,000","999,999","10,000",A,"Smallest 6-digit number is 100,000. Predecessor = 100,000 - 1 = 99,999.",Easy,RMS/Sainik Prep,True
+MATH011,6,Mathematics,Number System,"Round off 8,746 to the nearest hundred.","8,700","8,800","8,750","9,000",A,"The tens digit is 4 (< 5), so 8,746 rounds down to 8,700.",Easy,RMS/Sainik Prep,True
+MATH012,6,Mathematics,Number System,Find the product of prime factors of 36.,2^2 * 3^2,2 * 3^3,4 * 9,2^3 * 3,A,36 = 2 * 2 * 3 * 3 = 2^2 * 3^2.,Medium,RMS/Sainik Prep,True
+MATH013,6,Mathematics,Number System,The product of two numbers is 180 and their HCF is 6. Find their LCM.,30,60,90,1080,A,Formula: HCF * LCM = Product of numbers -> 6 * LCM = 180 -> LCM = 30.,Medium,RMS/Sainik Prep,True
+MATH014,6,Mathematics,Number System,What is the successor of -15?,-14,-16,15,14,A,-15 + 1 = -14.,Easy,RMS/Sainik Prep,True
+MATH015,6,Mathematics,Number System,Which digit should replace * in 357*2 to make it divisible by 9?,1,4,7,2,A,"Sum of digits = 3+5+7+*+2 = 17 + *. For divisibility by 9, 17+* = 18 -> * = 1.",Medium,RMS/Sainik Prep,True
+MATH016,6,Mathematics,Number System,"What is the greatest 4-digit number divisible by 15, 20, and 25?","9,900","9,600","9,990","9,000",A,"LCM(15,20,25) = 300. Largest 4-digit number 9999 / 300 leaves remainder 399... 9900 is divisible.",Hard,RMS/Sainik Prep,True
+MATH017,6,Mathematics,Number System,Solve: 100 - [80 - {50 - (20 - 10)}],80,60,100,40,A,20-10=10; 50-10=40; 80-40=40; 100-40=60.,Medium,RMS/Sainik Prep,True
+MATH018,6,Mathematics,Number System,How many prime numbers lie between 1 and 50?,15,12,10,20,A,"Primes up to 50: 2,3,5,7,11,13,17,19,23,29,31,37,41,43,47 (total 15).",Medium,RMS/Sainik Prep,True
+MATH019,6,Mathematics,Number System,Find the sum of all factors of 12.,28,16,24,12,A,"Factors of 12: 1, 2, 3, 4, 6, 12. Sum = 1+2+3+4+6+12 = 28.",Medium,RMS/Sainik Prep,True
+MATH020,6,Mathematics,Number System,What is the average of first 5 natural numbers?,3,2.5,5,15,A,Sum = (1+2+3+4+5)=15. Average = 15/5 = 3.,Easy,RMS/Sainik Prep,True
+MATH021,6,Mathematics,Fractions,Simplify: 3/4 + 5/6,19/12,8/10,15/24,7/6,A,LCM of 4 & 6 is 12. (9 + 10)/12 = 19/12 = 1 (7/12).,Easy,RMS/Sainik Prep,True
+MATH022,6,Mathematics,Fractions,Convert 2 (3/5) into an improper fraction.,13/5,10/5,11/5,15/5,A,2 (3/5) = (2*5 + 3)/5 = 13/5.,Easy,RMS/Sainik Prep,True
+MATH023,6,Mathematics,Fractions,Which fraction is equivalent to 4/7?,12/21,8/15,16/24,10/14,A,4/7 multiplied by 3/3 = 12/21.,Easy,RMS/Sainik Prep,True
+MATH024,6,Mathematics,Fractions,Find 3/5 of 250 kg.,150 kg,100 kg,120 kg,200 kg,A,(3 * 250) / 5 = 750 / 5 = 150 kg.,Easy,RMS/Sainik Prep,True
+MATH025,6,Mathematics,Fractions,"Arrange in ascending order: 1/2, 2/3, 3/4","1/2, 2/3, 3/4","3/4, 2/3, 1/2","2/3, 1/2, 3/4","1/2, 3/4, 2/3",A,"1/2 = 0.50, 2/3 = 0.66, 3/4 = 0.75. So order is 1/2, 2/3, 3/4.",Easy,RMS/Sainik Prep,True
+MATH026,6,Mathematics,Decimals,Convert 0.35 into a simplified fraction.,7/20,35/10,3/5,7/100,A,0.35 = 35/100 = 7/20.,Easy,RMS/Sainik Prep,True
+MATH027,6,Mathematics,Decimals,Calculate: 12.5 * 0.4,5.0,50.0,0.5,5.2,A,125 * 4 = 500 -> shift decimal two places left = 5.0.,Easy,RMS/Sainik Prep,True
+MATH028,6,Mathematics,Decimals,Divide: 4.8 / 0.12,40,4,0.4,400,A,480 / 12 = 40.,Medium,RMS/Sainik Prep,True
+MATH029,6,Mathematics,Decimals,Add: 14.05 + 6.3 + 0.007,20.357,20.35,20.42,20.057,A,14.050 + 6.300 + 0.007 = 20.357.,Easy,RMS/Sainik Prep,True
+MATH030,6,Mathematics,Decimals,Subtract 3.84 from 10.,6.16,7.16,6.26,6.84,A,10.00 - 3.84 = 6.16.,Easy,RMS/Sainik Prep,True
+MATH031,6,Mathematics,Fractions,"A tank is 3/4 full of water. If 15 liters are added, it becomes completely full. What is the capacity of tank?",60 liters,45 liters,30 liters,75 liters,A,"Remaining part = 1 - 3/4 = 1/4. If 1/4 = 15L, total capacity = 15 * 4 = 60L.",Hard,RMS/Sainik Prep,True
+MATH032,6,Mathematics,Fractions,Simplify: (2/3 * 9/4) / (3/2),1,3/2,9/8,2,A,(2/3 * 9/4) = 3/2. (3/2) / (3/2) = 1.,Medium,RMS/Sainik Prep,True
+MATH033,6,Mathematics,Fractions,What must be added to 5/8 to get 1?,3/8,5/8,1/8,7/8,A,1 - 5/8 = 3/8.,Easy,RMS/Sainik Prep,True
+MATH034,6,Mathematics,Decimals,Express 75 paise in rupees as a decimal.,Rs 0.75,Rs 7.5,Rs 0.075,Rs 75.0,A,75 paise = 75/100 rupees = 0.75 rupees.,Easy,RMS/Sainik Prep,True
+MATH035,6,Mathematics,Decimals,Express 4 km 65 m in kilometers.,4.065 km,4.65 km,4.650 km,40.65 km,A,65 m = 65/1000 km = 0.065 km. 4 + 0.065 = 4.065 km.,Medium,RMS/Sainik Prep,True
+MATH036,6,Mathematics,Fractions,Reciprocal of 4 (1/2) is ______.,2/9,9/2,-9/2,4/2,A,4 (1/2) = 9/2. Reciprocal = 2/9.,Easy,RMS/Sainik Prep,True
+MATH037,6,Mathematics,Decimals,Simplify: 0.1 * 0.01 * 0.001,0.000001,0.00001,0.001,0.0001,A,1 * 1 * 1 = 1. Total decimal places = 1 + 2 + 3 = 6 -> 0.000001.,Medium,RMS/Sainik Prep,True
+MATH038,6,Mathematics,Fractions,"If 2/3 of a number is 40, what is the number?",60,80,30,120,A,(2/3) * X = 40 -> X = 40 * 3 / 2 = 60.,Easy,RMS/Sainik Prep,True
+MATH039,6,Mathematics,Decimals,Which is greater: 0.7 or 0.07?,0.7,0.07,Both are equal,Cannot be determined,A,0.7 = 0.70 which is greater than 0.07.,Easy,RMS/Sainik Prep,True
+MATH040,6,Mathematics,Fractions,Simplify: 1 - 1/2 - 1/4,1/4,1/2,3/4,0,A,1 - 1/2 = 1/2; 1/2 - 1/4 = 1/4.,Easy,RMS/Sainik Prep,True
+MATH041,6,Mathematics,Percentage,Express 4/5 as a percentage.,80%,75%,60%,85%,A,(4/5) * 100% = 80%.,Easy,RMS/Sainik Prep,True
+MATH042,6,Mathematics,Percentage,What is 20% of Rs. 1500?,Rs 300,Rs 250,Rs 350,Rs 200,A,(20 / 100) * 1500 = Rs 300.,Easy,RMS/Sainik Prep,True
+MATH043,6,Mathematics,Percentage,"If 35% of a number is 140, find the number.",400,350,450,500,A,(35/100) * X = 140 -> X = 140 * 100 / 35 = 400.,Medium,RMS/Sainik Prep,True
+MATH044,6,Mathematics,Percentage,A student scored 450 marks out of 600. What is his percentage?,75%,80%,70%,85%,A,(450 / 600) * 100% = 75%.,Easy,RMS/Sainik Prep,True
+MATH045,6,Mathematics,Percentage,The price of a bicycle increased from Rs 2000 to Rs 2400. Find percentage increase.,20%,25%,15%,10%,A,Increase = 400. % increase = (400 / 2000) * 100% = 20%.,Medium,RMS/Sainik Prep,True
+MATH046,6,Mathematics,Profit and Loss,"Cost Price = Rs 500, Selling Price = Rs 600. Find Profit Percentage.",20%,10%,25%,15%,A,Profit = 600 - 500 = 100. Profit % = (100 / 500) * 100% = 20%.,Easy,RMS/Sainik Prep,True
+MATH047,6,Mathematics,Profit and Loss,A shopkeeper sells a book for Rs 180 incurring a loss of 10%. Find CP.,Rs 200,Rs 190,Rs 210,Rs 198,A,SP = CP * 90/100 -> 180 = CP * 9/10 -> CP = Rs 200.,Medium,RMS/Sainik Prep,True
+MATH048,6,Mathematics,Profit and Loss,"By selling a watch for Rs 1440, a man gains 20%. Find the Cost Price.",Rs 1200,Rs 1300,Rs 1150,Rs 1250,A,SP = CP * 120/100 -> 1440 = CP * 1.2 -> CP = Rs 1200.,Medium,RMS/Sainik Prep,True
+MATH049,6,Mathematics,Profit and Loss,Cost of 12 pens is equal to selling price of 10 pens. Find profit percentage.,20%,16.66%,25%,15%,A,"Let CP of 1 pen = Re 1. CP of 10 pens = 10, SP of 10 pens = 12. Profit % = (2/10)*100 = 20%.",Hard,RMS/Sainik Prep,True
+MATH050,6,Mathematics,Profit and Loss,A chair bought for Rs 800 is sold at a loss of 5%. What is SP?,Rs 760,Rs 750,Rs 740,Rs 780,A,Loss = 5% of 800 = 40. SP = 800 - 40 = Rs 760.,Easy,RMS/Sainik Prep,True
+MATH051,6,Mathematics,Simple Interest,Find Simple Interest on Rs 4000 at 5% per annum for 3 years.,Rs 600,Rs 500,Rs 650,Rs 450,A,SI = (P * R * T) / 100 = (4000 * 5 * 3) / 100 = Rs 600.,Easy,RMS/Sainik Prep,True
+MATH052,6,Mathematics,Simple Interest,At what rate percent per annum will Rs 2000 amount to Rs 2600 in 5 years?,6%,5%,8%,10%,A,SI = 2600 - 2000 = 600. Rate = (600 * 100) / (2000 * 5) = 6%.,Medium,RMS/Sainik Prep,True
+MATH053,6,Mathematics,Simple Interest,In how many years will a sum of money double itself at 10% per annum SI?,10 years,5 years,8 years,12 years,A,"Let P = 100, SI = 100. T = (SI * 100) / (P * R) = (100 * 100) / (100 * 10) = 10 years.",Medium,RMS/Sainik Prep,True
+MATH054,6,Mathematics,Ratio & Proportion,Simplify the ratio 45 : 75.,3 : 5,5 : 3,9 : 15,4 : 5,A,"Divide both terms by 15: 45/15 = 3, 75/15 = 5 -> 3 : 5.",Easy,RMS/Sainik Prep,True
+MATH055,6,Mathematics,Ratio & Proportion,Divide Rs 1200 between A and B in the ratio 2 : 3.,"A = Rs 480, B = Rs 720","A = Rs 500, B = Rs 700","A = Rs 600, B = Rs 600","A = Rs 400, B = Rs 800",A,Total parts = 5. A's share = (2/5)*1200 = 480; B's share = (3/5)*1200 = 720.,Easy,RMS/Sainik Prep,True
+MATH056,6,Mathematics,Ratio & Proportion,"If 4, 12, 8, X are in proportion, find X.",24,16,32,20,A,Product of extremes = Product of means -> 4 * X = 12 * 8 -> 4X = 96 -> X = 24.,Medium,RMS/Sainik Prep,True
+MATH057,6,Mathematics,Unitary Method,"If 15 notebooks cost Rs 300, what is the cost of 8 notebooks?",Rs 160,Rs 180,Rs 140,Rs 200,A,Cost of 1 notebook = 300 / 15 = Rs 20. Cost of 8 notebooks = 20 * 8 = Rs 160.,Easy,RMS/Sainik Prep,True
+MATH058,6,Mathematics,Unitary Method,10 men can complete a job in 6 days. How many days will 15 men take?,4 days,9 days,5 days,6 days,A,Man-days = 10 * 6 = 60. Days for 15 men = 60 / 15 = 4 days.,Medium,RMS/Sainik Prep,True
+MATH059,6,Mathematics,"Speed, Distance & Time",A car travels 180 km in 3 hours. What is its speed?,60 km/h,50 km/h,70 km/h,54 km/h,A,Speed = Distance / Time = 180 / 3 = 60 km/h.,Easy,RMS/Sainik Prep,True
+MATH060,6,Mathematics,"Speed, Distance & Time",Convert 72 km/h into m/s.,20 m/s,25 m/s,18 m/s,15 m/s,A,72 * (5 / 18) = 4 * 5 = 20 m/s.,Medium,RMS/Sainik Prep,True
+MATH061,6,Mathematics,"Speed, Distance & Time",A train 150 m long passes a telegraph pole in 10 seconds. Find speed of train in m/s.,15 m/s,10 m/s,20 m/s,12 m/s,A,Speed = Length / Time = 150 / 10 = 15 m/s.,Medium,RMS/Sainik Prep,True
+MATH062,6,Mathematics,"Speed, Distance & Time",How much time will a bus take to cover 250 km at a speed of 50 km/h?,5 hours,4 hours,6 hours,4.5 hours,A,Time = Distance / Speed = 250 / 50 = 5 hours.,Easy,RMS/Sainik Prep,True
+MATH063,6,Mathematics,Average,"Find the average of 12, 18, 24, 30, and 36.",24,22,26,20,A,Sum = 120. Total numbers = 5. Average = 120 / 5 = 24.,Easy,RMS/Sainik Prep,True
+MATH064,6,Mathematics,Average,"The average weight of 4 boys is 40 kg. If a 5th boy weighing 50 kg joins, find new average.",42 kg,41 kg,45 kg,44 kg,A,Total weight of 4 = 160 kg. New sum = 160 + 50 = 210 kg. New average = 210 / 5 = 42 kg.,Medium,RMS/Sainik Prep,True
+MATH065,6,Mathematics,Average,"The average of 5 numbers is 20. If one number is excluded, average becomes 18. Find excluded number.",28,26,24,30,A,Sum of 5 = 100. Sum of 4 = 72. Excluded number = 100 - 72 = 28.,Hard,RMS/Sainik Prep,True
+MATH066,6,Mathematics,Percentage,"A town's population increases by 10% annually. If current population is 10,000, what will it be next year?","11,000","10,500","11,200","12,000",A,"10% of 10,000 = 1,000. New population = 10,000 + 1,000 = 11,000.",Easy,RMS/Sainik Prep,True
+MATH067,6,Mathematics,Ratio & Proportion,Ratio of boys to girls in a class of 45 students is 4 : 5. How many girls are there?,25,20,30,15,A,Girls share = (5 / 9) * 45 = 25.,Easy,RMS/Sainik Prep,True
+MATH068,6,Mathematics,Unitary Method,"If 8 pipes can fill a tank in 3 hours, how long will 6 pipes take?",4 hours,3.5 hours,2.25 hours,5 hours,A,Work = 8 * 3 = 24 pipe-hours. Time for 6 pipes = 24 / 6 = 4 hours.,Medium,RMS/Sainik Prep,True
+MATH069,6,Mathematics,Simple Interest,"Find Principal if SI is Rs 450, Rate is 6% p.a. and Time is 3 years.",Rs 2500,Rs 2000,Rs 3000,Rs 2800,A,P = (SI * 100) / (R * T) = (450 * 100) / (6 * 3) = 45000 / 18 = Rs 2500.,Medium,RMS/Sainik Prep,True
+MATH070,6,Mathematics,Profit and Loss,Discount is always calculated on which price?,Marked Price (MP),Cost Price (CP),Selling Price (SP),Profit,A,Discounts are deducted from the Marked/List Price.,Easy,RMS/Sainik Prep,True
+MATH071,6,Mathematics,Arithmetic,Find the value of X: 3X + 15 = 45,10,15,20,5,A,3X = 45 - 15 = 30 -> X = 10.,Easy,RMS/Sainik Prep,True
+MATH072,6,Mathematics,Arithmetic,Solve: 2/5 of 50 + 3/4 of 40,50,45,55,60,A,(2/5 * 50) + (3/4 * 40) = 20 + 30 = 50.,Easy,RMS/Sainik Prep,True
+MATH073,6,Mathematics,Arithmetic,Simplify: 15 + 6 * 2 - 8 / 4,25,20,38,19,A,Apply BODMAS: 8/4 = 2; 6*2 = 12; 15 + 12 - 2 = 25.,Easy,RMS/Sainik Prep,True
+MATH074,6,Mathematics,Arithmetic,What is the square root of 625?,25,15,35,45,A,25 * 25 = 625.,Easy,RMS/Sainik Prep,True
+MATH075,6,Mathematics,Arithmetic,Find the cube of 6.,216,36,144,256,A,6 * 6 * 6 = 216.,Easy,RMS/Sainik Prep,True
+MATH076,6,Mathematics,Geometry,What is the sum of angles of a triangle?,180 degrees,360 degrees,90 degrees,270 degrees,A,Interior angles of any triangle sum up to 180°.,Easy,RMS/Sainik Prep,True
+MATH077,6,Mathematics,Geometry,An angle greater than 90 degrees but less than 180 degrees is called ______.,Obtuse Angle,Acute Angle,Right Angle,Reflex Angle,A,Obtuse angles measure between 90° and 180°.,Easy,RMS/Sainik Prep,True
+MATH078,6,Mathematics,Geometry,What is the complement of a 35 degree angle?,55 degrees,145 degrees,65 degrees,45 degrees,A,Complementary angles sum to 90°. 90° - 35° = 55°.,Easy,RMS/Sainik Prep,True
+MATH079,6,Mathematics,Geometry,What is the supplement of a 110 degree angle?,70 degrees,80 degrees,90 degrees,20 degrees,A,Supplementary angles sum to 180°. 180° - 110° = 70°.,Easy,RMS/Sainik Prep,True
+MATH080,6,Mathematics,Geometry,A triangle having all three sides of equal length is called ______.,Equilateral Triangle,Isosceles Triangle,Scalene Triangle,Right Triangle,A,Equilateral triangles have 3 equal sides and three 60° angles.,Easy,RMS/Sainik Prep,True
+MATH081,6,Mathematics,Geometry,How many lines of symmetry does a square have?,4,2,8,Infinite,A,"A square has 4 lines of symmetry (2 diagonal, 1 horizontal, 1 vertical).",Medium,RMS/Sainik Prep,True
+MATH082,6,Mathematics,Mensuration,Find the perimeter of a rectangle with length 12 cm and breadth 8 cm.,40 cm,96 cm,20 cm,48 cm,A,Perimeter = 2 * (L + B) = 2 * (12 + 8) = 2 * 20 = 40 cm.,Easy,RMS/Sainik Prep,True
+MATH083,6,Mathematics,Mensuration,Find the area of a square of side 15 cm.,225 sq cm,60 sq cm,150 sq cm,300 sq cm,A,Area = side * side = 15 * 15 = 225 cm².,Easy,RMS/Sainik Prep,True
+MATH084,6,Mathematics,Mensuration,"The area of a rectangle is 120 sq cm. If length is 15 cm, find breadth.",8 cm,10 cm,6 cm,12 cm,A,Breadth = Area / Length = 120 / 15 = 8 cm.,Easy,RMS/Sainik Prep,True
+MATH085,6,Mathematics,Mensuration,Find the side of a square whose perimeter is 48 cm.,12 cm,16 cm,24 cm,8 cm,A,Side = Perimeter / 4 = 48 / 4 = 12 cm.,Easy,RMS/Sainik Prep,True
+MATH086,6,Mathematics,Mensuration,Find the volume of a cube of edge 5 cm.,125 cubic cm,25 cubic cm,150 cubic cm,100 cubic cm,A,Volume = edge^3 = 5 * 5 * 5 = 125 cm³.,Easy,RMS/Sainik Prep,True
+MATH087,6,Mathematics,Mensuration,Find the area of a triangle with base 10 cm and height 6 cm.,30 sq cm,60 sq cm,16 sq cm,25 sq cm,A,Area = (1/2) * base * height = (1/2) * 10 * 6 = 30 cm².,Easy,RMS/Sainik Prep,True
+MATH088,6,Mathematics,Mensuration,The perimeter of an equilateral triangle is 36 cm. Find length of each side.,12 cm,18 cm,9 cm,6 cm,A,Side = 36 / 3 = 12 cm.,Easy,RMS/Sainik Prep,True
+MATH089,6,Mathematics,Geometry,A polygon with 6 sides is called a ______.,Hexagon,Pentagon,Octagon,Heptagon,A,A 6-sided polygon is a hexagon.,Easy,RMS/Sainik Prep,True
+MATH090,6,Mathematics,Geometry,The distance around a circle is called its ______.,Circumference,Diameter,Radius,Area,A,Circumference is the perimeter of a circle.,Easy,RMS/Sainik Prep,True
+MATH091,6,Mathematics,Geometry,"If the radius of a circle is 7 cm, find its diameter.",14 cm,21 cm,3.5 cm,49 cm,A,Diameter = 2 * Radius = 2 * 7 = 14 cm.,Easy,RMS/Sainik Prep,True
+MATH092,6,Mathematics,Geometry,"If the diameter of a circle is 28 cm, find its circumference (use pi = 22/7).",88 cm,44 cm,176 cm,154 cm,A,Circumference = pi * d = (22/7) * 28 = 22 * 4 = 88 cm.,Medium,RMS/Sainik Prep,True
+MATH093,6,Mathematics,Algebra,"If x = 3 and y = 4, evaluate: 2x + 3y",18,14,24,12,A,2(3) + 3(4) = 6 + 12 = 18.,Easy,RMS/Sainik Prep,True
+MATH094,6,Mathematics,Algebra,Subtract 3x - 5 from 7x + 2.,4x + 7,4x - 3,10x - 3,4x + 3,A,(7x + 2) - (3x - 5) = 7x + 2 - 3x + 5 = 4x + 7.,Medium,RMS/Sainik Prep,True
+MATH095,6,Mathematics,Algebra,Solve for y: 5y - 7 = 23,6,5,4,7,A,5y = 23 + 7 = 30 -> y = 6.,Easy,RMS/Sainik Prep,True
+MATH096,6,Mathematics,Mensuration,How many square meters are in 1 hectare?,"10,000 sq m","1,000 sq m",100 sq m,"1,000,000 sq m",A,"1 hectare = 100 m * 100 m = 10,000 m².",Medium,RMS/Sainik Prep,True
+MATH097,6,Mathematics,Geometry,An angle measuring exactly 180 degrees is called a ______.,Straight Angle,Reflex Angle,Complete Angle,Right Angle,A,An angle of 180° forms a straight line.,Easy,RMS/Sainik Prep,True
+MATH098,6,Mathematics,Geometry,How many degrees are there in a complete revolution?,360 degrees,180 degrees,90 degrees,720 degrees,A,A full circular turn equals 360°.,Easy,RMS/Sainik Prep,True
+MATH099,6,Mathematics,Mensuration,Cost of fencing a square field of side 20 m at Rs 5 per meter is ______.,Rs 400,Rs 100,Rs 2000,Rs 800,A,Perimeter = 4 * 20 = 80 m. Cost = 80 * 5 = Rs 400.,Medium,RMS/Sainik Prep,True
+MATH100,6,Mathematics,Algebra,Product of x and y divided by 4 is expressed as ______.,xy / 4,4 / xy,x + y / 4,4xy,A,Product xy divided by 4 gives xy/4.,Easy,RMS/Sainik Prep,True

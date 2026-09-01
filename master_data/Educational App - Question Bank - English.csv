@@ -1,0 +1,556 @@
+QuestionID,Class,Subject,Topic,Question,OptionA,OptionB,OptionC,OptionD,CorrectAnswer,Explanation,Difficulty,Source,Active
+ENG001,6,English,Nouns,Identify the collective noun in the sentence: 'A herd of cattle was grazing in the field.',cattle,herd,grazing,field,B,'Herd' is a collective noun referring to a group of cattle.,Easy,RMS/Sainik Prep,True
+ENG002,6,English,Nouns,What is the abstract noun form of the adjective 'Honest'?,Honestly,Honesty,Dishonest,Honored,B,'Honesty' is the abstract noun derived from the adjective 'honest'.,Easy,RMS/Sainik Prep,True
+ENG003,6,English,Nouns,What is the plural of 'Criterion'?,Criterions,Criteria,Criterias,Criteriones,B,The plural form of the Greek-derived word 'criterion' is 'criteria'.,Hard,RMS/Sainik Prep,True
+ENG004,6,English,Nouns,Which of the following is a material noun?,Gold,Wisdom,Flock,Teacher,A,'Gold' is a material noun as it denotes a raw substance.,Easy,RMS/Sainik Prep,True
+ENG005,6,English,Nouns,What is the feminine gender of 'Stag'?,Mare,Vixen,Doe,Ewe,C,The feminine gender of 'stag' (male deer) is 'doe' (or 'hind').,Medium,RMS/Sainik Prep,True
+ENG006,6,English,Pronouns,Identify the reflexive pronoun in: 'She hurt herself while playing.',She,hurt,herself,playing,C,'Herself' acts as a reflexive pronoun referring back to the subject 'She'.,Easy,RMS/Sainik Prep,True
+ENG007,6,English,Pronouns,"Fill in the blank with the suitable pronoun: 'This book is mine, but that one is ______.'",your,yours,you,your's,B,'Yours' is the possessive pronoun. Note that possessive pronouns do not take an apostrophe.,Medium,RMS/Sainik Prep,True
+ENG008,6,English,Pronouns,Fill in the blank: 'Neither of the boys has done ______ homework.',his,their,them,they,A,'Neither' takes a singular pronoun 'his' when referring to masculine singular subjects.,Hard,RMS/Sainik Prep,True
+ENG009,6,English,Pronouns,Which type of pronoun is underlined: '<u>Who</u> made this beautiful painting?',Relative Pronoun,Interrogative Pronoun,Demonstrative Pronoun,Indefinite Pronoun,B,"'Who' is used to ask a question, so it is an interrogative pronoun.",Easy,RMS/Sainik Prep,True
+ENG010,6,English,Pronouns,Fill in the blank: 'The man ______ lost his wallet was very worried.',which,whose,who,whom,C,'Who' is the relative pronoun used for persons acting as the subject of the clause.,Medium,RMS/Sainik Prep,True
+ENG011,6,English,Adjectives,What is the comparative degree of 'Little'?,Littler,Less,Least,Lesserest,B,The degrees of comparison for 'little' are: Little - Less - Least.,Medium,RMS/Sainik Prep,True
+ENG012,6,English,Adjectives,What is the superlative degree of 'Bad'?,Badder,Baddest,Worse,Worst,D,The degrees of comparison for 'bad' are: Bad - Worse - Worst.,Easy,RMS/Sainik Prep,True
+ENG013,6,English,Adjectives,Identify the adjective of quantity in: 'There is sufficient sugar in the container.',There,sufficient,sugar,container,B,'Sufficient' specifies the quantity of the noun 'sugar'.,Medium,RMS/Sainik Prep,True
+ENG014,6,English,Adjectives,Fill in the blank: 'Iron is ______ than any other metal.',useful,more useful,most useful,as useful,B,'More useful' is the comparative degree used when comparing two entities using 'than'.,Medium,RMS/Sainik Prep,True
+ENG015,6,English,Articles,Fill in the blank: 'He is ______ honest man.',a,an,the,no article needed,B,"'Honest' begins with a vowel sound (/ɒ/), so 'an' is used.",Easy,RMS/Sainik Prep,True
+ENG016,6,English,Articles,Fill in the blank: '______ Pacific Ocean is the largest ocean in the world.',A,An,The,No article,C,The definite article 'The' is used before names of oceans.,Easy,RMS/Sainik Prep,True
+ENG017,6,English,Articles,Fill in the blank: 'He holds ______ M.A. degree in English literature.',a,an,the,no article,B,"The letter 'M' in 'M.A.' is pronounced with an initial vowel sound ('em'), so 'an' is required.",Hard,RMS/Sainik Prep,True
+ENG018,6,English,Articles,Fill in the blank: 'Copper is ______ useful metal.',a,an,the,no article,A,"'Useful' starts with a consonant sound ('yoo'), so the article 'a' is used.",Medium,RMS/Sainik Prep,True
+ENG019,6,English,Adjectives,Choose the correct order of adjectives: 'She bought a ______ dress.',silk beautiful red,beautiful red silk,red silk beautiful,beautiful silk red,B,Standard adjective order: Opinion (beautiful) -> Color (red) -> Material (silk).,Hard,RMS/Sainik Prep,True
+ENG020,6,English,Adjectives,Fill in the blank: 'This is the ______ building in our town.',old,older,oldest,elder,C,The superlative degree 'oldest' is required after the definite article 'the'.,Easy,RMS/Sainik Prep,True
+ENG021,6,English,Subject-Verb Agreement,Fill in the blank: 'Bread and butter ______ his favorite breakfast.',is,are,were,have,A,"When two singular nouns together express a single idea or item, a singular verb ('is') is used.",Medium,RMS/Sainik Prep,True
+ENG022,6,English,Subject-Verb Agreement,Fill in the blank: 'Either Rohan or his friends ______ going to organize the event.',is,are,was,has,B,"With 'either... or', the verb agrees with the closer subject ('his friends', which is plural).",Hard,RMS/Sainik Prep,True
+ENG023,6,English,Subject-Verb Agreement,"Fill in the blank: 'The captain, along with his soldiers, ______ present at the parade.'",were,was,are,have been,B,"Phrases like 'along with' do not change the subject number. The main subject 'captain' is singular, so 'was' is correct.",Hard,RMS/Sainik Prep,True
+ENG024,6,English,Subject-Verb Agreement,Fill in the blank: 'One of my friends ______ a pilot.',is,are,were,have,A,'One of + plural noun' takes a singular verb ('is') because the subject is 'One'.,Medium,RMS/Sainik Prep,True
+ENG025,6,English,Verbs,Identify the transitive verb in: 'The boy kicked the ball.',boy,kicked,the,ball,B,'Kicked' is a transitive verb because it passes an action directly onto an object ('ball').,Medium,RMS/Sainik Prep,True
+ENG026,6,English,Verbs,Which of the following contains an intransitive verb?,She sang a song.,He wrote a letter.,The baby slept soundly.,They ate apples.,C,'Slept' does not take a direct object; 'soundly' is an adverb describing how the baby slept.,Medium,RMS/Sainik Prep,True
+ENG027,6,English,Verbs,What is the past participle form of 'Fly'?,Flew,Flown,Flying,Flyed,B,The verb forms are: Fly (V1) - Flew (V2) - Flown (V3).,Easy,RMS/Sainik Prep,True
+ENG028,6,English,Verbs,What is the past tense form of 'Lie' (meaning to rest on a surface)?,Lied,Lay,Lain,Lying,B,The past tense of lie (to recline) is 'lay'. (Lied is past tense for lie = untruth).,Hard,RMS/Sainik Prep,True
+ENG029,6,English,Subject-Verb Agreement,Fill in the blank: 'Ten kilometers ______ a long distance to walk.',is,are,were,have,A,A specific distance or quantity taken as a whole takes a singular verb ('is').,Medium,RMS/Sainik Prep,True
+ENG030,6,English,Subject-Verb Agreement,Fill in the blank: 'The news ______ good.',are,is,were,have been,B,"'News' is an uncountable singular noun, so it takes a singular verb ('is').",Easy,RMS/Sainik Prep,True
+ENG031,6,English,Tenses,Identify the tense: 'I have been studying since morning.',Present Continuous,Present Perfect,Present Perfect Continuous,Past Perfect,C,'Have been + verb-ing' indicates the Present Perfect Continuous tense.,Medium,RMS/Sainik Prep,True
+ENG032,6,English,Tenses,Fill in the blank: 'The train ______ before we reached the station.',left,had left,was leaving,has left,B,The earlier action in the past takes the Past Perfect tense ('had left').,Hard,RMS/Sainik Prep,True
+ENG033,6,English,Tenses,Fill in the blank: 'The Sun ______ in the east.',rise,rises,is rising,rose,B,Universal truths and habitual actions are expressed in the Simple Present tense ('rises').,Easy,RMS/Sainik Prep,True
+ENG034,6,English,Tenses,Fill in the blank with the correct tense: 'They ______ in this house for five years.',lives,have lived,are living,lived,B,'For five years' combined with an ongoing state requires the Present Perfect tense ('have lived').,Medium,RMS/Sainik Prep,True
+ENG035,6,English,Tenses,"Fill in the blank: 'When I saw him, he ______ cricket.'",played,was playing,has played,is playing,B,An ongoing past action interrupted by another action uses the Past Continuous tense ('was playing').,Medium,RMS/Sainik Prep,True
+ENG036,6,English,Tenses,Choose the correct sentence in Future Continuous Tense.,I will play chess tomorrow.,I will be playing chess tomorrow.,I have played chess.,I shall play chess.,B,Future Continuous tense uses 'will be / shall be + verb-ing'.,Medium,RMS/Sainik Prep,True
+ENG037,6,English,Tenses,Fill in the blank: 'She ______ her homework already.',completed,has completed,is completing,completes,B,'Already' is typically used with Present Perfect tense ('has completed').,Medium,RMS/Sainik Prep,True
+ENG038,6,English,Tenses,"Fill in the blank: 'If it rains, we ______ at home.'",stayed,will stay,would stay,had stayed,B,"First conditional structure: 'If + Simple Present, Simple Future (will stay)'.",Hard,RMS/Sainik Prep,True
+ENG039,6,English,Prepositions,Fill in the blank: 'The cat jumped ______ the table.',upon,in,at,with,A,'Upon' (or onto) denotes motion towards a surface.,Easy,RMS/Sainik Prep,True
+ENG040,6,English,Prepositions,Fill in the blank: 'Distribute these sweets ______ the two brothers.',among,between,with,for,B,'Between' is used when referring to two persons or items.,Easy,RMS/Sainik Prep,True
+ENG041,6,English,Prepositions,Fill in the blank: 'The property was divided ______ the four sons.',between,among,into,with,B,'Among' is used when referring to more than two persons or items.,Easy,RMS/Sainik Prep,True
+ENG042,6,English,Prepositions,Fill in the blank: 'He is senior ______ me by two years.',than,to,from,with,B,"Adjectives like senior, junior, superior, prior are followed by 'to', not 'than'.",Medium,RMS/Sainik Prep,True
+ENG043,6,English,Prepositions,Fill in the blank: 'He died ______ cholera.',from,of,with,by,B,"One dies 'of' a disease (e.g., die of cholera/cancer).",Medium,RMS/Sainik Prep,True
+ENG044,6,English,Prepositions,Fill in the blank: 'Beware ______ wild dogs.',from,of,with,about,B,'Beware' is followed by the preposition 'of'.,Easy,RMS/Sainik Prep,True
+ENG045,6,English,Prepositions,Fill in the blank: 'She has been living in Delhi ______ 2018.',for,since,from,by,B,'Since' is used to denote a specific point of time in perfect tenses.,Easy,RMS/Sainik Prep,True
+ENG046,6,English,Prepositions,Fill in the blank: 'He jumped ______ the river to save the child.',in,into,inside,to,B,'Into' indicates movement towards the inside of a three-dimensional space.,Easy,RMS/Sainik Prep,True
+ENG047,6,English,Conjunctions,Fill in the blank: 'Work hard ______ you will fail.',and,or,so,because,B,'Or' is used to present an alternative condition or consequence.,Easy,RMS/Sainik Prep,True
+ENG048,6,English,Conjunctions,Fill in the blank: 'He was poor ______ he was honest.',and,but,so,because,B,'But' is a coordinating conjunction used to show contrast.,Easy,RMS/Sainik Prep,True
+ENG049,6,English,Conjunctions,Fill in the blank: 'Scarcely had he left the room ______ it started raining.',than,when,then,that,B,'Scarcely... when' is a correlative conjunction pair.,Hard,RMS/Sainik Prep,True
+ENG050,6,English,Conjunctions,Fill in the blank: 'No sooner did the bell ring ______ the students left the class.',when,than,then,that,B,'No sooner' is always paired with 'than'.,Hard,RMS/Sainik Prep,True
+ENG051,6,English,Conjunctions,Fill in the blank: 'Wait here ______ I return.',until,unless,since,besides,A,'Until' is used to refer to time up to a point.,Easy,RMS/Sainik Prep,True
+ENG052,6,English,Conjunctions,Fill in the blank: 'You will not succeed ______ you work hard.',until,unless,if,because,B,'Unless' means 'if not' and expresses a condition.,Medium,RMS/Sainik Prep,True
+ENG053,6,English,Adverbs,Identify the adverb of frequency in: 'He always arrives on time.',arrives,always,time,on,B,"'Always' shows how often an action happens, so it is an adverb of frequency.",Easy,RMS/Sainik Prep,True
+ENG054,6,English,Adverbs,What is the adverb form of the adjective 'Fast'?,Fastly,Fast,Faster,Fastest,B,'Fast' serves as both an adjective and an adverb. 'Fastly' is incorrect.,Medium,RMS/Sainik Prep,True
+ENG055,6,English,Question Tags,"Add the correct question tag: 'She is a good singer, ______?'",isn't she,is she,doesn't she,wasn't she,A,A positive statement takes a negative tag using the auxiliary verb 'isn't she'.,Easy,RMS/Sainik Prep,True
+ENG056,6,English,Question Tags,"Add the correct question tag: 'They do not like sweets, ______?'",don't they,do they,aren't they,didn't they,B,A negative statement takes a positive tag 'do they'.,Easy,RMS/Sainik Prep,True
+ENG057,6,English,Question Tags,"Add the correct question tag: 'Let us play cricket, ______?'",will we,shall we,don't we,can we,B,Imperative sentences starting with 'Let us' or 'Let's' take 'shall we?' as the tag.,Hard,RMS/Sainik Prep,True
+ENG058,6,English,Sentence Types,Identify the type of sentence: 'How beautiful this scenery is!',Assertive,Interrogative,Imperative,Exclamatory,D,"The sentence expresses strong emotion and ends with an exclamation mark, so it is exclamatory.",Easy,RMS/Sainik Prep,True
+ENG059,6,English,Sentence Types,Identify the type of sentence: 'Please close the door.',Assertive,Imperative,Interrogative,Exclamatory,B,"A sentence that expresses a command, request, or instruction is an imperative sentence.",Easy,RMS/Sainik Prep,True
+ENG060,6,English,Jumbled Sentences,Rearrange to make a meaningful sentence: P: the sun / Q: rises / R: in / S: the east,P Q R S,Q P R S,S R Q P,R S P Q,A,The proper sequence is 'The sun rises in the east' (P-Q-R-S).,Easy,RMS/Sainik Prep,True
+ENG061,6,English,Synonyms,What is the synonym of 'BRAVE'?,Cowardly,Fearful,Courageous,Weak,C,'Courageous' means brave or possessing courage.,Easy,RMS/Sainik Prep,True
+ENG062,6,English,Synonyms,What is the synonym of 'ANCIENT'?,Modern,Old,New,Recent,B,'Ancient' means belonging to the distant past (old).,Easy,RMS/Sainik Prep,True
+ENG063,6,English,Synonyms,What is the synonym of 'CONCEAL'?,Hide,Reveal,Show,Open,A,'Conceal' means to keep secret or hide from view.,Medium,RMS/Sainik Prep,True
+ENG064,6,English,Synonyms,What is the synonym of 'EAGER'?,Keen,Dull,Lazy,Calm,A,'Eager' means strongly wanting to do or have something (keen).,Medium,RMS/Sainik Prep,True
+ENG065,6,English,Synonyms,What is the synonym of 'FRAGILE'?,Strong,Delicate,Tough,Heavy,B,'Fragile' means easily broken or destroyed (delicate).,Medium,RMS/Sainik Prep,True
+ENG066,6,English,Antonyms,What is the antonym of 'BENEFIT'?,Profit,Advantage,Harm,Gain,C,'Harm' or 'Loss' is the opposite of benefit.,Easy,RMS/Sainik Prep,True
+ENG067,6,English,Antonyms,What is the antonym of 'CREATE'?,Make,Build,Destroy,Form,C,The opposite of creating something is destroying it.,Easy,RMS/Sainik Prep,True
+ENG068,6,English,Antonyms,What is the antonym of 'ABUNDANT'?,Plentiful,Scarce,Ample,Enough,B,'Abundant' means existing in large quantities; its opposite is 'scarce'.,Medium,RMS/Sainik Prep,True
+ENG069,6,English,Antonyms,What is the antonym of 'HUMBLE'?,Modest,Proud,Polite,Meek,B,'Humble' means modest; its antonym is 'proud' or 'arrogant'.,Medium,RMS/Sainik Prep,True
+ENG070,6,English,Antonyms,What is the antonym of 'PERMANENT'?,Lasting,Temporary,Fixed,Eternal,B,"'Temporary' means lasting for a limited time, opposite of permanent.",Easy,RMS/Sainik Prep,True
+ENG071,6,English,Synonyms,What is the synonym of 'PARDON'?,Punish,Forgive,Accuse,Blame,B,'Pardon' means to forgive someone for an offense.,Medium,RMS/Sainik Prep,True
+ENG072,6,English,Antonyms,What is the antonym of 'OPTIMIST'?,Pessimist,Idealist,Realist,Artist,A,"An optimist looks at the positive side, whereas a pessimist looks at the negative side.",Medium,RMS/Sainik Prep,True
+ENG073,6,English,One Word Substitution,One who eats no meat is called a ______.,Carnivore,Vegetarian,Cannibal,Omnivore,B,A vegetarian is a person who does not eat meat.,Easy,RMS/Sainik Prep,True
+ENG074,6,English,One Word Substitution,A life history of a person written by himself is called ______.,Biography,Autobiography,History,Fiction,B,An autobiography is an account of a person's life written by that person.,Medium,RMS/Sainik Prep,True
+ENG075,6,English,One Word Substitution,A place where birds are kept is known as ______.,Apiary,Aviary,Aquarium,Zoo,B,An aviary is a large cage/enclosure for keeping birds. (Apiary is for bees).,Medium,RMS/Sainik Prep,True
+ENG076,6,English,One Word Substitution,A period of 100 years is called a ______.,Decade,Fortnight,Century,Millennium,C,A period of 100 years is a century.,Easy,RMS/Sainik Prep,True
+ENG077,6,English,One Word Substitution,A person who studies stars and planets is an ______.,Astronaut,Astronomer,Astrologer,Architect,B,An astronomer is a scientist who studies celestial objects.,Medium,RMS/Sainik Prep,True
+ENG078,6,English,One Word Substitution,Handwriting that cannot be read is described as ______.,Eligible,Illegible,Illicit,Illegal,B,'Illegible' means clear enough or neat enough to be read.,Hard,RMS/Sainik Prep,True
+ENG079,6,English,Idioms & Phrases,What does the idiom 'Once in a blue moon' mean?,Every night,Very rarely,Frequently,During a full moon,B,'Once in a blue moon' means something that happens very rarely.,Easy,RMS/Sainik Prep,True
+ENG080,6,English,Idioms & Phrases,What is the meaning of the idiom 'To spill the beans'?,To drop food,To reveal a secret,To work hard,To get angry,B,'Spill the beans' means to disclose secret information prematurely.,Medium,RMS/Sainik Prep,True
+ENG081,6,English,Idioms & Phrases,What does the idiom 'Apple of one's eye' mean?,A fruit,A favorite/beloved person,An enemy,An eye disease,B,'Apple of one's eye' refers to a person who is cherished above all others.,Easy,RMS/Sainik Prep,True
+ENG082,6,English,Idioms & Phrases,What is the meaning of 'To burn the midnight oil'?,To waste fuel,To work late into the night,To light a candle,To sleep early,B,'Burn the midnight oil' means to study or work late into the night.,Medium,RMS/Sainik Prep,True
+ENG083,6,English,Spellings,Choose the correctly spelt word.,Recieve,Receive,Receeve,Ricieve,B,The correct spelling is 'Receive' (rule: 'i' before 'e' except after 'c').,Easy,RMS/Sainik Prep,True
+ENG084,6,English,Spellings,Choose the correctly spelt word.,Separate,Seperate,Saparate,Seperat,A,The correct spelling is 'Separate' (s-e-p-a-r-a-t-e).,Medium,RMS/Sainik Prep,True
+ENG085,6,English,Spellings,Choose the correctly spelt word.,Lieutenant,Leutenant,Lieuetenant,Luitenant,A,The correct spelling is 'Lieutenant'.,Hard,RMS/Sainik Prep,True
+ENG086,6,English,Active and Passive Voice,Change to passive voice: 'She writes a letter.',A letter was written by her.,A letter is written by her.,A letter has been written by her.,A letter is being written by her.,B,Simple Present Tense passive formula: Subject + is/am/are + V3 + by + Object.,Easy,RMS/Sainik Prep,True
+ENG087,6,English,Active and Passive Voice,Change to passive voice: 'The police caught the thief.',The thief was caught by the police.,The thief is caught by the police.,The thief had been caught by the police.,The thief has been caught by the police.,A,Simple Past Tense passive formula: Subject + was/were + V3 + by + Object.,Medium,RMS/Sainik Prep,True
+ENG088,6,English,Active and Passive Voice,Change to active voice: 'The car is being washed by John.',John washes the car.,John is washing the car.,John washed the car.,John has washed the car.,B,Present Continuous passive 'is being washed' changes back to active 'is washing'.,Medium,RMS/Sainik Prep,True
+ENG089,6,English,Direct and Indirect Speech,"Change to indirect speech: 'He said, ""I am feeling unwell.""'",He said that he is feeling unwell.,He said that he was feeling unwell.,He told that he was feeling unwell.,He says that he felt unwell.,B,Present continuous changes to past continuous in indirect speech.,Medium,RMS/Sainik Prep,True
+ENG090,6,English,Direct and Indirect Speech,"Change to indirect speech: 'The teacher said, ""The earth revolves around the sun.""'",The teacher said that the earth revolved around the sun.,The teacher said that the earth revolves around the sun.,The teacher told the earth revolves around the sun.,The teacher stated that earth is revolving around the sun.,B,Universal truths do not change tense when reported in indirect speech.,Hard,RMS/Sainik Prep,True
+ENG091,6,English,Direct and Indirect Speech,"Change to indirect speech: 'Raman said to me, ""Where are you going?""'",Raman asked me where I was going.,Raman told me where I am going.,Raman asked me where was I going.,Raman inquired me that where I was going.,A,Wh-questions change to 'asked + Wh-word + subject + verb'.,Hard,RMS/Sainik Prep,True
+ENG092,6,English,Spellings,Choose the correctly spelt word.,Grammer,Grammar,Gremmar,Grammerr,B,"The correct spelling is 'Grammar' (ending in -ar, not -er).",Easy,RMS/Sainik Prep,True
+ENG093,6,English,Spellings,Choose the correctly spelt word.,Necassary,Neccessary,Necessary,Necesary,C,"The correct spelling is 'Necessary' (one 'c', double 's').",Medium,RMS/Sainik Prep,True
+ENG094,6,English,One Word Substitution,A person who cannot read or write is called ______.,Literate,Illiterate,Ignorant,Scholar,B,An illiterate person is unable to read or write.,Easy,RMS/Sainik Prep,True
+ENG095,6,English,Nouns,What is the collective noun for a group of lions?,Pack,Pride,Flock,Herd,B,A group of lions is called a 'pride'.,Easy,RMS/Sainik Prep,True
+ENG096,6,English,Prepositions,Fill in the blank: 'He is proficient ______ Mathematics.',in,at,with,on,A,'Proficient' takes the preposition 'in' (proficient in something).,Medium,RMS/Sainik Prep,True
+ENG097,6,English,Adjectives,Identify the proper adjective in: 'We love Indian cuisine.',We,love,Indian,cuisine,C,'Indian' is a proper adjective derived from the proper noun 'India'.,Easy,RMS/Sainik Prep,True
+ENG098,6,English,Nouns,What is the plural of 'Passer-by'?,Passer-bys,Passers-by,Passers-bys,Passerbyes,B,"In compound nouns, the primary noun receives the plural suffix ('Passers-by').",Hard,RMS/Sainik Prep,True
+ENG099,6,English,Conjunctions,"Fill in the blank: 'Although he is rich, ______ he is dissatisfied.'",but,yet,so,because,B,"'Although' is paired with 'yet' (or a comma), never with 'but'.",Hard,RMS/Sainik Prep,True
+ENG0100,6,English,Vocabulary,What is the young one of a Kangaroo called?,Calf,Cub,Joey,Kid,C,A young kangaroo is called a 'joey'.,Easy,RMS/Sainik Prep,True
+ENG101,6,English,Collective Nouns,The ___ of soldiers marched towards the fort.,army,crowd,team,class,A,Army is a collective noun for a group of soldiers.,Easy,RMS/Sainik Prep,True
+ENG102,6,English,Abstract Nouns,Choose the abstract noun: 'Her kindness impressed everyone.',her,kindness,everyone,impressed,B,Kindness names a quality or idea and cannot be touched.,Easy,RMS/Sainik Prep,True
+ENG103,6,English,Proper Nouns,Which is a proper noun in 'Delhi is the capital of India'?,capital,Delhi,India,city,B,Delhi is a specific place name and is a proper noun.,Easy,RMS/Sainik Prep,True
+ENG104,6,English,Common Nouns,Which is a common noun?,Rohan,Monday,river,India,C,River is a general name for a class of things.,Easy,RMS/Sainik Prep,True
+ENG105,6,English,Material Nouns,Which word is a material noun?,gold,ring,jeweller,shine,A,Gold names a material from which things are made.,Easy,RMS/Sainik Prep,True
+ENG106,6,English,Countable Nouns,Which noun is countable?,water,rice,apple,milk,C,"An apple can be counted: one apple, two apples.",Easy,RMS/Sainik Prep,True
+ENG107,6,English,Uncountable Nouns,Which noun is usually uncountable?,chair,book,sugar,coin,C,Sugar is generally treated as an uncountable noun.,Easy,RMS/Sainik Prep,True
+ENG108,6,English,Gender,What is the feminine form of 'nephew'?,niece,daughter,aunt,sister,A,The feminine form of nephew is niece.,Easy,RMS/Sainik Prep,True
+ENG109,6,English,Gender,What is the masculine form of 'mare'?,horse,stallion,foal,cow,B,A male horse is called a stallion.,Easy,RMS/Sainik Prep,True
+ENG110,6,English,Number,What is the plural of 'leaf'?,leafs,leaves,leafes,leavs,B,Leaf changes to leaves in the plural.,Easy,RMS/Sainik Prep,True
+ENG111,6,English,Number,What is the plural of 'mouse'?,mouses,mouse,mice,meese,C,Mouse has the irregular plural mice.,Easy,RMS/Sainik Prep,True
+ENG112,6,English,Number,What is the plural of 'child'?,childs,children,childes,childrens,B,The irregular plural of child is children.,Easy,RMS/Sainik Prep,True
+ENG113,6,English,Number,What is the plural of 'tooth'?,tooths,teeth,toothes,teeths,B,The irregular plural of tooth is teeth.,Easy,RMS/Sainik Prep,True
+ENG114,6,English,Noun Formation,What is the noun form of 'brave'?,bravely,bravery,bravenessly,braver,B,Bravery is the noun naming the quality of being brave.,Easy,RMS/Sainik Prep,True
+ENG115,6,English,Noun Formation,What is the noun form of 'wise'?,wisely,wisdom,wiseness,wiser,B,Wisdom is the noun form commonly used for wise.,Medium,RMS/Sainik Prep,True
+ENG116,6,English,Noun Formation,What is the abstract noun of 'poor'?,poorly,poverty,poornessful,poorer,B,Poverty is the abstract noun related to poor.,Medium,RMS/Sainik Prep,True
+ENG117,6,English,Noun Formation,What is the abstract noun of 'strong'?,strongly,strength,strongness,stronger,B,Strength names the quality of being strong.,Easy,RMS/Sainik Prep,True
+ENG118,6,English,Noun Identification,Identify the noun in: 'The puppy chased the ball.',chased,the,puppy,the,C,Puppy is a naming word for an animal.,Easy,RMS/Sainik Prep,True
+ENG119,6,English,Noun Identification,Which word is a noun in 'The farmer grows wheat'?,grows,farmer,the,quickly,B,Farmer names a person who works on a farm.,Easy,RMS/Sainik Prep,True
+ENG120,6,English,Possessive Noun,Choose the correct possessive form: 'the bag belonging to Riya'.,Riyas bag,Riya's bag,Riyas' bag,Riya bag's,B,Riya's shows possession by Riya.,Easy,RMS/Sainik Prep,True
+ENG121,6,English,Possessive Noun,Choose the correct form: 'the books belonging to the students'.,students book,student's books,students' books,students books',C,Students' shows possession by plural students.,Medium,RMS/Sainik Prep,True
+ENG122,6,English,Compound Noun,Which is a compound noun?,sunflower,sunny,flowered,sun,A,Sunflower is formed by combining sun and flower.,Easy,RMS/Sainik Prep,True
+ENG123,6,English,Compound Noun,Which word is a compound noun?,toothbrush,brushes,toothy,tooth,A,Toothbrush combines tooth and brush.,Easy,RMS/Sainik Prep,True
+ENG124,6,English,Noun Type,'Honesty' is what kind of noun?,Proper,Abstract,Collective,Material,B,Honesty names a quality and is abstract.,Easy,RMS/Sainik Prep,True
+ENG125,6,English,Noun Type,'Team' is what kind of noun?,Abstract,Material,Collective,Proper,C,Team refers to a group of people and is collective.,Easy,RMS/Sainik Prep,True
+ENG126,6,English,Noun Type,'Silver' is what kind of noun?,Material,Abstract,Collective,Proper,A,Silver names a material.,Easy,RMS/Sainik Prep,True
+ENG127,6,English,Noun Type,'Mumbai' is what kind of noun?,Common,Proper,Abstract,Collective,B,Mumbai is the specific name of a city.,Easy,RMS/Sainik Prep,True
+ENG128,6,English,Noun Type,'Teacher' is what kind of noun?,Proper,Common,Material,Abstract,B,Teacher is a general name for a person who teaches.,Easy,RMS/Sainik Prep,True
+ENG129,6,English,Plural Spelling,Which is the correct plural of 'potato'?,potatos,potatoes,potatoies,potatoses,B,The usual plural spelling is potatoes.,Easy,RMS/Sainik Prep,True
+ENG130,6,English,Plural Spelling,Which is the correct plural of 'knife'?,knifes,knifees,knives,knivs,C,Knife changes to knives in the plural.,Easy,RMS/Sainik Prep,True
+ENG131,6,English,Plural Spelling,Which is the correct plural of 'city'?,citys,cities,cityes,citis,B,A consonant before y changes y to i and adds es.,Easy,RMS/Sainik Prep,True
+ENG132,6,English,Plural Spelling,Which is the plural of 'deer'?,deers,deer,deeres,deerses,B,Deer has the same singular and plural form.,Medium,RMS/Sainik Prep,True
+ENG133,6,English,Noun Usage,Choose the correct sentence.,She gave me an advice.,She gave me some advice.,She gave me many advices.,She gave me an advices.,B,Advice is normally uncountable; 'some advice' is correct.,Medium,RMS/Sainik Prep,True
+ENG134,6,English,Noun Number,Which noun can be both singular and plural without a change in form?,deer,book,child,mouse,A,Deer can refer to one or several animals.,Medium,RMS/Sainik Prep,True
+ENG135,6,English,Pronouns,Choose the pronoun: 'Rahul said that he was tired.',Rahul,said,he,tired,C,He replaces Rahul and is a pronoun.,Easy,RMS/Sainik Prep,True
+ENG136,6,English,Pronouns,Which is a personal pronoun?,quickly,they,beautiful,under,B,They is a personal pronoun.,Easy,RMS/Sainik Prep,True
+ENG137,6,English,Pronouns,Riya and I completed ___ homework.,our,their,her,his,A,Our agrees with the subject Riya and I.,Easy,RMS/Sainik Prep,True
+ENG138,6,English,Pronouns,The boys brought ___ cricket bats.,his,her,their,our,C,Their refers to the plural boys.,Easy,RMS/Sainik Prep,True
+ENG139,6,English,Pronouns,This book belongs to me. It is ___.,my,mine,me,I,B,Mine is a possessive pronoun.,Easy,RMS/Sainik Prep,True
+ENG140,6,English,Pronouns,That bicycle belongs to her. It is ___.,her,hers,she,herself,B,Hers is the possessive pronoun.,Easy,RMS/Sainik Prep,True
+ENG141,6,English,Pronouns,Choose the reflexive pronoun: 'I hurt myself.',I,hurt,myself,the,C,Myself refers back to the subject I.,Easy,RMS/Sainik Prep,True
+ENG142,6,English,Pronouns,Choose the correct pronoun: 'The teacher called Aman and ___.',I,me,my,mine,B,Me is the object form after called.,Medium,RMS/Sainik Prep,True
+ENG143,6,English,Pronouns,Choose the correct pronoun: '___ are going to the library.',Us,We,Our,Ours,B,We is the subject pronoun.,Easy,RMS/Sainik Prep,True
+ENG144,6,English,Pronouns,Which is a demonstrative pronoun?,these,who,someone,myself,A,These points to particular things.,Easy,RMS/Sainik Prep,True
+ENG145,6,English,Pronouns,___ is knocking at the door?,Who,Whom,Which,Whose,A,Who asks about a person as the subject.,Easy,RMS/Sainik Prep,True
+ENG146,6,English,Pronouns,___ did you invite to the party?,Who,Whom,Which,What,B,Whom is used as the object in formal grammar.,Hard,RMS/Sainik Prep,True
+ENG147,6,English,Pronouns,___ pen is this?,Who,Whom,Whose,Which,C,Whose asks about possession.,Easy,RMS/Sainik Prep,True
+ENG148,6,English,Pronouns,Everyone should bring ___ own pencil.,their,his or her,our,your,B,"In traditional school grammar, his or her agrees with singular everyone.",Medium,RMS/Sainik Prep,True
+ENG149,6,English,Pronouns,The cat washed ___ with its tongue.,it,itself,it’s,its,B,Itself is the reflexive pronoun referring to cat.,Easy,RMS/Sainik Prep,True
+ENG150,6,English,Pronouns,Neither Ravi nor Mohan brought ___ notebook.,their,his,our,your,B,Traditional agreement uses his with the singular alternatives.,Medium,RMS/Sainik Prep,True
+ENG151,6,English,Pronouns,Which word is an indefinite pronoun?,someone,Delhi,quickly,blue,A,Someone refers to an unspecified person.,Easy,RMS/Sainik Prep,True
+ENG152,6,English,Pronouns,Which word is a relative pronoun?,which,very,under,green,A,Which introduces a relative clause.,Medium,RMS/Sainik Prep,True
+ENG153,6,English,Pronouns,I know the boy ___ won the race.,which,who,whom,whose,B,Who refers to the boy as the subject of won.,Easy,RMS/Sainik Prep,True
+ENG154,6,English,Pronouns,This is the girl ___ brother is a doctor.,who,whose,whom,which,B,Whose expresses possession.,Medium,RMS/Sainik Prep,True
+ENG155,6,English,Pronouns,The man ___ we met was kind.,who,whom,whose,which,B,Whom is the object of met in formal grammar.,Hard,RMS/Sainik Prep,True
+ENG156,6,English,Pronouns,Choose the correct form: 'This gift is for ___.'.,I,me,my,mine,B,Me is the object form after the preposition for.,Easy,RMS/Sainik Prep,True
+ENG157,6,English,Pronouns,___ of the two pencils is yours?,Who,Which,Whom,Whose,B,Which is used when choosing between alternatives.,Easy,RMS/Sainik Prep,True
+ENG158,6,English,Pronouns,The children enjoyed ___ at the picnic.,themselves,them,their,they,A,Themselves is reflexive and refers back to children.,Easy,RMS/Sainik Prep,True
+ENG159,6,English,Pronouns,___ is my best friend.,He,Him,His,Himself,A,He is the subject pronoun.,Easy,RMS/Sainik Prep,True
+ENG160,6,English,Pronouns,I gave the book to ___.,she,her,hers,herself,B,Her is the object pronoun after to.,Easy,RMS/Sainik Prep,True
+ENG161,6,English,Pronouns,Which sentence uses a possessive pronoun correctly?,This is my.,This is mine.,This is me.,This is I.,B,Mine can stand alone and show possession.,Easy,RMS/Sainik Prep,True
+ENG162,6,English,Pronouns,Which pronoun can replace 'Neha and Priya'?,she,they,it,we,B,They replaces a plural group of people.,Easy,RMS/Sainik Prep,True
+ENG163,6,English,Adjectives,Identify the adjective: 'The tall boy won the race.',boy,won,tall,race,C,Tall describes the noun boy.,Easy,RMS/Sainik Prep,True
+ENG164,6,English,Adjectives,Choose the adjective in 'She wore a beautiful dress.',wore,she,beautiful,dress,C,Beautiful describes the dress.,Easy,RMS/Sainik Prep,True
+ENG165,6,English,Adjectives,What is the comparative form of 'tall'?,tallest,more tall,taller,talling,C,Taller is the comparative form.,Easy,RMS/Sainik Prep,True
+ENG166,6,English,Adjectives,What is the superlative form of 'small'?,smaller,smallest,most small,small,B,Smallest is the superlative form.,Easy,RMS/Sainik Prep,True
+ENG167,6,English,Adjectives,Choose the comparative form of 'good'.,gooder,best,better,more good,C,Better is the irregular comparative of good.,Easy,RMS/Sainik Prep,True
+ENG168,6,English,Adjectives,Choose the superlative form of 'bad'.,badder,worst,worse,most bad,B,Worst is the irregular superlative of bad.,Easy,RMS/Sainik Prep,True
+ENG169,6,English,Adjectives,There are ___ apples in the basket.,much,many,little,anyone,B,Many is used with countable plural nouns.,Easy,RMS/Sainik Prep,True
+ENG170,6,English,Adjectives,There is ___ water in the bottle.,many,few,little,several,C,Little is used with uncountable water.,Easy,RMS/Sainik Prep,True
+ENG171,6,English,Adjectives,Which is a demonstrative adjective?,this,quickly,who,very,A,This points out a noun.,Easy,RMS/Sainik Prep,True
+ENG172,6,English,Adjectives,Which is a possessive adjective?,mine,my,me,myself,B,My comes before a noun to show possession.,Easy,RMS/Sainik Prep,True
+ENG173,6,English,Adjectives,Which is an interrogative adjective?,which,quickly,someone,very,A,Which modifies a noun in a question.,Medium,RMS/Sainik Prep,True
+ENG174,6,English,Adjectives,Which is a numeral adjective?,three,beautiful,soft,some,A,Three tells the number of nouns.,Easy,RMS/Sainik Prep,True
+ENG175,6,English,Adjectives,Which adjective shows quantity?,some,red,wooden,first,A,Some indicates quantity.,Easy,RMS/Sainik Prep,True
+ENG176,6,English,Adjectives,Which adjective shows order?,five,fifth,many,few,B,Fifth indicates position in an order.,Easy,RMS/Sainik Prep,True
+ENG177,6,English,Adjectives,The elephant is ___ than the horse.,big,bigger,biggest,more big,B,Bigger is the comparative form of big.,Easy,RMS/Sainik Prep,True
+ENG178,6,English,Adjectives,Mount Everest is the ___ mountain in the world.,high,higher,highest,more high,C,Highest is used to compare one with all others.,Easy,RMS/Sainik Prep,True
+ENG179,6,English,Adjectives,Rita is as ___ as Sita.,tall,taller,tallest,more tall,A,As...as takes the positive form.,Medium,RMS/Sainik Prep,True
+ENG180,6,English,Adjectives,Which sentence uses an adjective correctly?,He runs quick.,He is a quick runner.,He quick runs.,He is quickly runner.,B,Quick modifies the noun runner.,Medium,RMS/Sainik Prep,True
+ENG181,6,English,Adjectives,Choose the correct word: 'This is the ___ of the two roads.',short,shorter,shortest,most short,B,"For two things, the comparative is used.",Medium,RMS/Sainik Prep,True
+ENG182,6,English,Adjectives,Which adjective is formed from 'danger'?,dangerously,danger,dangerous,dangered,C,Dangerous is the adjective describing something full of danger.,Easy,RMS/Sainik Prep,True
+ENG183,6,English,Adjectives,Which adjective is formed from 'care'?,carefully,careful,caringly,care,B,Careful is an adjective.,Easy,RMS/Sainik Prep,True
+ENG184,6,English,Adjectives,Choose the correct adjective: 'He has ___ money than I do.',less,few,many,several,A,Less is used with uncountable money.,Medium,RMS/Sainik Prep,True
+ENG185,6,English,Adjectives,Choose the correct adjective: 'There are ___ students in this class.',much,little,many,less,C,Many is used with countable students.,Easy,RMS/Sainik Prep,True
+ENG186,6,English,Adjectives,Which word is an adjective of colour?,blue,quickly,beauty,run,A,Blue describes colour.,Easy,RMS/Sainik Prep,True
+ENG187,6,English,Adjectives,Which word is an adjective of material?,wooden,wood,woods,woodly,A,Wooden describes something made of wood.,Easy,RMS/Sainik Prep,True
+ENG188,6,English,Adjectives,Which adjective means 'without fear'?,fearful,fearless,fearfully,feared,B,Fearless means without fear.,Easy,RMS/Sainik Prep,True
+ENG189,6,English,Adjectives,Which adjective means 'full of hope'?,hopeless,hopeful,hopefully,hoped,B,Hopeful means full of hope.,Easy,RMS/Sainik Prep,True
+ENG190,6,English,Adjectives,Choose the correct order: 'a ___ red ball'.,red small,small red,smallly red,redly small,B,Size usually comes before colour.,Medium,RMS/Sainik Prep,True
+ENG191,6,English,Adjectives,Which sentence has two adjectives?,The clever young boy smiled.,The boy smiled loudly.,The boy ran.,He smiled.,A,Clever and young both describe boy.,Easy,RMS/Sainik Prep,True
+ENG192,6,English,Adjectives,Which is the positive degree of 'better'?,best,good,well,goodest,B,Good is the positive form of better.,Easy,RMS/Sainik Prep,True
+ENG193,6,English,Adverbs,Identify the adverb: 'The child ran quickly.',child,ran,quickly,the,C,Quickly tells how the child ran.,Easy,RMS/Sainik Prep,True
+ENG194,6,English,Adverbs,Which word is an adverb of time?,today,slowly,here,very,A,Today tells when an action happens.,Easy,RMS/Sainik Prep,True
+ENG195,6,English,Adverbs,Which word is an adverb of place?,there,soon,very,carefully,A,There tells where.,Easy,RMS/Sainik Prep,True
+ENG196,6,English,Adverbs,Which word is an adverb of manner?,carefully,tomorrow,here,often,A,Carefully tells how an action is done.,Easy,RMS/Sainik Prep,True
+ENG197,6,English,Adverbs,Which word is an adverb of frequency?,often,there,soon,quite,A,Often tells how frequently something happens.,Easy,RMS/Sainik Prep,True
+ENG198,6,English,Adverbs,He speaks ___.,soft,softly,softness,softer,B,Softly is the adverb describing how he speaks.,Easy,RMS/Sainik Prep,True
+ENG199,6,English,Adverbs,She sings ___.,beautiful,beauty,beautifully,beautify,C,Beautifully modifies the verb sings.,Easy,RMS/Sainik Prep,True
+ENG200,6,English,Adverbs,The tortoise walked ___.,slow,slowly,slower,slowness,B,Slowly tells how it walked.,Easy,RMS/Sainik Prep,True
+ENG201,6,English,Adverbs,I will meet you ___.,tomorrow,carefully,very,slowly,A,Tomorrow is an adverb of time.,Easy,RMS/Sainik Prep,True
+ENG202,6,English,Adverbs,The boys are playing ___.,outside,yesterday,quickly,very,A,Outside tells where they are playing.,Easy,RMS/Sainik Prep,True
+ENG203,6,English,Adverbs,He ___ forgets his homework.,often,there,tomorrow,very,A,Often is an adverb of frequency.,Easy,RMS/Sainik Prep,True
+ENG204,6,English,Adverbs,She is ___ tired.,very,yesterday,there,quickly,A,Very modifies the adjective tired.,Easy,RMS/Sainik Prep,True
+ENG205,6,English,Adverbs,Which word modifies an adjective in 'It is extremely cold'?,it,is,extremely,cold,C,Extremely modifies the adjective cold.,Medium,RMS/Sainik Prep,True
+ENG206,6,English,Adverbs,Choose the correct adverb: 'The soldier fought ___.'.,brave,bravely,bravery,braver,B,Bravely modifies the verb fought.,Easy,RMS/Sainik Prep,True
+ENG207,6,English,Adverbs,Choose the correct adverb: 'He answered the question ___.'.,correct,correctly,correction,correctness,B,Correctly tells how he answered.,Easy,RMS/Sainik Prep,True
+ENG208,6,English,Adverbs,Which sentence contains an adverb of place?,Come here.,She arrived yesterday.,He runs fast.,He often smiles.,A,Here indicates place.,Easy,RMS/Sainik Prep,True
+ENG209,6,English,Adverbs,Which sentence contains an adverb of time?,He came yesterday.,He ran quickly.,He stayed here.,He often reads.,A,Yesterday indicates time.,Easy,RMS/Sainik Prep,True
+ENG210,6,English,Adverbs,Which sentence contains an adverb of frequency?,She always studies.,She studies here.,She studies carefully.,She studies tomorrow.,A,Always tells how frequently she studies.,Easy,RMS/Sainik Prep,True
+ENG211,6,English,Adverbs,Which sentence contains an adverb of manner?,He writes neatly.,He writes today.,He writes here.,He always writes.,A,Neatly tells how he writes.,Easy,RMS/Sainik Prep,True
+ENG212,6,English,Adverbs,What is the adverb form of 'happy'?,happily,happyly,happiness,happier,A,Happily is the adverb form.,Easy,RMS/Sainik Prep,True
+ENG213,6,English,Adverbs,What is the adverb form of 'easy'?,easily,easyly,ease,easier,A,Easily is the correct adverb form.,Easy,RMS/Sainik Prep,True
+ENG214,6,English,Adverbs,What is the adverb form of 'careful'?,carefully,carefuly,care,caring,A,Carefully is formed by adding -ly.,Easy,RMS/Sainik Prep,True
+ENG215,6,English,Adverbs,Which word is NOT an adverb?,quickly,slowly,beautiful,quietly,C,"Beautiful is an adjective, not an adverb.",Easy,RMS/Sainik Prep,True
+ENG216,6,English,Adverbs,Which word means 'at once'?,immediately,slowly,rarely,tomorrow,A,Immediately means without delay.,Medium,RMS/Sainik Prep,True
+ENG217,6,English,Adverbs,Which word means 'almost never'?,always,often,rarely,usually,C,Rarely means not often.,Medium,RMS/Sainik Prep,True
+ENG218,6,English,Adverbs,Which word means 'every time'?,never,always,sometimes,rarely,B,Always means every time.,Easy,RMS/Sainik Prep,True
+ENG219,6,English,Adverbs,Which word means 'sometimes'?,occasionally,never,always,daily,A,Occasionally means sometimes.,Medium,RMS/Sainik Prep,True
+ENG220,6,English,Adverbs,Choose the correct placement: 'She ___ visits her grandmother.',often,visits often,oftenly,more oftenly,A,Often naturally comes before the main verb visits.,Medium,RMS/Sainik Prep,True
+ENG221,6,English,Adverbs,Which word modifies the verb in 'The dog barked loudly'?,dog,barked,loudly,the,C,Loudly tells how the dog barked.,Easy,RMS/Sainik Prep,True
+ENG222,6,English,Prepositions,The book is ___ the table.,on,at,by,from,A,On shows the book's position relative to the table.,Easy,RMS/Sainik Prep,True
+ENG223,6,English,Prepositions,The cat is hiding ___ the bed.,under,at,from,by,A,Under indicates a lower position.,Easy,RMS/Sainik Prep,True
+ENG224,6,English,Prepositions,We walked ___ the bridge.,across,during,since,between,A,Across shows movement from one side to another.,Easy,RMS/Sainik Prep,True
+ENG225,6,English,Prepositions,The train arrived ___ 6 p.m.,at,on,in,by,A,At is used with a specific time.,Easy,RMS/Sainik Prep,True
+ENG226,6,English,Prepositions,My birthday is ___ July.,at,on,in,by,C,In is used with months.,Easy,RMS/Sainik Prep,True
+ENG227,6,English,Prepositions,The match is ___ Sunday.,at,on,in,from,B,On is used with days and dates.,Easy,RMS/Sainik Prep,True
+ENG228,6,English,Prepositions,He has lived here ___ 2020.,for,since,from,by,B,Since is used with a starting point in time.,Easy,RMS/Sainik Prep,True
+ENG229,6,English,Prepositions,He has lived here ___ six years.,since,for,at,on,B,For is used with a duration.,Easy,RMS/Sainik Prep,True
+ENG230,6,English,Prepositions,The ball is ___ the two boxes.,between,among,under,across,A,Between is used for two distinct items.,Easy,RMS/Sainik Prep,True
+ENG231,6,English,Prepositions,She shared the sweets ___ her friends.,among,between,at,by,A,Among is used for a group of more than two.,Easy,RMS/Sainik Prep,True
+ENG232,6,English,Prepositions,He travelled ___ Delhi ___ Jaipur.,"from, to","at, on","in, by","by, from",A,From indicates the starting point and to the destination.,Easy,RMS/Sainik Prep,True
+ENG233,6,English,Prepositions,The boy jumped ___ the river.,into,on,at,by,A,Into indicates movement to the inside.,Easy,RMS/Sainik Prep,True
+ENG234,6,English,Prepositions,The bird flew ___ the window.,through,during,since,among,A,Through indicates movement inside and out of an opening or space.,Easy,RMS/Sainik Prep,True
+ENG235,6,English,Prepositions,We waited ___ the bus stop.,at,on,in,from,A,At is used for a particular point or place.,Easy,RMS/Sainik Prep,True
+ENG236,6,English,Prepositions,The picture hangs ___ the wall.,on,in,at,to,A,On is used for something attached to a surface.,Easy,RMS/Sainik Prep,True
+ENG237,6,English,Prepositions,She sat ___ me in class.,beside,during,since,from,A,Beside means next to.,Easy,RMS/Sainik Prep,True
+ENG238,6,English,Prepositions,The teacher walked ___ the classroom.,into,since,for,at,A,Into indicates movement inside.,Easy,RMS/Sainik Prep,True
+ENG239,6,English,Prepositions,The shop is ___ the bank and the post office.,between,among,through,during,A,Between is correct for two reference points.,Easy,RMS/Sainik Prep,True
+ENG240,6,English,Prepositions,He was absent ___ Monday.,on,at,in,by,A,On is used with a day.,Easy,RMS/Sainik Prep,True
+ENG241,6,English,Prepositions,We will finish the work ___ evening.,by,at,on,since,A,By indicates the latest time by which something will happen.,Medium,RMS/Sainik Prep,True
+ENG242,6,English,Prepositions,The children played ___ the rain.,in,at,on,by,A,In the rain is the standard expression.,Easy,RMS/Sainik Prep,True
+ENG243,6,English,Prepositions,He came ___ foot.,on,by,in,at,A,The fixed expression is on foot.,Easy,RMS/Sainik Prep,True
+ENG244,6,English,Prepositions,She went to school ___ bus.,by,on,at,from,A,By is used with means of transport such as by bus.,Easy,RMS/Sainik Prep,True
+ENG245,6,English,Prepositions,The dog ran ___ the road.,along,since,during,at,A,Along indicates movement following the length of something.,Medium,RMS/Sainik Prep,True
+ENG246,6,English,Prepositions,He stood ___ the door.,near,during,since,from,A,Near indicates closeness.,Easy,RMS/Sainik Prep,True
+ENG247,6,English,Prepositions,We stayed indoors ___ the storm.,during,since,for,by,A,During indicates a period when something happens.,Medium,RMS/Sainik Prep,True
+ENG248,6,English,Prepositions,She has been waiting ___ two hours.,for,since,at,on,A,For is used for a length of time.,Easy,RMS/Sainik Prep,True
+ENG249,6,English,Prepositions,The plane flew ___ the clouds.,above,between,since,at,A,Above indicates a higher position.,Easy,RMS/Sainik Prep,True
+ENG250,6,English,Prepositions,The village lies ___ the mountain.,below,during,since,for,A,Below indicates a lower position.,Easy,RMS/Sainik Prep,True
+ENG251,6,English,Prepositions,He divided the cake ___ four children.,among,between,at,on,A,Among is appropriate for more than two people.,Easy,RMS/Sainik Prep,True
+ENG252,6,English,Sentences,Which is a complete sentence?,Running in the park.,The boy is reading.,Because he was late.,Under the table.,B,A complete sentence expresses a complete thought.,Easy,RMS/Sainik Prep,True
+ENG253,6,English,Sentences,Identify the subject: 'The little girl opened the door.',opened,door,The little girl,the,C,The little girl performs the action.,Easy,RMS/Sainik Prep,True
+ENG254,6,English,Sentences,Identify the predicate: 'The little girl opened the door.',The little girl,opened the door,girl,door,B,Opened the door tells what the subject did.,Easy,RMS/Sainik Prep,True
+ENG255,6,English,Sentences,What type of sentence gives a command?,Interrogative,Imperative,Exclamatory,Assertive,B,An imperative sentence gives a command or request.,Easy,RMS/Sainik Prep,True
+ENG256,6,English,Sentences,What type of sentence asks a question?,Assertive,Imperative,Interrogative,Exclamatory,C,An interrogative sentence asks a question.,Easy,RMS/Sainik Prep,True
+ENG257,6,English,Sentences,What type of sentence expresses strong feeling?,Exclamatory,Assertive,Interrogative,Imperative,A,An exclamatory sentence expresses strong emotion.,Easy,RMS/Sainik Prep,True
+ENG258,6,English,Sentences,'Please close the door.' is a/an ___ sentence.,assertive,imperative,interrogative,exclamatory,B,It is a polite command or request.,Easy,RMS/Sainik Prep,True
+ENG259,6,English,Sentences,'What a beautiful flower!' is a/an ___ sentence.,assertive,imperative,interrogative,exclamatory,D,It expresses strong admiration.,Easy,RMS/Sainik Prep,True
+ENG260,6,English,Sentences,Choose the correct punctuation: 'Where are you going___',.,?,! ,",",B,A question ends with a question mark.,Easy,RMS/Sainik Prep,True
+ENG261,6,English,Sentences,Choose the correct punctuation: 'What a lovely day___',.,?,! ,:,C,An exclamation expresses strong feeling.,Easy,RMS/Sainik Prep,True
+ENG262,6,English,Sentences,Choose the correctly punctuated sentence.,Ravi said I am ready.,"Ravi said, 'I am ready.'",Ravi said I am ready!,Ravi said 'I am ready',B,A comma and quotation marks are used to introduce direct speech.,Medium,RMS/Sainik Prep,True
+ENG263,6,English,Sentences,Which is a negative sentence?,She is happy.,She is not happy.,Is she happy?,Be happy.,B,Not makes the sentence negative.,Easy,RMS/Sainik Prep,True
+ENG264,6,English,Sentences,Change to negative: 'He is honest.',He is not honest.,He does honest.,He not is honest.,He is no honest.,A,Not forms the negative with is.,Easy,RMS/Sainik Prep,True
+ENG265,6,English,Sentences,Choose the correct question.,You are ready?,Are you ready?,Ready you are?,Are ready you?,B,The auxiliary are comes before the subject in a question.,Easy,RMS/Sainik Prep,True
+ENG266,6,English,Sentences,Choose the correct word: 'Neither Ravi nor Mohan ___ present.',are,were,is,have,C,"With neither...nor, the singular nearer subject Mohan takes is.",Hard,RMS/Sainik Prep,True
+ENG267,6,English,Sentences,Choose the correct conjunction: 'I stayed home ___ it was raining.',because,but,or,and,A,Because gives the reason.,Easy,RMS/Sainik Prep,True
+ENG268,6,English,Sentences,Choose the conjunction: 'Work hard ___ you will succeed.',and,or,because,although,A,And joins the two related clauses.,Easy,RMS/Sainik Prep,True
+ENG269,6,English,Sentences,"Choose the conjunction: 'Hurry up, ___ you will miss the bus.'",or,and,because,so,A,Or shows the consequence of not hurrying.,Medium,RMS/Sainik Prep,True
+ENG270,6,English,Sentences,"Choose the conjunction: 'Although he was tired, he continued.'",Although,he,was,continued,A,Although introduces a contrast clause.,Medium,RMS/Sainik Prep,True
+ENG271,6,English,Sentences,A sentence with one independent clause is called a ___.,simple sentence,compound sentence,complex sentence,phrase,A,A simple sentence has one independent clause.,Medium,RMS/Sainik Prep,True
+ENG272,6,English,Sentences,A sentence joined by coordinating conjunctions such as and/but is a ___.,simple,compound,complex,fragment,B,A compound sentence joins independent clauses.,Medium,RMS/Sainik Prep,True
+ENG273,6,English,Sentences,"Which is a phrase, not a complete sentence?",The birds fly.,in the garden,She reads.,They laughed.,B,In the garden does not express a complete thought.,Easy,RMS/Sainik Prep,True
+ENG274,6,English,Sentences,Choose the correct subject-verb agreement.,The boys plays.,The boys play.,The boys playing.,The boys is play.,B,Plural boys takes plural verb play.,Easy,RMS/Sainik Prep,True
+ENG275,6,English,Sentences,Which sentence is in the passive voice?,The boy kicked the ball.,The ball was kicked by the boy.,The boy is kicking the ball.,The boy kicks the ball.,B,The object becomes the subject in passive voice.,Medium,RMS/Sainik Prep,True
+ENG276,6,English,Sentences,Choose the active voice: 'The window was broken by the boy.',The boy broke the window.,The window broke the boy.,The boy was broken.,The window was breaking.,A,The boy performs the action in the active sentence.,Medium,RMS/Sainik Prep,True
+ENG277,6,English,Sentences,Choose the correctly arranged sentence.,always / he / early / rises,He rises early always.,He always rises early.,Always he early rises.,C,The natural word order is He always rises early.,Easy,RMS/Sainik Prep,True
+ENG278,6,English,Sentences,Choose the correct article: '___ apple a day is healthy.',A,An,The,No article,B,An is used before the vowel sound in apple.,Easy,RMS/Sainik Prep,True
+ENG279,6,English,Sentences,Choose the correct article: 'He is ___ honest man.',a,an,the,no,B,"Honest begins with a vowel sound, so an is used.",Easy,RMS/Sainik Prep,True
+ENG280,6,English,Sentences,Choose the correct article: 'I saw ___ European tourist.',a,an,the,no,A,"European begins with the consonant sound /y/, so a is used.",Hard,RMS/Sainik Prep,True
+ENG281,6,English,Tenses,Choose the simple present form: 'She ___ to school every day.',go,goes,went,going,B,"She is third-person singular, so goes is correct.",Easy,RMS/Sainik Prep,True
+ENG282,6,English,Tenses,Choose the simple present form: 'They ___ cricket on Sundays.',play,plays,played,playing,A,Plural they takes play.,Easy,RMS/Sainik Prep,True
+ENG283,6,English,Tenses,Choose the simple past: 'He ___ the letter yesterday.',writes,write,wrote,writing,C,Wrote is the past form of write.,Easy,RMS/Sainik Prep,True
+ENG284,6,English,Tenses,Choose the simple past: 'She ___ a song last night.',sings,sang,sing,singing,B,Sang is the past form of sing.,Easy,RMS/Sainik Prep,True
+ENG285,6,English,Tenses,Choose the simple future: 'We ___ visit Delhi tomorrow.',will,were,did,have,A,Will forms the simple future.,Easy,RMS/Sainik Prep,True
+ENG286,6,English,Tenses,Choose the present continuous: 'They ___ football now.',play,played,are playing,will play,C,Are playing describes an action happening now.,Easy,RMS/Sainik Prep,True
+ENG287,6,English,Tenses,Choose the past continuous: 'I ___ when you called.',sleep,slept,was sleeping,am sleeping,C,Was sleeping is the past continuous form.,Easy,RMS/Sainik Prep,True
+ENG288,6,English,Tenses,"Choose the future continuous: 'At 8 p.m., I ___ dinner.'",eat,ate,will be eating,have eaten,C,Will be eating is future continuous.,Medium,RMS/Sainik Prep,True
+ENG289,6,English,Tenses,Choose the present perfect: 'She ___ her homework.',has finished,finished yesterday,is finishing,will finish,A,Has finished is present perfect.,Easy,RMS/Sainik Prep,True
+ENG290,6,English,Tenses,Choose the past perfect: 'The train ___ before we reached the station.',leaves,left,had left,has left,C,Had left shows an earlier past action.,Medium,RMS/Sainik Prep,True
+ENG291,6,English,Tenses,"Choose the future perfect: 'By Monday, he ___ the work.'",finishes,finished,will have finished,is finishing,C,Will have finished shows completion before a future time.,Medium,RMS/Sainik Prep,True
+ENG292,6,English,Tenses,Identify the tense: 'I am reading a book.',Simple present,Present continuous,Simple past,Present perfect,B,Am reading is present continuous.,Easy,RMS/Sainik Prep,True
+ENG293,6,English,Tenses,Identify the tense: 'They visited Agra last year.',Simple present,Present continuous,Simple past,Past perfect,C,Visited is simple past.,Easy,RMS/Sainik Prep,True
+ENG294,6,English,Tenses,Identify the tense: 'She has lived here for five years.',Present perfect,Simple past,Past continuous,Future perfect,A,Has lived is present perfect.,Medium,RMS/Sainik Prep,True
+ENG295,6,English,Tenses,Identify the tense: 'He had eaten before the movie began.',Past perfect,Present perfect,Simple past,Past continuous,A,Had eaten is past perfect.,Medium,RMS/Sainik Prep,True
+ENG296,6,English,Tenses,Identify the tense: 'We will travel tomorrow.',Simple present,Simple past,Simple future,Future continuous,C,Will travel is simple future.,Easy,RMS/Sainik Prep,True
+ENG297,6,English,Tenses,Choose the correct form: 'The sun ___ in the east.',rise,rises,rose,rising,B,A general truth takes simple present; sun is singular.,Easy,RMS/Sainik Prep,True
+ENG298,6,English,Tenses,Choose the correct form: 'Water ___ at 100°C.',boil,boils,boiled,boiling,B,A scientific fact uses simple present.,Easy,RMS/Sainik Prep,True
+ENG299,6,English,Tenses,Choose the correct form: 'I ___ my friend yesterday.',meet,meets,met,meeting,C,Met is the past form of meet.,Easy,RMS/Sainik Prep,True
+ENG300,6,English,Tenses,Choose the correct form: 'She ___ dinner when I arrived.',cooks,cooked,was cooking,has cooked,C,Was cooking was in progress when another past action occurred.,Medium,RMS/Sainik Prep,True
+ENG301,6,English,Tenses,Choose the correct form: 'They ___ already ___ the match.',"have, won","has, win","had, winning","will, won",A,Have won is present perfect with plural they.,Easy,RMS/Sainik Prep,True
+ENG302,6,English,Tenses,Choose the correct form: 'He ___ his work before the teacher came.',has finished,had finished,finishes,will finish,B,Had finished occurred before another past event.,Medium,RMS/Sainik Prep,True
+ENG303,6,English,Tenses,"Choose the correct form: 'By next year, she ___ her course.'",completed,will have completed,has completed,completing,B,Will have completed is future perfect.,Medium,RMS/Sainik Prep,True
+ENG304,6,English,Tenses,Choose the correct form: 'Look! The baby ___.',cries,cried,is crying,will cry,C,Is crying describes an action happening now.,Easy,RMS/Sainik Prep,True
+ENG305,6,English,Tenses,"Choose the correct form: 'When I was young, I ___ in Patna.'",live,lived,am living,will live,B,Lived refers to a completed past state.,Easy,RMS/Sainik Prep,True
+ENG306,6,English,Tenses,Choose the correct form: 'We ___ for an hour before the bus arrived.',wait,waited,had been waiting,are waiting,C,Had been waiting is past perfect continuous.,Hard,RMS/Sainik Prep,True
+ENG307,6,English,Tenses,Identify the tense: 'She has been studying since morning.',Present perfect continuous,Past perfect,Present continuous,Simple present,A,Has been studying shows an action continuing up to now.,Hard,RMS/Sainik Prep,True
+ENG308,6,English,Tenses,Identify the tense: 'They had been playing for two hours.',Past perfect continuous,Present perfect continuous,Past continuous,Simple past,A,Had been playing is past perfect continuous.,Hard,RMS/Sainik Prep,True
+ENG309,6,English,Tenses,Choose the correct form: 'I ___ this book twice.',read,have read,am reading,will read,B,Have read expresses an experience up to the present.,Medium,RMS/Sainik Prep,True
+ENG310,6,English,Tenses,Choose the correct form: 'She ___ to the market before it started raining.',goes,had gone,has gone,will go,B,Had gone occurred before another past event.,Medium,RMS/Sainik Prep,True
+ENG311,6,English,Tenses,"Choose the correct form: 'Tomorrow at this time, we ___ to Mumbai.'",travel,travelled,will be travelling,have travelled,C,Will be travelling is future continuous.,Medium,RMS/Sainik Prep,True
+ENG312,6,English,Tenses,Choose the correct negative: 'He plays cricket.',He not plays cricket.,He does not play cricket.,He does not plays cricket.,He did not plays cricket.,B,Does not is followed by the base verb play.,Medium,RMS/Sainik Prep,True
+ENG313,6,English,Tenses,Choose the correct negative: 'They went home.',They did not went home.,They did not go home.,They do not went home.,They not go home.,B,Did not is followed by the base verb go.,Easy,RMS/Sainik Prep,True
+ENG314,6,English,Tenses,Choose the correct question: 'She likes music.',Does she likes music?,Does she like music?,Do she like music?,Did she likes music?,B,Does is followed by the base verb like.,Easy,RMS/Sainik Prep,True
+ENG315,6,English,Tenses,Choose the correct question: 'They visited Delhi.',Did they visit Delhi?,Did they visited Delhi?,Do they visited Delhi?,Were they visit Delhi?,A,Did is followed by the base verb visit.,Easy,RMS/Sainik Prep,True
+ENG316,6,English,Tenses,Choose the correct form: 'I ___ never ___ such a sight.',"have, seen","has, saw","had, see","am, seeing",A,Have seen is present perfect with I.,Medium,RMS/Sainik Prep,True
+ENG317,6,English,Tenses,Choose the correct form: 'He ___ just ___ the door.',"has, closed","have, close","is, closed","did, closing",A,Has closed is present perfect with he.,Easy,RMS/Sainik Prep,True
+ENG318,6,English,Tenses,Choose the correct form: 'We ___ dinner before they arrived.',eat,had eaten,have eaten,will eat,B,Had eaten happened before they arrived.,Medium,RMS/Sainik Prep,True
+ENG319,6,English,Tenses,Choose the correct form: 'She ___ here since Monday.',is,has been,was,will be,B,Has been expresses a state continuing from Monday to now.,Medium,RMS/Sainik Prep,True
+ENG320,6,English,Tenses,Which word commonly signals simple past?,yesterday,now,tomorrow,since,A,Yesterday commonly refers to a completed past time.,Easy,RMS/Sainik Prep,True
+ENG321,6,English,Tenses,Which word commonly signals future time?,tomorrow,yesterday,last week,ago,A,Tomorrow refers to future time.,Easy,RMS/Sainik Prep,True
+ENG322,6,English,Tenses,Which word often signals present continuous?,now,yesterday,ago,last year,A,Now indicates an action happening at present.,Easy,RMS/Sainik Prep,True
+ENG323,6,English,Tenses,Which word often accompanies present perfect?,already,yesterday,last year,ago,A,Already is commonly used with present perfect.,Medium,RMS/Sainik Prep,True
+ENG324,6,English,Tenses,Which tense is used for habitual actions?,Simple present,Past perfect,Future perfect,Present perfect continuous,A,Simple present commonly expresses habits.,Easy,RMS/Sainik Prep,True
+ENG325,6,English,Tenses,Which tense is used for an action completed before another past action?,Simple present,Past perfect,Future continuous,Present continuous,B,Past perfect marks the earlier of two past actions.,Medium,RMS/Sainik Prep,True
+ENG326,6,English,Synonyms,Choose the synonym of 'brave'.,cowardly,courageous,weak,lazy,B,Courageous means brave.,Easy,RMS/Sainik Prep,True
+ENG327,6,English,Synonyms,Choose the synonym of 'rapid'.,slow,quick,late,quiet,B,Quick means rapid.,Easy,RMS/Sainik Prep,True
+ENG328,6,English,Synonyms,Choose the synonym of 'ancient'.,modern,old,new,recent,B,Ancient means very old.,Easy,RMS/Sainik Prep,True
+ENG329,6,English,Synonyms,Choose the synonym of 'happy'.,sad,joyful,angry,tired,B,Joyful means happy.,Easy,RMS/Sainik Prep,True
+ENG330,6,English,Synonyms,Choose the synonym of 'begin'.,end,start,stop,finish,B,Start means begin.,Easy,RMS/Sainik Prep,True
+ENG331,6,English,Synonyms,Choose the synonym of 'assist'.,help,hurt,ignore,leave,A,Assist means help.,Easy,RMS/Sainik Prep,True
+ENG332,6,English,Synonyms,Choose the synonym of 'silent'.,noisy,quiet,angry,bright,B,Quiet means silent.,Easy,RMS/Sainik Prep,True
+ENG333,6,English,Synonyms,Choose the synonym of 'large'.,tiny,huge,short,thin,B,Huge means very large.,Easy,RMS/Sainik Prep,True
+ENG334,6,English,Synonyms,Choose the synonym of 'clever'.,foolish,intelligent,weak,slow,B,Intelligent means clever.,Easy,RMS/Sainik Prep,True
+ENG335,6,English,Synonyms,Choose the synonym of 'difficult'.,easy,hard,simple,soft,B,Hard means difficult.,Easy,RMS/Sainik Prep,True
+ENG336,6,English,Synonyms,Choose the synonym of 'purchase'.,sell,buy,borrow,return,B,Purchase means buy.,Easy,RMS/Sainik Prep,True
+ENG337,6,English,Synonyms,Choose the synonym of 'reply'.,answer,question,ask,silence,A,Answer means reply.,Easy,RMS/Sainik Prep,True
+ENG338,6,English,Synonyms,Choose the synonym of 'liberty'.,freedom,prison,rule,fear,A,Liberty means freedom.,Medium,RMS/Sainik Prep,True
+ENG339,6,English,Synonyms,Choose the synonym of 'honest'.,truthful,false,clever,proud,A,Truthful means honest.,Easy,RMS/Sainik Prep,True
+ENG340,6,English,Synonyms,Choose the synonym of 'vacant'.,occupied,empty,full,busy,B,Vacant means empty.,Easy,RMS/Sainik Prep,True
+ENG341,6,English,Synonyms,Choose the synonym of 'fortunate'.,lucky,unhappy,poor,weak,A,Fortunate means lucky.,Easy,RMS/Sainik Prep,True
+ENG342,6,English,Synonyms,Choose the synonym of 'permit'.,allow,refuse,stop,forbid,A,Permit means allow.,Easy,RMS/Sainik Prep,True
+ENG343,6,English,Synonyms,Choose the synonym of 'famous'.,unknown,renowned,hidden,ordinary,B,Renowned means famous.,Medium,RMS/Sainik Prep,True
+ENG344,6,English,Synonyms,Choose the synonym of 'dangerous'.,safe,risky,gentle,calm,B,Risky means dangerous.,Easy,RMS/Sainik Prep,True
+ENG345,6,English,Synonyms,Choose the synonym of 'generous'.,selfish,giving,mean,greedy,B,Giving describes a generous person.,Easy,RMS/Sainik Prep,True
+ENG346,6,English,Synonyms,Choose the synonym of 'rapidly'.,slowly,quickly,rarely,quietly,B,Quickly means rapidly.,Easy,RMS/Sainik Prep,True
+ENG347,6,English,Synonyms,Choose the synonym of 'observe'.,notice,ignore,forget,hide,A,Observe can mean notice carefully.,Medium,RMS/Sainik Prep,True
+ENG348,6,English,Synonyms,Choose the synonym of 'delighted'.,pleased,sad,angry,bored,A,Delighted means very pleased.,Easy,RMS/Sainik Prep,True
+ENG349,6,English,Synonyms,Choose the synonym of 'enemy'.,friend,opponent,helper,guest,B,Opponent can mean an enemy or adversary.,Medium,RMS/Sainik Prep,True
+ENG350,6,English,Synonyms,Choose the synonym of 'famous' in 'a famous scientist'.,well-known,unknown,ordinary,hidden,A,Well-known means famous.,Easy,RMS/Sainik Prep,True
+ENG351,6,English,Synonyms,Choose the synonym of 'purchase' in 'She purchased a book'.,bought,lost,borrowed,sold,A,Purchased means bought.,Easy,RMS/Sainik Prep,True
+ENG352,6,English,Synonyms,Choose the synonym of 'depart'.,arrive,leave,stay,return,B,Depart means leave.,Easy,RMS/Sainik Prep,True
+ENG353,6,English,Synonyms,Choose the synonym of 'fragile'.,strong,delicate,heavy,hard,B,Fragile means easily broken or delicate.,Medium,RMS/Sainik Prep,True
+ENG354,6,English,Synonyms,Choose the synonym of 'accurate'.,correct,wrong,rough,late,A,Accurate means correct or exact.,Medium,RMS/Sainik Prep,True
+ENG355,6,English,Synonyms,Choose the synonym of 'essential'.,unnecessary,necessary,optional,extra,B,Essential means necessary.,Medium,RMS/Sainik Prep,True
+ENG356,6,English,Antonyms,Choose the antonym of 'ancient'.,old,modern,historic,aged,B,Modern is the opposite of ancient.,Easy,RMS/Sainik Prep,True
+ENG357,6,English,Antonyms,Choose the antonym of 'brave'.,bold,fearless,cowardly,strong,C,Cowardly is the opposite of brave.,Easy,RMS/Sainik Prep,True
+ENG358,6,English,Antonyms,Choose the antonym of 'victory'.,success,defeat,win,triumph,B,Defeat is the opposite of victory.,Easy,RMS/Sainik Prep,True
+ENG359,6,English,Antonyms,Choose the antonym of 'expand'.,increase,grow,contract,enlarge,C,Contract means become smaller.,Easy,RMS/Sainik Prep,True
+ENG360,6,English,Antonyms,Choose the antonym of 'accept'.,receive,reject,agree,take,B,Reject is the opposite of accept.,Easy,RMS/Sainik Prep,True
+ENG361,6,English,Antonyms,Choose the antonym of 'generous'.,kind,selfish,helpful,giving,B,Selfish is opposite in meaning to generous.,Easy,RMS/Sainik Prep,True
+ENG362,6,English,Antonyms,Choose the antonym of 'permanent'.,lasting,temporary,fixed,stable,B,Temporary is the opposite of permanent.,Easy,RMS/Sainik Prep,True
+ENG363,6,English,Antonyms,Choose the antonym of 'frequent'.,often,rare,regular,usual,B,Rare means not frequent.,Easy,RMS/Sainik Prep,True
+ENG364,6,English,Antonyms,Choose the antonym of 'include'.,contain,exclude,add,cover,B,Exclude means leave out.,Easy,RMS/Sainik Prep,True
+ENG365,6,English,Antonyms,Choose the antonym of 'visible'.,seen,clear,invisible,bright,C,Invisible means cannot be seen.,Easy,RMS/Sainik Prep,True
+ENG366,6,English,Antonyms,Choose the antonym of 'polite'.,rude,kind,gentle,respectful,A,Rude is the opposite of polite.,Easy,RMS/Sainik Prep,True
+ENG367,6,English,Antonyms,Choose the antonym of 'arrival'.,coming,departure,entrance,visit,B,Departure is the opposite of arrival.,Easy,RMS/Sainik Prep,True
+ENG368,6,English,Antonyms,Choose the antonym of 'increase'.,rise,decrease,grow,add,B,Decrease means become less.,Easy,RMS/Sainik Prep,True
+ENG369,6,English,Antonyms,Choose the antonym of 'success'.,failure,victory,achievement,progress,A,Failure is the opposite of success.,Easy,RMS/Sainik Prep,True
+ENG370,6,English,Antonyms,Choose the antonym of 'maximum'.,highest,minimum,greatest,top,B,Minimum is the opposite of maximum.,Easy,RMS/Sainik Prep,True
+ENG371,6,English,Antonyms,Choose the antonym of 'optimistic'.,hopeful,positive,pessimistic,cheerful,C,Pessimistic means expecting a negative outcome.,Medium,RMS/Sainik Prep,True
+ENG372,6,English,Antonyms,Choose the antonym of 'complex'.,difficult,simple,complicated,hard,B,Simple is the opposite of complex.,Easy,RMS/Sainik Prep,True
+ENG373,6,English,Antonyms,Choose the antonym of 'shallow'.,deep,low,thin,narrow,A,Deep is the opposite of shallow.,Easy,RMS/Sainik Prep,True
+ENG374,6,English,Antonyms,Choose the antonym of 'ancient' in 'ancient monument'.,historic,modern,old,traditional,B,Modern is the opposite of ancient.,Easy,RMS/Sainik Prep,True
+ENG375,6,English,Antonyms,Choose the antonym of 'scarce'.,rare,abundant,limited,few,B,Abundant means plentiful.,Medium,RMS/Sainik Prep,True
+ENG376,6,English,Antonyms,Choose the antonym of 'humble'.,modest,proud,simple,kind,B,Proud is opposite to humble in this sense.,Easy,RMS/Sainik Prep,True
+ENG377,6,English,Antonyms,Choose the antonym of 'innocent'.,guilty,pure,harmless,honest,A,Guilty is the opposite of innocent.,Medium,RMS/Sainik Prep,True
+ENG378,6,English,Antonyms,Choose the antonym of 'create'.,make,destroy,build,produce,B,Destroy is the opposite of create.,Easy,RMS/Sainik Prep,True
+ENG379,6,English,Antonyms,Choose the antonym of 'broad'.,wide,narrow,large,open,B,Narrow is the opposite of broad.,Easy,RMS/Sainik Prep,True
+ENG380,6,English,Antonyms,Choose the antonym of 'noisy'.,loud,quiet,busy,bright,B,Quiet is the opposite of noisy.,Easy,RMS/Sainik Prep,True
+ENG381,6,English,Antonyms,Choose the antonym of 'lend'.,borrow,give,offer,send,A,Borrow is the opposite action to lend.,Medium,RMS/Sainik Prep,True
+ENG382,6,English,Antonyms,Choose the antonym of 'major'.,important,minor,large,main,B,Minor is the opposite of major.,Easy,RMS/Sainik Prep,True
+ENG383,6,English,Antonyms,Choose the antonym of 'superior'.,higher,inferior,better,greater,B,Inferior is the opposite of superior.,Medium,RMS/Sainik Prep,True
+ENG384,6,English,Antonyms,Choose the antonym of 'transparent'.,clear,opaque,bright,visible,B,Opaque means not allowing light through clearly.,Medium,RMS/Sainik Prep,True
+ENG385,6,English,Idioms,What does the idiom 'a piece of cake' mean?,very difficult,very easy,very expensive,very sweet,B,It means something is very easy to do.,Easy,RMS/Sainik Prep,True
+ENG386,6,English,Idioms,What does 'spill the beans' mean?,cook food,reveal a secret,waste food,plant seeds,B,It means reveal secret information.,Easy,RMS/Sainik Prep,True
+ENG387,6,English,Idioms,What does 'once in a blue moon' mean?,very often,very rarely,every night,never,B,It means something happens very rarely.,Easy,RMS/Sainik Prep,True
+ENG388,6,English,Idioms,What does 'break the ice' mean?,break something,start a friendly conversation,become angry,feel cold,B,It means make people feel more comfortable in a social situation.,Medium,RMS/Sainik Prep,True
+ENG389,6,English,Idioms,What does 'hit the nail on the head' mean?,miss a point,say exactly the right thing,hurt someone,build a house,B,It means identify or state something exactly.,Medium,RMS/Sainik Prep,True
+ENG390,6,English,Idioms,What does 'under the weather' mean?,outside,feeling unwell,in the rain,very happy,B,It means feeling ill or unwell.,Easy,RMS/Sainik Prep,True
+ENG391,6,English,Idioms,What does 'cost an arm and a leg' mean?,be free,be very expensive,be painful,be dangerous,B,It means cost a lot of money.,Easy,RMS/Sainik Prep,True
+ENG392,6,English,Idioms,What does 'in hot water' mean?,bathing,in trouble,feeling warm,cooking,B,It means being in difficulty or trouble.,Medium,RMS/Sainik Prep,True
+ENG393,6,English,Idioms,What does 'let the cat out of the bag' mean?,free an animal,reveal a secret,buy a cat,lose something,B,It means reveal a secret accidentally or carelessly.,Medium,RMS/Sainik Prep,True
+ENG394,6,English,Idioms,What does 'a blessing in disguise' mean?,a hidden problem,something that seems bad but turns out good,a religious ceremony,a secret gift,B,It describes an unexpected benefit from an apparently bad situation.,Hard,RMS/Sainik Prep,True
+ENG395,6,English,Idioms,What does 'burn the midnight oil' mean?,waste oil,work late at night,cook at night,sleep early,B,It means work or study late into the night.,Medium,RMS/Sainik Prep,True
+ENG396,6,English,Idioms,What does 'see eye to eye' mean?,look at someone,agree with someone,fight with someone,watch carefully,B,It means agree on an issue.,Easy,RMS/Sainik Prep,True
+ENG397,6,English,Idioms,What does 'beat around the bush' mean?,walk in a forest,avoid saying something directly,win a game,cut plants,B,It means avoid getting to the main point.,Hard,RMS/Sainik Prep,True
+ENG398,6,English,Idioms,What does 'cry over spilt milk' mean?,cry for food,regret something that cannot be changed,spill milk,be hungry,B,It means waste time regretting an irreversible event.,Medium,RMS/Sainik Prep,True
+ENG399,6,English,Idioms,What does 'keep an eye on' mean?,close your eyes,watch or monitor,sleep,ignore,B,It means watch carefully.,Easy,RMS/Sainik Prep,True
+ENG400,6,English,Idioms,What does 'make up one's mind' mean?,forget,decide,argue,sleep,B,It means make a decision.,Easy,RMS/Sainik Prep,True
+ENG401,6,English,Idioms,What does 'on cloud nine' mean?,angry,very happy,confused,sleepy,B,It means extremely happy.,Easy,RMS/Sainik Prep,True
+ENG402,6,English,Idioms,What does 'a storm in a teacup' mean?,a big storm,a lot of fuss about a small matter,a tea party,bad weather,B,It describes exaggerated concern over a minor issue.,Hard,RMS/Sainik Prep,True
+ENG403,6,English,Idioms,What does 'pull someone's leg' mean?,help someone walk,tease or joke with someone,injure someone,run away,B,It means tease someone playfully.,Medium,RMS/Sainik Prep,True
+ENG404,6,English,Idioms,What does 'through thick and thin' mean?,through a forest,in good and bad times,very quickly,without stopping,B,It means despite difficulties and circumstances.,Medium,RMS/Sainik Prep,True
+ENG405,6,English,Idioms,What does 'add fuel to the fire' mean?,put out a fire,make a problem worse,cook food,light a lamp,B,It means worsen an already difficult situation.,Medium,RMS/Sainik Prep,True
+ENG406,6,English,Idioms,What does 'the ball is in your court' mean?,play tennis,it is your turn to act,you lost a game,go outside,B,It means the next action or decision is yours.,Hard,RMS/Sainik Prep,True
+ENG407,6,English,Idioms,What does 'barking up the wrong tree' mean?,train a dog,pursue the wrong idea or person,climb a tree,make noise,B,It means follow a mistaken line of thought.,Hard,RMS/Sainik Prep,True
+ENG408,6,English,Idioms,What does 'get cold feet' mean?,feel cold,become nervous about doing something,run quickly,fall down,B,It means become afraid or nervous before an action.,Medium,RMS/Sainik Prep,True
+ENG409,6,English,Idioms,What does 'in black and white' mean?,in darkness,in written or printed form,in two colours,in a photograph,B,It means expressed clearly in writing.,Medium,RMS/Sainik Prep,True
+ENG410,6,English,Idioms,What does 'a leopard cannot change its spots' mean?,animals have spots,people cannot easily change their basic nature,leopards are dangerous,spots disappear,B,It means fundamental character is difficult to change.,Hard,RMS/Sainik Prep,True
+ENG411,6,English,Idioms,What does 'go the extra mile' mean?,walk far,make an additional effort,travel abroad,run a race,B,It means make more effort than expected.,Medium,RMS/Sainik Prep,True
+ENG412,6,English,Idioms,What does 'out of the blue' mean?,from the sky,unexpectedly,sadly,slowly,B,It means unexpectedly or without warning.,Easy,RMS/Sainik Prep,True
+ENG413,6,English,Idioms,What does 'face the music' mean?,sing a song,accept the consequences of one's actions,attend a concert,listen carefully,B,It means face the consequences of what one has done.,Hard,RMS/Sainik Prep,True
+ENG414,6,English,Idioms,What does 'rain cats and dogs' mean?,animals are falling,rain very heavily,rain lightly,a storm is ending,B,It means rain very heavily.,Easy,RMS/Sainik Prep,True
+ENG415,6,English,Phrasal Verbs,What does 'give up' mean?,continue,quit,start,collect,B,Give up means stop trying or quit.,Easy,RMS/Sainik Prep,True
+ENG416,6,English,Phrasal Verbs,What does 'look after' mean?,search for,take care of,look behind,ignore,B,Look after means take care of.,Easy,RMS/Sainik Prep,True
+ENG417,6,English,Phrasal Verbs,What does 'find out' mean?,hide,discover,lose,forget,B,Find out means discover information.,Easy,RMS/Sainik Prep,True
+ENG418,6,English,Phrasal Verbs,What does 'put off' mean?,wear,postpone,remove,start,B,Put off means postpone.,Medium,RMS/Sainik Prep,True
+ENG419,6,English,Phrasal Verbs,What does 'turn down' mean?,increase,reject or refuse,turn around,accept,B,Turn down can mean reject or refuse.,Medium,RMS/Sainik Prep,True
+ENG420,6,English,Phrasal Verbs,What does 'call off' mean?,invite,cancel,telephone,shout,B,Call off means cancel.,Easy,RMS/Sainik Prep,True
+ENG421,6,English,Phrasal Verbs,What does 'carry on' mean?,stop,continue,carry something away,return,B,Carry on means continue.,Easy,RMS/Sainik Prep,True
+ENG422,6,English,Phrasal Verbs,What does 'break down' mean in 'The car broke down'?,speed up,stop working,fall upward,start,B,A machine breaks down when it stops working.,Easy,RMS/Sainik Prep,True
+ENG423,6,English,Phrasal Verbs,What does 'take off' mean in 'The plane took off'?,land,leave the ground,stop,turn back,B,"For an aircraft, take off means leave the ground.",Easy,RMS/Sainik Prep,True
+ENG424,6,English,Phrasal Verbs,What does 'look for' mean?,search for,care for,look after,avoid,A,Look for means search for.,Easy,RMS/Sainik Prep,True
+ENG425,6,English,Phrasal Verbs,What does 'look into' mean?,look outside,investigate,sleep,ignore,B,Look into means investigate.,Medium,RMS/Sainik Prep,True
+ENG426,6,English,Phrasal Verbs,What does 'run out of' mean?,have plenty,have none left,run quickly,start again,B,Run out of means use all of something so none remains.,Easy,RMS/Sainik Prep,True
+ENG427,6,English,Phrasal Verbs,What does 'set up' mean?,destroy,establish or arrange,remove,forget,B,Set up means establish or arrange.,Medium,RMS/Sainik Prep,True
+ENG428,6,English,Phrasal Verbs,What does 'pick up' mean in 'Pick up the book'?,drop,lift,tear,hide,B,Pick up means lift from a surface.,Easy,RMS/Sainik Prep,True
+ENG429,6,English,Phrasal Verbs,What does 'bring up' mean in 'She brought up an important point'?,lower,mention,carry upstairs,forget,B,Bring up can mean mention a topic.,Medium,RMS/Sainik Prep,True
+ENG430,6,English,Phrasal Verbs,What does 'come across' mean?,cross a road,find or encounter unexpectedly,run away,agree,B,Come across means find or encounter by chance.,Medium,RMS/Sainik Prep,True
+ENG431,6,English,Phrasal Verbs,What does 'work out' mean in 'The problem worked out well'?,exercise,have a successful result,stop working,calculate only,B,Work out can mean develop successfully.,Medium,RMS/Sainik Prep,True
+ENG432,6,English,Phrasal Verbs,What does 'make up' mean in 'They made up after the argument'?,invent only,become friends again,apply paint,prepare food,B,Make up can mean reconcile after an argument.,Medium,RMS/Sainik Prep,True
+ENG433,6,English,Phrasal Verbs,What does 'go through' mean in 'She went through a difficult time'?,avoid,experience,run past,destroy,B,Go through can mean experience.,Medium,RMS/Sainik Prep,True
+ENG434,6,English,Phrasal Verbs,What does 'get over' mean in 'He got over his fear'?,climb,recover from,increase,repeat,B,Get over means recover from or overcome.,Medium,RMS/Sainik Prep,True
+ENG435,6,English,Phrasal Verbs,What does 'put on' mean in 'Put on your shoes'?,remove,wear,clean,buy,B,Put on means wear.,Easy,RMS/Sainik Prep,True
+ENG436,6,English,Phrasal Verbs,What does 'take after' mean?,follow a family member in appearance or character,remove,attack,call,A,Take after means resemble a relative.,Hard,RMS/Sainik Prep,True
+ENG437,6,English,Phrasal Verbs,What does 'hang up' mean in 'He hung up the phone'?,answer,end a phone call,lift a bag,wait,B,Hang up means end a telephone call.,Easy,RMS/Sainik Prep,True
+ENG438,6,English,Phrasal Verbs,What does 'fill in' mean on a form?,erase,complete the required information,tear,fold,B,Fill in means write the required information.,Easy,RMS/Sainik Prep,True
+ENG439,6,English,Phrasal Verbs,What does 'cut down on' mean?,increase,reduce,remove completely,cut a tree,B,Cut down on means reduce the amount of something.,Medium,RMS/Sainik Prep,True
+ENG440,6,English,Parts Of Speech,"In 'The dog runs fast', which word is a noun?",The,dog,runs,fast,B,Dog names an animal.,Easy,RMS/Sainik Prep,True
+ENG441,6,English,Parts Of Speech,"In 'She sings sweetly', which word is a verb?",She,sings,sweetly,the,B,Sings expresses the action.,Easy,RMS/Sainik Prep,True
+ENG442,6,English,Parts Of Speech,"In 'A red flower bloomed', which word is an adjective?",flower,bloomed,red,a,C,Red describes flower.,Easy,RMS/Sainik Prep,True
+ENG443,6,English,Parts Of Speech,"In 'He ran quickly', which word is an adverb?",He,ran,quickly,the,C,Quickly modifies ran.,Easy,RMS/Sainik Prep,True
+ENG444,6,English,Parts Of Speech,"In 'Ravi and Mohan play', which word is a conjunction?",Ravi,and,play,Mohan,B,And joins two names.,Easy,RMS/Sainik Prep,True
+ENG445,6,English,Parts Of Speech,"In 'The book is on the table', which word is a preposition?",book,is,on,table,C,On shows the relationship between book and table.,Easy,RMS/Sainik Prep,True
+ENG446,6,English,Parts Of Speech,"In 'Wow! That is amazing', which word is an interjection?",That,is,amazing,Wow,D,Wow expresses sudden emotion.,Easy,RMS/Sainik Prep,True
+ENG447,6,English,Parts Of Speech,Which part of speech replaces a noun?,Adjective,Pronoun,Adverb,Preposition,B,A pronoun can replace a noun.,Easy,RMS/Sainik Prep,True
+ENG448,6,English,Parts Of Speech,"Which part of speech names a person, place, animal or thing?",Noun,Verb,Adverb,Conjunction,A,A noun is a naming word.,Easy,RMS/Sainik Prep,True
+ENG449,6,English,Parts Of Speech,Which part of speech shows an action or state?,Verb,Noun,Adjective,Preposition,A,A verb expresses an action or state.,Easy,RMS/Sainik Prep,True
+ENG450,6,English,Parts Of Speech,Which part of speech describes a noun?,Adverb,Adjective,Verb,Conjunction,B,An adjective describes or modifies a noun.,Easy,RMS/Sainik Prep,True
+ENG451,6,English,Parts Of Speech,Which part of speech usually describes a verb?,Adverb,Noun,Pronoun,Preposition,A,An adverb commonly modifies a verb.,Easy,RMS/Sainik Prep,True
+ENG452,6,English,Parts Of Speech,Which part of speech joins words or clauses?,Conjunction,Interjection,Noun,Adverb,A,"A conjunction joins words, phrases or clauses.",Easy,RMS/Sainik Prep,True
+ENG453,6,English,Parts Of Speech,"Which part of speech shows relation such as place, time or direction?",Preposition,Noun,Verb,Adjective,A,A preposition expresses relationships.,Easy,RMS/Sainik Prep,True
+ENG454,6,English,Parts Of Speech,'Alas!' is an example of a/an ___.,noun,interjection,adjective,pronoun,B,Alas expresses sorrow or distress.,Easy,RMS/Sainik Prep,True
+ENG455,6,English,Parts Of Speech,"In 'She is very kind', 'very' is a/an ___.",adjective,adverb,noun,verb,B,Very modifies the adjective kind.,Medium,RMS/Sainik Prep,True
+ENG456,6,English,Parts Of Speech,"In 'He bought two books', 'two' is a/an ___.",verb,numeral adjective,adverb,preposition,B,Two tells the number of books.,Easy,RMS/Sainik Prep,True
+ENG457,6,English,Parts Of Speech,"In 'They went home', 'They' is a/an ___.",pronoun,adjective,adverb,conjunction,A,They replaces the names of people.,Easy,RMS/Sainik Prep,True
+ENG458,6,English,Parts Of Speech,"In 'The baby slept peacefully', 'peacefully' is a/an ___.",adverb,adjective,noun,verb,A,Peacefully describes how the baby slept.,Easy,RMS/Sainik Prep,True
+ENG459,6,English,Parts Of Speech,"In 'The boy kicked the ball', 'kicked' is a/an ___.",noun,verb,adjective,pronoun,B,Kicked expresses an action.,Easy,RMS/Sainik Prep,True
+ENG460,6,English,Parts Of Speech,"In 'The tall tree fell', 'tall' is a/an ___.",adjective,adverb,verb,noun,A,Tall describes tree.,Easy,RMS/Sainik Prep,True
+ENG461,6,English,Parts Of Speech,"In 'He sat beside me', 'beside' is a/an ___.",conjunction,preposition,adjective,interjection,B,Beside shows position and is a preposition.,Medium,RMS/Sainik Prep,True
+ENG462,6,English,Parts Of Speech,"In 'I wanted tea but he wanted coffee', 'but' is a/an ___.",preposition,conjunction,adverb,pronoun,B,But joins contrasting clauses.,Easy,RMS/Sainik Prep,True
+ENG463,6,English,Parts Of Speech,"In 'Oh! I forgot my book', 'Oh' is a/an ___.",interjection,noun,verb,adjective,A,Oh expresses sudden feeling.,Easy,RMS/Sainik Prep,True
+ENG464,6,English,Parts Of Speech,Which word is a verb in 'The birds fly high'?,birds,fly,high,the,B,Fly expresses the action.,Easy,RMS/Sainik Prep,True
+ENG465,6,English,Parts Of Speech,Which word is an adjective in 'She wore a silk dress'?,wore,silk,dress,she,B,Silk describes the material of the dress.,Medium,RMS/Sainik Prep,True
+ENG466,6,English,Parts Of Speech,Which word is an adverb in 'He arrived late'?,he,arrived,late,the,C,Late tells when he arrived.,Easy,RMS/Sainik Prep,True
+ENG467,6,English,Parts Of Speech,Which word is a pronoun in 'This is mine'?,This,is,mine,the,C,Mine is a possessive pronoun.,Easy,RMS/Sainik Prep,True
+ENG468,6,English,Parts Of Speech,Which word is a conjunction in 'Study hard or you may fail'?,Study,hard,or,fail,C,Or joins alternatives.,Easy,RMS/Sainik Prep,True
+ENG469,6,English,Parts Of Speech,Which word is a preposition in 'The cat jumped over the wall'?,cat,jumped,over,wall,C,Over shows the relation of movement.,Easy,RMS/Sainik Prep,True
+ENG470,6,English,Parts Of Speech,Which word is an interjection in 'Hurray! We won.'?,We,won,Hurray,the,C,Hurray expresses joy.,Easy,RMS/Sainik Prep,True
+ENG471,6,English,Parts Of Speech,"In 'The extremely bright light hurt my eyes', 'extremely' is a/an ___.",adverb,adjective,noun,verb,A,Extremely modifies the adjective bright.,Hard,RMS/Sainik Prep,True
+ENG472,6,English,Parts Of Speech,"In 'Honesty is the best policy', 'Honesty' is a/an ___.",verb,abstract noun,adverb,preposition,B,Honesty names an abstract quality.,Easy,RMS/Sainik Prep,True
+ENG473,6,English,Parts Of Speech,Which word can function as both noun and verb?,watch,quickly,under,very,A,Watch can be a noun (a watch) or a verb (to watch).,Medium,RMS/Sainik Prep,True
+ENG474,6,English,Parts Of Speech,Which word can be a noun and a verb: 'I will book a room'?,book,will,a,room,A,Book is a noun in 'a book' and a verb in 'book a room'.,Medium,RMS/Sainik Prep,True
+ENG475,6,English,Articles,I saw ___ elephant in the zoo.,a,an,the,no,B,An is used before the vowel sound in elephant.,Easy,RMS/Sainik Prep,True
+ENG476,6,English,Articles,She is ___ university student.,a,an,the,no,A,University begins with the consonant sound /y/.,Medium,RMS/Sainik Prep,True
+ENG477,6,English,Articles,He is ___ honest officer.,a,an,the,no,B,Honest begins with a vowel sound.,Easy,RMS/Sainik Prep,True
+ENG478,6,English,Articles,___ sun rises in the east.,A,An,The,No article,C,The is used for a unique object such as the sun.,Easy,RMS/Sainik Prep,True
+ENG479,6,English,Articles,I have ___ umbrella.,a,an,the,no,B,Umbrella begins with a vowel sound.,Easy,RMS/Sainik Prep,True
+ENG480,6,English,Determiners,There are ___ students in the hall.,much,many,little,any,B,Many is used with countable plural nouns.,Easy,RMS/Sainik Prep,True
+ENG481,6,English,Determiners,There isn't ___ milk left.,many,much,few,several,B,Much is used with uncountable milk in a negative sentence.,Easy,RMS/Sainik Prep,True
+ENG482,6,English,Determiners,I have ___ friends in this city.,a little,a few,much,little,B,A few is used with countable plural friends.,Easy,RMS/Sainik Prep,True
+ENG483,6,English,Determiners,There is ___ sugar in the jar.,a few,a little,many,several,B,A little is used with uncountable sugar.,Easy,RMS/Sainik Prep,True
+ENG484,6,English,Determiners,___ student must carry an identity card.,Every,Many,Few,Several,A,Every refers to each member of a group individually.,Easy,RMS/Sainik Prep,True
+ENG485,6,English,Determiners,___ of the two answers is correct?,Which,Who,How much,Where,A,Which is used to choose between alternatives.,Easy,RMS/Sainik Prep,True
+ENG486,6,English,Determiners,"I have ___ money, so I can buy the book.",enough,many,few,several,A,Enough indicates a sufficient quantity.,Medium,RMS/Sainik Prep,True
+ENG487,6,English,Modals,You ___ obey traffic rules.,should,might,would,could,A,Should expresses advice or duty.,Easy,RMS/Sainik Prep,True
+ENG488,6,English,Modals,"___ I come in, sir?",May,Must,Should,Would,A,May is commonly used for polite permission.,Easy,RMS/Sainik Prep,True
+ENG489,6,English,Modals,You ___ not touch that wire; it is dangerous.,must,can,may,would,A,Must expresses strong necessity or prohibition with not.,Medium,RMS/Sainik Prep,True
+ENG490,6,English,Modals,"When I was five, I ___ swim.",could,must,may,shall,A,Could expresses past ability.,Easy,RMS/Sainik Prep,True
+ENG491,6,English,Modals,It ___ rain tonight.,might,must,should,shall,A,Might expresses possibility.,Easy,RMS/Sainik Prep,True
+ENG492,6,English,Modals,We ___ respect our elders.,should,might,could,would,A,Should expresses advice or moral duty.,Easy,RMS/Sainik Prep,True
+ENG493,6,English,Modals,___ you please help me?,Could,Must,Shall,May,A,Could is a polite way to make a request.,Easy,RMS/Sainik Prep,True
+ENG494,6,English,Conjunctions,I like tea ___ coffee.,and,but,because,although,A,And joins two similar choices.,Easy,RMS/Sainik Prep,True
+ENG495,6,English,Conjunctions,He is poor ___ honest.,and,but,or,so,B,But shows contrast.,Easy,RMS/Sainik Prep,True
+ENG496,6,English,Conjunctions,Study hard ___ you will pass.,and,or,because,although,A,And connects the two related clauses.,Easy,RMS/Sainik Prep,True
+ENG497,6,English,Conjunctions,Take an umbrella ___ it may rain.,because,but,or,and,A,Because gives the reason.,Easy,RMS/Sainik Prep,True
+ENG498,6,English,Conjunctions,Hurry up ___ you will miss the train.,or,and,because,although,A,Or expresses an alternative consequence.,Medium,RMS/Sainik Prep,True
+ENG499,6,English,Conjunctions,I stayed home ___ I was ill.,because,but,or,and,A,Because introduces the reason.,Easy,RMS/Sainik Prep,True
+ENG500,6,English,Conjunctions,"He worked hard, ___ he failed.",but,and,because,or,A,But shows contrast.,Easy,RMS/Sainik Prep,True
+ENG501,6,English,Conjunctions,You can have tea ___ coffee.,or,because,although,so,A,Or gives alternatives.,Easy,RMS/Sainik Prep,True
+ENG502,6,English,Conjunctions,"___ he is rich, he is not proud.",Although,Because,And,Or,A,Although introduces contrast.,Medium,RMS/Sainik Prep,True
+ENG503,6,English,Conjunctions,Wait here ___ I return.,until,and,or,because,A,Until means up to the time when.,Medium,RMS/Sainik Prep,True
+ENG504,6,English,Conjunctions,I will call you ___ I reach home.,when,but,or,although,A,When introduces the time condition.,Easy,RMS/Sainik Prep,True
+ENG505,6,English,Conjunctions,He ran fast ___ he could catch the bus.,so that,but,or,although,A,So that introduces purpose/result.,Medium,RMS/Sainik Prep,True
+ENG506,6,English,Determiners,___ books on this shelf are mine.,These,Much,Little,An,A,These is a demonstrative determiner modifying plural books.,Easy,RMS/Sainik Prep,True
+ENG507,6,English,Determiners,"___ book is yours, this one or that one?",Which,Many,Much,Few,A,Which asks for a choice among alternatives.,Easy,RMS/Sainik Prep,True
+ENG508,6,English,Modals,You ___ wear a helmet while riding a motorcycle.,must,might,could,would,A,Must expresses necessity.,Easy,RMS/Sainik Prep,True
+ENG509,6,English,Homophones,Choose the correct word: 'I can ___ the birds singing.',here,hear,hare,hair,B,Hear means perceive sound.,Easy,RMS/Sainik Prep,True
+ENG510,6,English,Homophones,Choose the correct word: 'The school is over ___.'.,their,there,they're,thare,B,There refers to a place.,Easy,RMS/Sainik Prep,True
+ENG511,6,English,Homophones,Choose the correct word: '___ going to the market.',Their,There,They're,Thare,C,They're is the contraction of they are.,Easy,RMS/Sainik Prep,True
+ENG512,6,English,Homophones,Choose the correct word: 'This is ___ house.',there,they're,their,thier,C,Their shows possession.,Easy,RMS/Sainik Prep,True
+ENG513,6,English,Homophones,Choose the correct word: 'I ate a ___ of bread.',piece,peace,pees,piese,A,Piece means a portion.,Easy,RMS/Sainik Prep,True
+ENG514,6,English,Homophones,Choose the correct word: 'We want ___ in the world.',piece,peace,pees,peece,B,Peace means absence of conflict.,Easy,RMS/Sainik Prep,True
+ENG515,6,English,Homophones,Choose the correct word: 'The ___ is shining.',son,sun,sunn,sone,B,Sun is the star that gives daylight.,Easy,RMS/Sainik Prep,True
+ENG516,6,English,Homophones,Choose the correct word: 'He is the ___ of the king.',son,sun,sunn,sone,A,Son means a male child.,Easy,RMS/Sainik Prep,True
+ENG517,6,English,Homophones,Choose the correct word: 'Please ___ the letter.',write,right,rite,writ,A,Write means put words on paper.,Easy,RMS/Sainik Prep,True
+ENG518,6,English,Homophones,Choose the correct word: 'You are ___ about this.',write,right,rite,wright,B,Right means correct.,Easy,RMS/Sainik Prep,True
+ENG519,6,English,Homophones,Choose the correct word: 'I need a ___ to cut the paper.',pair,pear,pare,peir,A,Pair means two matching items; here it refers to a pair of scissors.,Medium,RMS/Sainik Prep,True
+ENG520,6,English,Homophones,Choose the correct word: 'She ate a juicy ___.',pair,pear,pare,peare,B,Pear is a fruit.,Easy,RMS/Sainik Prep,True
+ENG521,6,English,One-word Substitution,A person who cannot read or write is called ___.,literate,illiterate,scholar,author,B,Illiterate means unable to read or write.,Medium,RMS/Sainik Prep,True
+ENG522,6,English,One-word Substitution,A place where books are kept for reading is a ___.,laboratory,library,bakery,gallery,B,A library is a place where books are kept.,Easy,RMS/Sainik Prep,True
+ENG523,6,English,One-word Substitution,A person who writes poems is a ___.,poet,pilot,painter,poacher,A,A poet writes poems.,Easy,RMS/Sainik Prep,True
+ENG524,6,English,One-word Substitution,A person who travels on foot is a ___.,pedestrian,passenger,pilot,driver,A,"A pedestrian is a person walking, especially on a road.",Medium,RMS/Sainik Prep,True
+ENG525,6,English,One-word Substitution,A person who loves books is a ___.,bibliophile,biologist,geologist,philosopher,A,Bibliophile means a person who loves books.,Hard,RMS/Sainik Prep,True
+ENG526,6,English,One-word Substitution,A place where aircraft are kept is an ___.,airport,aquarium,orphanage,arsenal,A,An airport is a place for aircraft operations.,Easy,RMS/Sainik Prep,True
+ENG527,6,English,One-word Substitution,A person who looks after a garden is a ___.,gardener,guard,guardian,grocer,A,A gardener tends a garden.,Easy,RMS/Sainik Prep,True
+ENG528,6,English,Word Formation,Choose the correct adjective from 'danger'.,dangerous,dangerously,danger,dangered,A,Dangerous is the adjective.,Easy,RMS/Sainik Prep,True
+ENG529,6,English,Word Formation,Choose the correct noun from 'kind'.,kindly,kindness,kinder,kindful,B,Kindness is the noun naming the quality.,Easy,RMS/Sainik Prep,True
+ENG530,6,English,Word Formation,Choose the correct verb from 'beauty'.,beautiful,beautify,beautifully,beautician,B,Beautify means make beautiful.,Medium,RMS/Sainik Prep,True
+ENG531,6,English,Word Formation,Choose the correct noun from 'decide'.,decisive,decision,decidingly,decided,B,Decision is the noun form.,Easy,RMS/Sainik Prep,True
+ENG532,6,English,Word Formation,Choose the correct adjective from 'hope'.,hopefully,hopeful,hope,hoped,B,Hopeful is an adjective.,Easy,RMS/Sainik Prep,True
+ENG533,6,English,Word Formation,Choose the correct adverb from 'polite'.,politeness,politely,politer,polite,B,Politely is the adverb form.,Easy,RMS/Sainik Prep,True
+ENG534,6,English,Word Formation,Choose the correct noun from 'strong'.,strongly,strength,stronger,strong,B,Strength is the noun form.,Easy,RMS/Sainik Prep,True
+ENG535,6,English,Word Formation,Choose the correct adjective from 'success'.,successfully,successful,success,succeed,B,Successful is an adjective.,Easy,RMS/Sainik Prep,True
+ENG536,6,English,Word Formation,Choose the correct noun from 'honest'.,honesty,honestly,honest,honester,A,Honesty is the abstract noun.,Easy,RMS/Sainik Prep,True
+ENG537,6,English,Word Formation,Choose the correct verb from 'decision'.,decide,decisive,deciding,decidedly,A,Decide is the verb.,Easy,RMS/Sainik Prep,True
+ENG538,6,English,Vocabulary,What does 'generous' mean?,willing to give,unwilling to help,very angry,very small,A,Generous means willing to give or share.,Easy,RMS/Sainik Prep,True
+ENG539,6,English,Vocabulary,What does 'fragile' mean?,easily broken,very strong,very large,very old,A,Fragile means easily broken or damaged.,Medium,RMS/Sainik Prep,True
+ENG540,6,English,Vocabulary,What does 'diligent' mean?,hard-working,lazy,careless,noisy,A,Diligent means careful and hard-working.,Medium,RMS/Sainik Prep,True
+ENG541,6,English,Vocabulary,What does 'compassion' mean?,sympathy for suffering,anger,fear,wealth,A,Compassion is concern for another's suffering.,Hard,RMS/Sainik Prep,True
+ENG542,6,English,Vocabulary,What does 'scarce' mean?,plentiful,rare or insufficient,cheap,bright,B,Scarce means in short supply.,Medium,RMS/Sainik Prep,True
+ENG543,6,English,Reading Comprehension,Read: 'The little boy carried an umbrella because dark clouds covered the sky.' Why did he carry an umbrella?,He was hungry,Dark clouds covered the sky,He wanted a toy,It was sunny,B,The sentence directly gives the reason: dark clouds covered the sky.,Easy,RMS/Sainik Prep,True
+ENG544,6,English,Reading Comprehension,"Read: 'Mina woke early, packed her bag, and hurried to school.' What did Mina do first?",hurried to school,packed her bag,woke early,ate lunch,C,The events are stated in order; she woke first.,Easy,RMS/Sainik Prep,True
+ENG545,6,English,Reading Comprehension,Read: 'The road was slippery after the rain.' What does 'slippery' mean here?,easy to grip,difficult to walk on safely,very dry,very wide,B,A slippery surface is difficult to walk on without slipping.,Easy,RMS/Sainik Prep,True
+ENG546,6,English,Reading Comprehension,Read: 'Arun was exhausted after the long race.' What does exhausted mean?,fresh,very tired,angry,excited,B,Exhausted means extremely tired.,Easy,RMS/Sainik Prep,True
+ENG547,6,English,Reading Comprehension,Read: 'The village was peaceful; there was hardly any noise.' What does peaceful mean?,quiet and calm,crowded,dangerous,dirty,A,Peaceful means calm and quiet.,Easy,RMS/Sainik Prep,True
+ENG548,6,English,Reading Comprehension,Read: 'The captain praised the players for their discipline.' What did the captain do?,scolded them,praised them,ignored them,dismissed them,B,Praised means expressed approval.,Easy,RMS/Sainik Prep,True
+ENG549,6,English,Reading Comprehension,"Read: 'Although the task was difficult, Riya completed it.' What is true?",Riya gave up,Riya completed the task,The task was easy,Riya ignored the task,B,The sentence says she completed it despite difficulty.,Easy,RMS/Sainik Prep,True
+ENG550,6,English,Reading Comprehension,Read: 'The farmer stored the grain safely before the storm.' When did he store it?,after the storm,before the storm,during the storm,next year,B,Before indicates the earlier time.,Easy,RMS/Sainik Prep,True
+ENG551,6,English,Reading Comprehension,Read: 'The puppy wagged its tail when it saw its owner.' What showed the puppy's reaction?,It barked,It wagged its tail,It slept,It ran away,B,The sentence identifies tail-wagging as the reaction.,Easy,RMS/Sainik Prep,True
+ENG552,6,English,Reading Comprehension,Read: 'Neha borrowed a book from the library and returned it two days later.' Where did she get the book?,school bus,library,market,home,B,She borrowed it from the library.,Easy,RMS/Sainik Prep,True
+ENG553,6,English,Reading Comprehension,Read: 'The old bridge was repaired because it had become unsafe.' Why was it repaired?,It was beautiful,It was unsafe,It was new,It was crowded,B,The sentence states that it had become unsafe.,Easy,RMS/Sainik Prep,True
+ENG554,6,English,Reading Comprehension,Read: 'Rohan saved money for months to buy a bicycle.' Why did he save money?,To buy a bicycle,To buy food,To travel by train,To pay a fine,A,The sentence directly states his purpose.,Easy,RMS/Sainik Prep,True
+ENG555,6,English,Reading Comprehension,Read: 'The teacher asked the students to remain silent during the test.' What were they asked to do?,talk loudly,remain silent,leave the room,sing,B,Remain silent means not speak.,Easy,RMS/Sainik Prep,True
