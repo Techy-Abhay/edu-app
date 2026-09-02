@@ -24,20 +24,20 @@ MATH022,6,Mathematics,Fractions,Convert 2 (3/5) into an improper fraction.,13/5,
 MATH023,6,Mathematics,Fractions,Which fraction is equivalent to 4/7?,12/21,8/15,16/24,10/14,A,4/7 multiplied by 3/3 = 12/21.,Easy,RMS/Sainik Prep,True
 MATH024,6,Mathematics,Fractions,Find 3/5 of 250 kg.,150 kg,100 kg,120 kg,200 kg,A,(3 * 250) / 5 = 750 / 5 = 150 kg.,Easy,RMS/Sainik Prep,True
 MATH025,6,Mathematics,Fractions,"Arrange in ascending order: 1/2, 2/3, 3/4","1/2, 2/3, 3/4","3/4, 2/3, 1/2","2/3, 1/2, 3/4","1/2, 3/4, 2/3",A,"1/2 = 0.50, 2/3 = 0.66, 3/4 = 0.75. So order is 1/2, 2/3, 3/4.",Easy,RMS/Sainik Prep,True
-MATH026,6,Mathematics,Decimals,Convert 0.35 into a simplified fraction.,7/20,35/10,3/5,7/100,A,0.35 = 35/100 = 7/20.,Easy,RMS/Sainik Prep,True
-MATH027,6,Mathematics,Decimals,Calculate: 12.5 * 0.4,5.0,50.0,0.5,5.2,A,125 * 4 = 500 -> shift decimal two places left = 5.0.,Easy,RMS/Sainik Prep,True
-MATH028,6,Mathematics,Decimals,Divide: 4.8 / 0.12,40,4,0.4,400,A,480 / 12 = 40.,Medium,RMS/Sainik Prep,True
-MATH029,6,Mathematics,Decimals,Add: 14.05 + 6.3 + 0.007,20.357,20.35,20.42,20.057,A,14.050 + 6.300 + 0.007 = 20.357.,Easy,RMS/Sainik Prep,True
-MATH030,6,Mathematics,Decimals,Subtract 3.84 from 10.,6.16,7.16,6.26,6.84,A,10.00 - 3.84 = 6.16.,Easy,RMS/Sainik Prep,True
+MATH026,6,Mathematics,Decimal Numbers,Convert 0.35 into a simplified fraction.,7/20,35/10,3/5,7/100,A,0.35 = 35/100 = 7/20.,Easy,RMS/Sainik Prep,True
+MATH027,6,Mathematics,Decimal Numbers,Calculate: 12.5 * 0.4,5.0,50.0,0.5,5.2,A,125 * 4 = 500 -> shift decimal two places left = 5.0.,Easy,RMS/Sainik Prep,True
+MATH028,6,Mathematics,Decimal Numbers,Divide: 4.8 / 0.12,40,4,0.4,400,A,480 / 12 = 40.,Medium,RMS/Sainik Prep,True
+MATH029,6,Mathematics,Decimal Numbers,Add: 14.05 + 6.3 + 0.007,20.357,20.35,20.42,20.057,A,14.050 + 6.300 + 0.007 = 20.357.,Easy,RMS/Sainik Prep,True
+MATH030,6,Mathematics,Decimal Numbers,Subtract 3.84 from 10.,6.16,7.16,6.26,6.84,A,10.00 - 3.84 = 6.16.,Easy,RMS/Sainik Prep,True
 MATH031,6,Mathematics,Fractions,"A tank is 3/4 full of water. If 15 liters are added, it becomes completely full. What is the capacity of tank?",60 liters,45 liters,30 liters,75 liters,A,"Remaining part = 1 - 3/4 = 1/4. If 1/4 = 15L, total capacity = 15 * 4 = 60L.",Hard,RMS/Sainik Prep,True
 MATH032,6,Mathematics,Fractions,Simplify: (2/3 * 9/4) / (3/2),1,3/2,9/8,2,A,(2/3 * 9/4) = 3/2. (3/2) / (3/2) = 1.,Medium,RMS/Sainik Prep,True
 MATH033,6,Mathematics,Fractions,What must be added to 5/8 to get 1?,3/8,5/8,1/8,7/8,A,1 - 5/8 = 3/8.,Easy,RMS/Sainik Prep,True
-MATH034,6,Mathematics,Decimals,Express 75 paise in rupees as a decimal.,Rs 0.75,Rs 7.5,Rs 0.075,Rs 75.0,A,75 paise = 75/100 rupees = 0.75 rupees.,Easy,RMS/Sainik Prep,True
-MATH035,6,Mathematics,Decimals,Express 4 km 65 m in kilometers.,4.065 km,4.65 km,4.650 km,40.65 km,A,65 m = 65/1000 km = 0.065 km. 4 + 0.065 = 4.065 km.,Medium,RMS/Sainik Prep,True
+MATH034,6,Mathematics,Decimal Numbers,Express 75 paise in rupees as a decimal.,Rs 0.75,Rs 7.5,Rs 0.075,Rs 75.0,A,75 paise = 75/100 rupees = 0.75 rupees.,Easy,RMS/Sainik Prep,True
+MATH035,6,Mathematics,Decimal Numbers,Express 4 km 65 m in kilometers.,4.065 km,4.65 km,4.650 km,40.65 km,A,65 m = 65/1000 km = 0.065 km. 4 + 0.065 = 4.065 km.,Medium,RMS/Sainik Prep,True
 MATH036,6,Mathematics,Fractions,Reciprocal of 4 (1/2) is ______.,2/9,9/2,-9/2,4/2,A,4 (1/2) = 9/2. Reciprocal = 2/9.,Easy,RMS/Sainik Prep,True
-MATH037,6,Mathematics,Decimals,Simplify: 0.1 * 0.01 * 0.001,0.000001,0.00001,0.001,0.0001,A,1 * 1 * 1 = 1. Total decimal places = 1 + 2 + 3 = 6 -> 0.000001.,Medium,RMS/Sainik Prep,True
+MATH037,6,Mathematics,Decimal Numbers,Simplify: 0.1 * 0.01 * 0.001,0.000001,0.00001,0.001,0.0001,A,1 * 1 * 1 = 1. Total decimal places = 1 + 2 + 3 = 6 -> 0.000001.,Medium,RMS/Sainik Prep,True
 MATH038,6,Mathematics,Fractions,"If 2/3 of a number is 40, what is the number?",60,80,30,120,A,(2/3) * X = 40 -> X = 40 * 3 / 2 = 60.,Easy,RMS/Sainik Prep,True
-MATH039,6,Mathematics,Decimals,Which is greater: 0.7 or 0.07?,0.7,0.07,Both are equal,Cannot be determined,A,0.7 = 0.70 which is greater than 0.07.,Easy,RMS/Sainik Prep,True
+MATH039,6,Mathematics,Decimal Numbers,Which is greater: 0.7 or 0.07?,0.7,0.07,Both are equal,Cannot be determined,A,0.7 = 0.70 which is greater than 0.07.,Easy,RMS/Sainik Prep,True
 MATH040,6,Mathematics,Fractions,Simplify: 1 - 1/2 - 1/4,1/4,1/2,3/4,0,A,1 - 1/2 = 1/2; 1/2 - 1/4 = 1/4.,Easy,RMS/Sainik Prep,True
 MATH041,6,Mathematics,Percentage,Express 4/5 as a percentage.,80%,75%,60%,85%,A,(4/5) * 100% = 80%.,Easy,RMS/Sainik Prep,True
 MATH042,6,Mathematics,Percentage,What is 20% of Rs. 1500?,Rs 300,Rs 250,Rs 350,Rs 200,A,(20 / 100) * 1500 = Rs 300.,Easy,RMS/Sainik Prep,True
@@ -52,20 +52,20 @@ MATH050,6,Mathematics,Profit and Loss,A chair bought for Rs 800 is sold at a los
 MATH051,6,Mathematics,Simple Interest,Find Simple Interest on Rs 4000 at 5% per annum for 3 years.,Rs 600,Rs 500,Rs 650,Rs 450,A,SI = (P * R * T) / 100 = (4000 * 5 * 3) / 100 = Rs 600.,Easy,RMS/Sainik Prep,True
 MATH052,6,Mathematics,Simple Interest,At what rate percent per annum will Rs 2000 amount to Rs 2600 in 5 years?,6%,5%,8%,10%,A,SI = 2600 - 2000 = 600. Rate = (600 * 100) / (2000 * 5) = 6%.,Medium,RMS/Sainik Prep,True
 MATH053,6,Mathematics,Simple Interest,In how many years will a sum of money double itself at 10% per annum SI?,10 years,5 years,8 years,12 years,A,"Let P = 100, SI = 100. T = (SI * 100) / (P * R) = (100 * 100) / (100 * 10) = 10 years.",Medium,RMS/Sainik Prep,True
-MATH054,6,Mathematics,Ratio & Proportion,Simplify the ratio 45 : 75.,3 : 5,5 : 3,9 : 15,4 : 5,A,"Divide both terms by 15: 45/15 = 3, 75/15 = 5 -> 3 : 5.",Easy,RMS/Sainik Prep,True
-MATH055,6,Mathematics,Ratio & Proportion,Divide Rs 1200 between A and B in the ratio 2 : 3.,"A = Rs 480, B = Rs 720","A = Rs 500, B = Rs 700","A = Rs 600, B = Rs 600","A = Rs 400, B = Rs 800",A,Total parts = 5. A's share = (2/5)*1200 = 480; B's share = (3/5)*1200 = 720.,Easy,RMS/Sainik Prep,True
-MATH056,6,Mathematics,Ratio & Proportion,"If 4, 12, 8, X are in proportion, find X.",24,16,32,20,A,Product of extremes = Product of means -> 4 * X = 12 * 8 -> 4X = 96 -> X = 24.,Medium,RMS/Sainik Prep,True
+MATH054,6,Mathematics,Ratio and Proportion,Simplify the ratio 45 : 75.,3 : 5,5 : 3,9 : 15,4 : 5,A,"Divide both terms by 15: 45/15 = 3, 75/15 = 5 -> 3 : 5.",Easy,RMS/Sainik Prep,True
+MATH055,6,Mathematics,Ratio and Proportion,Divide Rs 1200 between A and B in the ratio 2 : 3.,"A = Rs 480, B = Rs 720","A = Rs 500, B = Rs 700","A = Rs 600, B = Rs 600","A = Rs 400, B = Rs 800",A,Total parts = 5. A's share = (2/5)*1200 = 480; B's share = (3/5)*1200 = 720.,Easy,RMS/Sainik Prep,True
+MATH056,6,Mathematics,Ratio and Proportion,"If 4, 12, 8, X are in proportion, find X.",24,16,32,20,A,Product of extremes = Product of means -> 4 * X = 12 * 8 -> 4X = 96 -> X = 24.,Medium,RMS/Sainik Prep,True
 MATH057,6,Mathematics,Unitary Method,"If 15 notebooks cost Rs 300, what is the cost of 8 notebooks?",Rs 160,Rs 180,Rs 140,Rs 200,A,Cost of 1 notebook = 300 / 15 = Rs 20. Cost of 8 notebooks = 20 * 8 = Rs 160.,Easy,RMS/Sainik Prep,True
 MATH058,6,Mathematics,Unitary Method,10 men can complete a job in 6 days. How many days will 15 men take?,4 days,9 days,5 days,6 days,A,Man-days = 10 * 6 = 60. Days for 15 men = 60 / 15 = 4 days.,Medium,RMS/Sainik Prep,True
-MATH059,6,Mathematics,"Speed, Distance & Time",A car travels 180 km in 3 hours. What is its speed?,60 km/h,50 km/h,70 km/h,54 km/h,A,Speed = Distance / Time = 180 / 3 = 60 km/h.,Easy,RMS/Sainik Prep,True
-MATH060,6,Mathematics,"Speed, Distance & Time",Convert 72 km/h into m/s.,20 m/s,25 m/s,18 m/s,15 m/s,A,72 * (5 / 18) = 4 * 5 = 20 m/s.,Medium,RMS/Sainik Prep,True
-MATH061,6,Mathematics,"Speed, Distance & Time",A train 150 m long passes a telegraph pole in 10 seconds. Find speed of train in m/s.,15 m/s,10 m/s,20 m/s,12 m/s,A,Speed = Length / Time = 150 / 10 = 15 m/s.,Medium,RMS/Sainik Prep,True
-MATH062,6,Mathematics,"Speed, Distance & Time",How much time will a bus take to cover 250 km at a speed of 50 km/h?,5 hours,4 hours,6 hours,4.5 hours,A,Time = Distance / Speed = 250 / 50 = 5 hours.,Easy,RMS/Sainik Prep,True
+MATH059,6,Mathematics,"Time, Speed and Distance",A car travels 180 km in 3 hours. What is its speed?,60 km/h,50 km/h,70 km/h,54 km/h,A,Speed = Distance / Time = 180 / 3 = 60 km/h.,Easy,RMS/Sainik Prep,True
+MATH060,6,Mathematics,"Time, Speed and Distance",Convert 72 km/h into m/s.,20 m/s,25 m/s,18 m/s,15 m/s,A,72 * (5 / 18) = 4 * 5 = 20 m/s.,Medium,RMS/Sainik Prep,True
+MATH061,6,Mathematics,"Time, Speed and Distance",A train 150 m long passes a telegraph pole in 10 seconds. Find speed of train in m/s.,15 m/s,10 m/s,20 m/s,12 m/s,A,Speed = Length / Time = 150 / 10 = 15 m/s.,Medium,RMS/Sainik Prep,True
+MATH062,6,Mathematics,"Time, Speed and Distance",How much time will a bus take to cover 250 km at a speed of 50 km/h?,5 hours,4 hours,6 hours,4.5 hours,A,Time = Distance / Speed = 250 / 50 = 5 hours.,Easy,RMS/Sainik Prep,True
 MATH063,6,Mathematics,Average,"Find the average of 12, 18, 24, 30, and 36.",24,22,26,20,A,Sum = 120. Total numbers = 5. Average = 120 / 5 = 24.,Easy,RMS/Sainik Prep,True
 MATH064,6,Mathematics,Average,"The average weight of 4 boys is 40 kg. If a 5th boy weighing 50 kg joins, find new average.",42 kg,41 kg,45 kg,44 kg,A,Total weight of 4 = 160 kg. New sum = 160 + 50 = 210 kg. New average = 210 / 5 = 42 kg.,Medium,RMS/Sainik Prep,True
 MATH065,6,Mathematics,Average,"The average of 5 numbers is 20. If one number is excluded, average becomes 18. Find excluded number.",28,26,24,30,A,Sum of 5 = 100. Sum of 4 = 72. Excluded number = 100 - 72 = 28.,Hard,RMS/Sainik Prep,True
 MATH066,6,Mathematics,Percentage,"A town's population increases by 10% annually. If current population is 10,000, what will it be next year?","11,000","10,500","11,200","12,000",A,"10% of 10,000 = 1,000. New population = 10,000 + 1,000 = 11,000.",Easy,RMS/Sainik Prep,True
-MATH067,6,Mathematics,Ratio & Proportion,Ratio of boys to girls in a class of 45 students is 4 : 5. How many girls are there?,25,20,30,15,A,Girls share = (5 / 9) * 45 = 25.,Easy,RMS/Sainik Prep,True
+MATH067,6,Mathematics,Ratio and Proportion,Ratio of boys to girls in a class of 45 students is 4 : 5. How many girls are there?,25,20,30,15,A,Girls share = (5 / 9) * 45 = 25.,Easy,RMS/Sainik Prep,True
 MATH068,6,Mathematics,Unitary Method,"If 8 pipes can fill a tank in 3 hours, how long will 6 pipes take?",4 hours,3.5 hours,2.25 hours,5 hours,A,Work = 8 * 3 = 24 pipe-hours. Time for 6 pipes = 24 / 6 = 4 hours.,Medium,RMS/Sainik Prep,True
 MATH069,6,Mathematics,Simple Interest,"Find Principal if SI is Rs 450, Rate is 6% p.a. and Time is 3 years.",Rs 2500,Rs 2000,Rs 3000,Rs 2800,A,P = (SI * 100) / (R * T) = (450 * 100) / (6 * 3) = 45000 / 18 = Rs 2500.,Medium,RMS/Sainik Prep,True
 MATH070,6,Mathematics,Profit and Loss,Discount is always calculated on which price?,Marked Price (MP),Cost Price (CP),Selling Price (SP),Profit,A,Discounts are deducted from the Marked/List Price.,Easy,RMS/Sainik Prep,True
@@ -80,13 +80,13 @@ MATH078,6,Mathematics,Geometry,What is the complement of a 35 degree angle?,55 d
 MATH079,6,Mathematics,Geometry,What is the supplement of a 110 degree angle?,70 degrees,80 degrees,90 degrees,20 degrees,A,Supplementary angles sum to 180°. 180° - 110° = 70°.,Easy,RMS/Sainik Prep,True
 MATH080,6,Mathematics,Geometry,A triangle having all three sides of equal length is called ______.,Equilateral Triangle,Isosceles Triangle,Scalene Triangle,Right Triangle,A,Equilateral triangles have 3 equal sides and three 60° angles.,Easy,RMS/Sainik Prep,True
 MATH081,6,Mathematics,Geometry,How many lines of symmetry does a square have?,4,2,8,Infinite,A,"A square has 4 lines of symmetry (2 diagonal, 1 horizontal, 1 vertical).",Medium,RMS/Sainik Prep,True
-MATH082,6,Mathematics,Mensuration,Find the perimeter of a rectangle with length 12 cm and breadth 8 cm.,40 cm,96 cm,20 cm,48 cm,A,Perimeter = 2 * (L + B) = 2 * (12 + 8) = 2 * 20 = 40 cm.,Easy,RMS/Sainik Prep,True
-MATH083,6,Mathematics,Mensuration,Find the area of a square of side 15 cm.,225 sq cm,60 sq cm,150 sq cm,300 sq cm,A,Area = side * side = 15 * 15 = 225 cm².,Easy,RMS/Sainik Prep,True
-MATH084,6,Mathematics,Mensuration,"The area of a rectangle is 120 sq cm. If length is 15 cm, find breadth.",8 cm,10 cm,6 cm,12 cm,A,Breadth = Area / Length = 120 / 15 = 8 cm.,Easy,RMS/Sainik Prep,True
-MATH085,6,Mathematics,Mensuration,Find the side of a square whose perimeter is 48 cm.,12 cm,16 cm,24 cm,8 cm,A,Side = Perimeter / 4 = 48 / 4 = 12 cm.,Easy,RMS/Sainik Prep,True
-MATH086,6,Mathematics,Mensuration,Find the volume of a cube of edge 5 cm.,125 cubic cm,25 cubic cm,150 cubic cm,100 cubic cm,A,Volume = edge^3 = 5 * 5 * 5 = 125 cm³.,Easy,RMS/Sainik Prep,True
-MATH087,6,Mathematics,Mensuration,Find the area of a triangle with base 10 cm and height 6 cm.,30 sq cm,60 sq cm,16 sq cm,25 sq cm,A,Area = (1/2) * base * height = (1/2) * 10 * 6 = 30 cm².,Easy,RMS/Sainik Prep,True
-MATH088,6,Mathematics,Mensuration,The perimeter of an equilateral triangle is 36 cm. Find length of each side.,12 cm,18 cm,9 cm,6 cm,A,Side = 36 / 3 = 12 cm.,Easy,RMS/Sainik Prep,True
+MATH082,6,Mathematics,Area and Perimeter,Find the perimeter of a rectangle with length 12 cm and breadth 8 cm.,40 cm,96 cm,20 cm,48 cm,A,Perimeter = 2 * (L + B) = 2 * (12 + 8) = 2 * 20 = 40 cm.,Easy,RMS/Sainik Prep,True
+MATH083,6,Mathematics,Area and Perimeter,Find the area of a square of side 15 cm.,225 sq cm,60 sq cm,150 sq cm,300 sq cm,A,Area = side * side = 15 * 15 = 225 cm².,Easy,RMS/Sainik Prep,True
+MATH084,6,Mathematics,Area and Perimeter,"The area of a rectangle is 120 sq cm. If length is 15 cm, find breadth.",8 cm,10 cm,6 cm,12 cm,A,Breadth = Area / Length = 120 / 15 = 8 cm.,Easy,RMS/Sainik Prep,True
+MATH085,6,Mathematics,Area and Perimeter,Find the side of a square whose perimeter is 48 cm.,12 cm,16 cm,24 cm,8 cm,A,Side = Perimeter / 4 = 48 / 4 = 12 cm.,Easy,RMS/Sainik Prep,True
+MATH086,6,Mathematics,Area and Perimeter,Find the volume of a cube of edge 5 cm.,125 cubic cm,25 cubic cm,150 cubic cm,100 cubic cm,A,Volume = edge^3 = 5 * 5 * 5 = 125 cm³.,Easy,RMS/Sainik Prep,True
+MATH087,6,Mathematics,Area and Perimeter,Find the area of a triangle with base 10 cm and height 6 cm.,30 sq cm,60 sq cm,16 sq cm,25 sq cm,A,Area = (1/2) * base * height = (1/2) * 10 * 6 = 30 cm².,Easy,RMS/Sainik Prep,True
+MATH088,6,Mathematics,Area and Perimeter,The perimeter of an equilateral triangle is 36 cm. Find length of each side.,12 cm,18 cm,9 cm,6 cm,A,Side = 36 / 3 = 12 cm.,Easy,RMS/Sainik Prep,True
 MATH089,6,Mathematics,Geometry,A polygon with 6 sides is called a ______.,Hexagon,Pentagon,Octagon,Heptagon,A,A 6-sided polygon is a hexagon.,Easy,RMS/Sainik Prep,True
 MATH090,6,Mathematics,Geometry,The distance around a circle is called its ______.,Circumference,Diameter,Radius,Area,A,Circumference is the perimeter of a circle.,Easy,RMS/Sainik Prep,True
 MATH091,6,Mathematics,Geometry,"If the radius of a circle is 7 cm, find its diameter.",14 cm,21 cm,3.5 cm,49 cm,A,Diameter = 2 * Radius = 2 * 7 = 14 cm.,Easy,RMS/Sainik Prep,True
@@ -94,8 +94,408 @@ MATH092,6,Mathematics,Geometry,"If the diameter of a circle is 28 cm, find its c
 MATH093,6,Mathematics,Algebra,"If x = 3 and y = 4, evaluate: 2x + 3y",18,14,24,12,A,2(3) + 3(4) = 6 + 12 = 18.,Easy,RMS/Sainik Prep,True
 MATH094,6,Mathematics,Algebra,Subtract 3x - 5 from 7x + 2.,4x + 7,4x - 3,10x - 3,4x + 3,A,(7x + 2) - (3x - 5) = 7x + 2 - 3x + 5 = 4x + 7.,Medium,RMS/Sainik Prep,True
 MATH095,6,Mathematics,Algebra,Solve for y: 5y - 7 = 23,6,5,4,7,A,5y = 23 + 7 = 30 -> y = 6.,Easy,RMS/Sainik Prep,True
-MATH096,6,Mathematics,Mensuration,How many square meters are in 1 hectare?,"10,000 sq m","1,000 sq m",100 sq m,"1,000,000 sq m",A,"1 hectare = 100 m * 100 m = 10,000 m².",Medium,RMS/Sainik Prep,True
+MATH096,6,Mathematics,Area and Perimeter,How many square meters are in 1 hectare?,"10,000 sq m","1,000 sq m",100 sq m,"1,000,000 sq m",A,"1 hectare = 100 m * 100 m = 10,000 m².",Medium,RMS/Sainik Prep,True
 MATH097,6,Mathematics,Geometry,An angle measuring exactly 180 degrees is called a ______.,Straight Angle,Reflex Angle,Complete Angle,Right Angle,A,An angle of 180° forms a straight line.,Easy,RMS/Sainik Prep,True
 MATH098,6,Mathematics,Geometry,How many degrees are there in a complete revolution?,360 degrees,180 degrees,90 degrees,720 degrees,A,A full circular turn equals 360°.,Easy,RMS/Sainik Prep,True
-MATH099,6,Mathematics,Mensuration,Cost of fencing a square field of side 20 m at Rs 5 per meter is ______.,Rs 400,Rs 100,Rs 2000,Rs 800,A,Perimeter = 4 * 20 = 80 m. Cost = 80 * 5 = Rs 400.,Medium,RMS/Sainik Prep,True
+MATH099,6,Mathematics,Area and Perimeter,Cost of fencing a square field of side 20 m at Rs 5 per meter is ______.,Rs 400,Rs 100,Rs 2000,Rs 800,A,Perimeter = 4 * 20 = 80 m. Cost = 80 * 5 = Rs 400.,Medium,RMS/Sainik Prep,True
 MATH100,6,Mathematics,Algebra,Product of x and y divided by 4 is expressed as ______.,xy / 4,4 / xy,x + y / 4,4xy,A,Product xy divided by 4 gives xy/4.,Easy,RMS/Sainik Prep,True
+MATH101,6,Mathematics,Number System,"What is the place value of 5 in 452,389?",50000,5000,500000,50005,A,"The digit 5 is in the place represented by 10,000, so its place value is 50,000.",Easy,RMS/Sainik Prep,True
+MATH102,6,Mathematics,Number System,"What is the place value of 8 in 708,406?",8000,800,80000,8008,A,"The digit 8 is in the place represented by 1,000, so its place value is 8,000.",Easy,RMS/Sainik Prep,True
+MATH103,6,Mathematics,Number System,"What is the place value of 3 in 936,521?",30000,3000,300000,30003,A,"The digit 3 is in the place represented by 10,000, so its place value is 30,000.",Easy,RMS/Sainik Prep,True
+MATH104,6,Mathematics,Number System,"What is the place value of 2 in 120,507?",20000,2000,200000,20002,A,"The digit 2 is in the place represented by 10,000, so its place value is 20,000.",Easy,RMS/Sainik Prep,True
+MATH105,6,Mathematics,Number System,"What is the place value of 4 in 654,321?",4000,400,40000,4004,A,"The digit 4 is in the place represented by 1,000, so its place value is 4,000.",Easy,RMS/Sainik Prep,True
+MATH106,6,Mathematics,Number System,"What is the place value of 9 in 89,076?",9000,900,90000,9009,A,"The digit 9 is in the place represented by 1,000, so its place value is 9,000.",Easy,RMS/Sainik Prep,True
+MATH107,6,Mathematics,Number System,"What is the place value of 6 in 500,605?",600,60,6000,606,A,"The digit 6 is in the place represented by 100, so its place value is 600.",Easy,RMS/Sainik Prep,True
+MATH108,6,Mathematics,Number System,"What is the place value of 1 in 781,234?",1000,100,10000,1001,A,"The digit 1 is in the place represented by 1,000, so its place value is 1,000.",Easy,RMS/Sainik Prep,True
+MATH109,6,Mathematics,Number System,"What is the place value of 5 in 305,070?",5000,500,50000,5005,A,"The digit 5 is in the place represented by 1,000, so its place value is 5,000.",Easy,RMS/Sainik Prep,True
+MATH110,6,Mathematics,Number System,"What is the place value of the digit 9 in the ten-thousands place of 999,999?","90,000","9,000","900,000",9,A,"The digit 9 in the ten-thousands place has place value 9 × 10,000 = 90,000.",Easy,RMS/Sainik Prep,True
+MATH111,6,Mathematics,Number System,Which statement about 47 is correct?,47 is prime,47 is even,47 is a multiple of 5,47 is composite,A,A prime number has exactly two factors. 47 has no divisor other than 1 and itself.,Medium,RMS/Sainik Prep,True
+MATH112,6,Mathematics,Number System,Which statement about 58 is correct?,58 is prime,58 is even,58 is a multiple of 5,58 is composite,D,"58 has factors other than 1 and itself, so it is composite.",Medium,RMS/Sainik Prep,True
+MATH113,6,Mathematics,Number System,Which statement about 71 is correct?,71 is prime,71 is even,71 is a multiple of 5,71 is composite,A,A prime number has exactly two factors. 71 has no divisor other than 1 and itself.,Medium,RMS/Sainik Prep,True
+MATH114,6,Mathematics,Number System,Which statement about 86 is correct?,86 is prime,86 is even,86 is a multiple of 5,86 is composite,D,"86 has factors other than 1 and itself, so it is composite.",Medium,RMS/Sainik Prep,True
+MATH115,6,Mathematics,Number System,Which statement about 103 is correct?,103 is prime,103 is even,103 is a multiple of 5,103 is composite,A,A prime number has exactly two factors. 103 has no divisor other than 1 and itself.,Medium,RMS/Sainik Prep,True
+MATH116,6,Mathematics,Number System,Which statement about 121 is correct?,121 is prime,121 is even,121 is a multiple of 5,121 is composite,D,"121 has factors other than 1 and itself, so it is composite.",Medium,RMS/Sainik Prep,True
+MATH117,6,Mathematics,Number System,Which statement about 149 is correct?,149 is prime,149 is even,149 is a multiple of 5,149 is composite,A,A prime number has exactly two factors. 149 has no divisor other than 1 and itself.,Medium,RMS/Sainik Prep,True
+MATH118,6,Mathematics,Number System,Which statement about 173 is correct?,173 is prime,173 is even,173 is a multiple of 5,173 is composite,A,A prime number has exactly two factors. 173 has no divisor other than 1 and itself.,Medium,RMS/Sainik Prep,True
+MATH119,6,Mathematics,Number System,Which statement about 197 is correct?,197 is prime,197 is even,197 is a multiple of 5,197 is composite,A,A prime number has exactly two factors. 197 has no divisor other than 1 and itself.,Medium,RMS/Sainik Prep,True
+MATH120,6,Mathematics,Number System,Which statement about 211 is correct?,211 is prime,211 is even,211 is a multiple of 5,211 is composite,A,A prime number has exactly two factors. 211 has no divisor other than 1 and itself.,Medium,RMS/Sainik Prep,True
+MATH121,6,Mathematics,Number System,Which pair is a pair of twin primes?,3 and 5,3 and 7,5 and 7,1 and 5,A,Twin primes are two prime numbers whose difference is 2.,Medium,RMS/Sainik Prep,True
+MATH122,6,Mathematics,Number System,Which pair is a pair of twin primes?,5 and 7,5 and 9,7 and 9,3 and 7,A,Twin primes are two prime numbers whose difference is 2.,Medium,RMS/Sainik Prep,True
+MATH123,6,Mathematics,Number System,Which pair is a pair of twin primes?,11 and 13,11 and 15,13 and 15,9 and 13,A,Twin primes are two prime numbers whose difference is 2.,Medium,RMS/Sainik Prep,True
+MATH124,6,Mathematics,Number System,Which pair is a pair of twin primes?,17 and 19,17 and 21,19 and 21,15 and 19,A,Twin primes are two prime numbers whose difference is 2.,Medium,RMS/Sainik Prep,True
+MATH125,6,Mathematics,Number System,Which pair is a pair of twin primes?,29 and 31,29 and 33,31 and 33,27 and 31,A,Twin primes are two prime numbers whose difference is 2.,Medium,RMS/Sainik Prep,True
+MATH126,6,Mathematics,Number System,Which pair is a pair of twin primes?,41 and 43,41 and 45,43 and 45,39 and 43,A,Twin primes are two prime numbers whose difference is 2.,Medium,RMS/Sainik Prep,True
+MATH127,6,Mathematics,Number System,Which pair is a pair of twin primes?,59 and 61,59 and 63,61 and 63,57 and 61,A,Twin primes are two prime numbers whose difference is 2.,Medium,RMS/Sainik Prep,True
+MATH128,6,Mathematics,Number System,Which pair is a pair of twin primes?,71 and 73,71 and 75,73 and 75,69 and 73,A,Twin primes are two prime numbers whose difference is 2.,Medium,RMS/Sainik Prep,True
+MATH129,6,Mathematics,Number System,Which pair is a pair of twin primes?,101 and 103,101 and 105,103 and 105,99 and 103,A,Twin primes are two prime numbers whose difference is 2.,Medium,RMS/Sainik Prep,True
+MATH130,6,Mathematics,Number System,Which pair is a pair of twin primes?,107 and 109,107 and 111,109 and 111,105 and 109,A,Twin primes are two prime numbers whose difference is 2.,Medium,RMS/Sainik Prep,True
+MATH131,6,Mathematics,Number System,What is the successor of 999?,1000,998,1009,1099,A,The successor is the number obtained by adding 1.,Easy,RMS/Sainik Prep,True
+MATH132,6,Mathematics,Number System,"What is the successor of 4,500?",4501,4499,4510,4600,A,The successor is the number obtained by adding 1.,Easy,RMS/Sainik Prep,True
+MATH133,6,Mathematics,Number System,"What is the successor of 7,899?",7900,7898,7909,7999,A,The successor is the number obtained by adding 1.,Easy,RMS/Sainik Prep,True
+MATH134,6,Mathematics,Number System,"What is the successor of 12,000?",12001,11999,12010,12100,A,The successor is the number obtained by adding 1.,Easy,RMS/Sainik Prep,True
+MATH135,6,Mathematics,Number System,"What is the successor of 99,999?",100000,99998,100009,100099,A,The successor is the number obtained by adding 1.,Easy,RMS/Sainik Prep,True
+MATH136,6,Mathematics,Number System,"What is the predecessor of 1,000?",999,1001,990,900,A,The predecessor is the number immediately before the given number.,Easy,RMS/Sainik Prep,True
+MATH137,6,Mathematics,Number System,"What is the predecessor of 4,501?",4500,4502,4491,4401,A,The predecessor is the number immediately before the given number.,Easy,RMS/Sainik Prep,True
+MATH138,6,Mathematics,Number System,"What is the predecessor of 8,000?",7999,8001,7990,7900,A,The predecessor is the number immediately before the given number.,Easy,RMS/Sainik Prep,True
+MATH139,6,Mathematics,Number System,"What is the predecessor of 12,001?",12000,12002,11991,11901,A,The predecessor is the number immediately before the given number.,Easy,RMS/Sainik Prep,True
+MATH140,6,Mathematics,Number System,"What is the predecessor of 100,000?",99999,100001,99990,99900,A,The predecessor is the number immediately before the given number.,Easy,RMS/Sainik Prep,True
+MATH141,6,Mathematics,Roman Numerals,How is 14 written in Roman numerals?,XIV,XV,XIII,XXIV,A,The Roman numeral is formed using standard symbols and subtraction rules.,Medium,RMS/Sainik Prep,True
+MATH142,6,Mathematics,Roman Numerals,How is 23 written in Roman numerals?,XXIII,XXIV,XXII,XXXIII,A,The Roman numeral is formed using standard symbols and subtraction rules.,Medium,RMS/Sainik Prep,True
+MATH143,6,Mathematics,Roman Numerals,How is 32 written in Roman numerals?,XXXII,XXXIII,XXXI,XLII,A,The Roman numeral is formed using standard symbols and subtraction rules.,Medium,RMS/Sainik Prep,True
+MATH144,6,Mathematics,Roman Numerals,How is 41 written in Roman numerals?,XLI,XLII,XL,LI,A,The Roman numeral is formed using standard symbols and subtraction rules.,Medium,RMS/Sainik Prep,True
+MATH145,6,Mathematics,Roman Numerals,How is 50 written in Roman numerals?,L,LI,XLIX,LX,A,The Roman numeral is formed using standard symbols and subtraction rules.,Medium,RMS/Sainik Prep,True
+MATH146,6,Mathematics,Roman Numerals,How is 59 written in Roman numerals?,LIX,LX,LVIII,LXIX,A,The Roman numeral is formed using standard symbols and subtraction rules.,Medium,RMS/Sainik Prep,True
+MATH147,6,Mathematics,Roman Numerals,How is 68 written in Roman numerals?,LXVIII,LXIX,LXVII,LXXVIII,A,The Roman numeral is formed using standard symbols and subtraction rules.,Medium,RMS/Sainik Prep,True
+MATH148,6,Mathematics,Roman Numerals,How is 77 written in Roman numerals?,LXXVII,LXXVIII,LXXVI,LXXXVII,A,The Roman numeral is formed using standard symbols and subtraction rules.,Medium,RMS/Sainik Prep,True
+MATH149,6,Mathematics,Roman Numerals,How is 86 written in Roman numerals?,LXXXVI,LXXXVII,LXXXV,XCVI,A,The Roman numeral is formed using standard symbols and subtraction rules.,Medium,RMS/Sainik Prep,True
+MATH150,6,Mathematics,Roman Numerals,How is 95 written in Roman numerals?,XCV,XCVI,XCIV,CV,A,The Roman numeral is formed using standard symbols and subtraction rules.,Medium,RMS/Sainik Prep,True
+MATH151,6,Mathematics,Roman Numerals,How is 99 written in Roman numerals?,XCIX,C,XCVIII,CIX,A,The Roman numeral is formed using standard symbols and subtraction rules.,Medium,RMS/Sainik Prep,True
+MATH152,6,Mathematics,Roman Numerals,How is 145 written in Roman numerals?,CXLV,CXLVI,CXLIV,CLV,A,The Roman numeral is formed using standard symbols and subtraction rules.,Medium,RMS/Sainik Prep,True
+MATH153,6,Mathematics,Roman Numerals,How is 276 written in Roman numerals?,CCLXXVI,CCLXXVII,CCLXXV,CCLXXXVI,A,The Roman numeral is formed using standard symbols and subtraction rules.,Medium,RMS/Sainik Prep,True
+MATH154,6,Mathematics,Roman Numerals,How is 399 written in Roman numerals?,CCCXCIX,CD,CCCXCVIII,CDIX,A,The Roman numeral is formed using standard symbols and subtraction rules.,Medium,RMS/Sainik Prep,True
+MATH155,6,Mathematics,Roman Numerals,How is 444 written in Roman numerals?,CDXLIV,CDXLV,CDXLIII,CDLIV,A,The Roman numeral is formed using standard symbols and subtraction rules.,Medium,RMS/Sainik Prep,True
+MATH156,6,Mathematics,Roman Numerals,How is 509 written in Roman numerals?,DIX,DX,DVIII,DXIX,A,The Roman numeral is formed using standard symbols and subtraction rules.,Medium,RMS/Sainik Prep,True
+MATH157,6,Mathematics,Roman Numerals,How is 649 written in Roman numerals?,DCXLIX,DCL,DCXLVIII,DCLIX,A,The Roman numeral is formed using standard symbols and subtraction rules.,Medium,RMS/Sainik Prep,True
+MATH158,6,Mathematics,Roman Numerals,How is 750 written in Roman numerals?,DCCL,DCCLI,DCCXLIX,DCCLX,A,The Roman numeral is formed using standard symbols and subtraction rules.,Medium,RMS/Sainik Prep,True
+MATH159,6,Mathematics,Roman Numerals,How is 890 written in Roman numerals?,DCCCXC,DCCCXCI,DCCCLXXXIX,CM,A,The Roman numeral is formed using standard symbols and subtraction rules.,Medium,RMS/Sainik Prep,True
+MATH160,6,Mathematics,Roman Numerals,How is 999 written in Roman numerals?,CMXCIX,M,CMXCVIII,MIX,A,The Roman numeral is formed using standard symbols and subtraction rules.,Medium,RMS/Sainik Prep,True
+MATH161,6,Mathematics,Roman Numerals,What is the value of the Roman numeral XL?,40,50,30,140,A,XL represents 40.,Medium,RMS/Sainik Prep,True
+MATH162,6,Mathematics,Roman Numerals,What is the value of the Roman numeral LX?,60,70,50,160,A,LX represents 60.,Medium,RMS/Sainik Prep,True
+MATH163,6,Mathematics,Roman Numerals,What is the value of the Roman numeral XC?,90,100,80,190,A,XC represents 90.,Medium,RMS/Sainik Prep,True
+MATH164,6,Mathematics,Roman Numerals,What is the value of the Roman numeral CXL?,140,150,130,240,A,CXL represents 140.,Medium,RMS/Sainik Prep,True
+MATH165,6,Mathematics,Roman Numerals,What is the value of the Roman numeral CD?,400,410,390,500,A,CD represents 400.,Medium,RMS/Sainik Prep,True
+MATH166,6,Mathematics,Roman Numerals,What is the value of the Roman numeral D?,500,510,490,600,A,D represents 500.,Medium,RMS/Sainik Prep,True
+MATH167,6,Mathematics,Roman Numerals,What is the value of the Roman numeral CM?,900,910,890,1000,A,CM represents 900.,Medium,RMS/Sainik Prep,True
+MATH168,6,Mathematics,Roman Numerals,What is the value of the Roman numeral DCCL?,750,760,740,850,A,DCCL represents 750.,Medium,RMS/Sainik Prep,True
+MATH169,6,Mathematics,Roman Numerals,What is the value of the Roman numeral CDXLIV?,444,454,434,544,A,CDXLIV represents 444.,Medium,RMS/Sainik Prep,True
+MATH170,6,Mathematics,Roman Numerals,What is the value of the Roman numeral CMXCIX?,999,1009,989,1099,A,CMXCIX represents 999.,Medium,RMS/Sainik Prep,True
+MATH171,6,Mathematics,Operations on Numbers,"Find: 234,567 + 123,456.",358023,361603,354443,365183,A,"Using the required operation, the answer is 358,023.",Easy,RMS/Sainik Prep,True
+MATH172,6,Mathematics,Operations on Numbers,"Find: 508,090 + 271,905.",779995,787794,772196,795593,A,"Using the required operation, the answer is 779,995.",Easy,RMS/Sainik Prep,True
+MATH173,6,Mathematics,Operations on Numbers,"Find: 765,432 + 123,987.",889419,898313,880525,907207,A,"Using the required operation, the answer is 889,419.",Easy,RMS/Sainik Prep,True
+MATH174,6,Mathematics,Operations on Numbers,"Find: 900,000 − 345,678.",554322,559865,548779,565408,A,"Using the required operation, the answer is 554,322.",Easy,RMS/Sainik Prep,True
+MATH175,6,Mathematics,Operations on Numbers,"Find: 700,500 − 298,765.",401735,405752,397718,409769,A,"Using the required operation, the answer is 401,735.",Easy,RMS/Sainik Prep,True
+MATH176,6,Mathematics,Operations on Numbers,"Find: 1,000,000 − 456,789.",543211,548643,537779,554075,A,"Using the required operation, the answer is 543,211.",Easy,RMS/Sainik Prep,True
+MATH177,6,Mathematics,Operations on Numbers,"Find: 2,345 × 36.",84420,85264,83576,86108,A,"Using the required operation, the answer is 84,420.",Medium,RMS/Sainik Prep,True
+MATH178,6,Mathematics,Operations on Numbers,"Find: 1,206 × 45.",54270,54812,53728,55354,A,"Using the required operation, the answer is 54,270.",Medium,RMS/Sainik Prep,True
+MATH179,6,Mathematics,Operations on Numbers,"Find: 3,456 × 27.",93312,94245,92379,95178,A,"Using the required operation, the answer is 93,312.",Medium,RMS/Sainik Prep,True
+MATH180,6,Mathematics,Operations on Numbers,"What is 9,876 ÷ 12?",823,831,815,839,A,"Using the required operation, the answer is 823.",Medium,RMS/Sainik Prep,True
+MATH181,6,Mathematics,Operations on Numbers,"What is 14,400 ÷ 24?",600,606,594,612,A,"Using the required operation, the answer is 600.",Medium,RMS/Sainik Prep,True
+MATH182,6,Mathematics,Operations on Numbers,"What is 15,750 ÷ 35?",450,454,446,458,A,"Using the required operation, the answer is 450.",Medium,RMS/Sainik Prep,True
+MATH183,6,Mathematics,Operations on Numbers,"Find: 234,567 + 123,456.",358023,361603,354443,365183,A,"Using the required operation, the answer is 358,023.",Easy,RMS/Sainik Prep,True
+MATH184,6,Mathematics,Operations on Numbers,"Find: 508,090 + 271,905.",779995,787794,772196,795593,A,"Using the required operation, the answer is 779,995.",Easy,RMS/Sainik Prep,True
+MATH185,6,Mathematics,Operations on Numbers,"Find: 765,432 + 123,987.",889419,898313,880525,907207,A,"Using the required operation, the answer is 889,419.",Easy,RMS/Sainik Prep,True
+MATH186,6,Mathematics,Operations on Numbers,"Find: 900,000 − 345,678.",554322,559865,548779,565408,A,"Using the required operation, the answer is 554,322.",Easy,RMS/Sainik Prep,True
+MATH187,6,Mathematics,Operations on Numbers,"Find: 700,500 − 298,765.",401735,405752,397718,409769,A,"Using the required operation, the answer is 401,735.",Easy,RMS/Sainik Prep,True
+MATH188,6,Mathematics,Operations on Numbers,"Find: 1,000,000 − 456,789.",543211,548643,537779,554075,A,"Using the required operation, the answer is 543,211.",Easy,RMS/Sainik Prep,True
+MATH189,6,Mathematics,Operations on Numbers,"Find: 2,345 × 36.",84420,85264,83576,86108,A,"Using the required operation, the answer is 84,420.",Medium,RMS/Sainik Prep,True
+MATH190,6,Mathematics,Operations on Numbers,"Find: 1,206 × 45.",54270,54812,53728,55354,A,"Using the required operation, the answer is 54,270.",Medium,RMS/Sainik Prep,True
+MATH191,6,Mathematics,Operations on Numbers,"Find: 3,456 × 27.",93312,94245,92379,95178,A,"Using the required operation, the answer is 93,312.",Medium,RMS/Sainik Prep,True
+MATH192,6,Mathematics,Operations on Numbers,"What is 9,876 ÷ 12?",823,831,815,839,A,"Using the required operation, the answer is 823.",Medium,RMS/Sainik Prep,True
+MATH193,6,Mathematics,Operations on Numbers,"What is 14,400 ÷ 24?",600,606,594,612,A,"Using the required operation, the answer is 600.",Medium,RMS/Sainik Prep,True
+MATH194,6,Mathematics,Operations on Numbers,"What is 15,750 ÷ 35?",450,454,446,458,A,"Using the required operation, the answer is 450.",Medium,RMS/Sainik Prep,True
+MATH195,6,Mathematics,BODMAS / Simplification,Simplify: 18+6×4.,42,46,38,50,A,"Apply brackets first, then multiplication/division, and finally addition/subtraction according to BODMAS.",Medium,RMS/Sainik Prep,True
+MATH196,6,Mathematics,BODMAS / Simplification,Simplify: (24+12)÷6.,6,7,5,8,A,"Apply brackets first, then multiplication/division, and finally addition/subtraction according to BODMAS.",Medium,RMS/Sainik Prep,True
+MATH197,6,Mathematics,BODMAS / Simplification,Simplify: 50−8×3.,26,28,24,30,A,"Apply brackets first, then multiplication/division, and finally addition/subtraction according to BODMAS.",Medium,RMS/Sainik Prep,True
+MATH198,6,Mathematics,BODMAS / Simplification,Simplify: 72÷(6+3).,8,9,7,10,A,"Apply brackets first, then multiplication/division, and finally addition/subtraction according to BODMAS.",Medium,RMS/Sainik Prep,True
+MATH199,6,Mathematics,BODMAS / Simplification,Simplify: 15+20÷5.,19,20,18,21,A,"Apply brackets first, then multiplication/division, and finally addition/subtraction according to BODMAS.",Medium,RMS/Sainik Prep,True
+MATH200,6,Mathematics,BODMAS / Simplification,Simplify: (9+7)×3.,48,52,44,56,A,"Apply brackets first, then multiplication/division, and finally addition/subtraction according to BODMAS.",Medium,RMS/Sainik Prep,True
+MATH201,6,Mathematics,BODMAS / Simplification,Simplify: 100−(18+12)÷5.,94,103,85,112,A,"Apply brackets first, then multiplication/division, and finally addition/subtraction according to BODMAS.",Medium,RMS/Sainik Prep,True
+MATH202,6,Mathematics,BODMAS / Simplification,Simplify: 8×(7−2)+6.,46,50,42,54,A,"Apply brackets first, then multiplication/division, and finally addition/subtraction according to BODMAS.",Medium,RMS/Sainik Prep,True
+MATH203,6,Mathematics,BODMAS / Simplification,Simplify: 64÷8+7×3.,29,31,27,33,A,"Apply brackets first, then multiplication/division, and finally addition/subtraction according to BODMAS.",Medium,RMS/Sainik Prep,True
+MATH204,6,Mathematics,BODMAS / Simplification,Simplify: (45−15)÷5+9.,15,16,14,17,A,"Apply brackets first, then multiplication/division, and finally addition/subtraction according to BODMAS.",Medium,RMS/Sainik Prep,True
+MATH205,6,Mathematics,BODMAS / Simplification,Simplify: 6+4×5−8.,18,19,17,20,A,"Apply brackets first, then multiplication/division, and finally addition/subtraction according to BODMAS.",Medium,RMS/Sainik Prep,True
+MATH206,6,Mathematics,BODMAS / Simplification,Simplify: 36÷6×4.,24,26,22,28,A,"Apply brackets first, then multiplication/division, and finally addition/subtraction according to BODMAS.",Medium,RMS/Sainik Prep,True
+MATH207,6,Mathematics,BODMAS / Simplification,Simplify: 5×(12+8)÷4.,25,27,23,29,A,"Apply brackets first, then multiplication/division, and finally addition/subtraction according to BODMAS.",Medium,RMS/Sainik Prep,True
+MATH208,6,Mathematics,BODMAS / Simplification,Simplify: 90−6×(4+3).,48,52,44,56,A,"Apply brackets first, then multiplication/division, and finally addition/subtraction according to BODMAS.",Medium,RMS/Sainik Prep,True
+MATH209,6,Mathematics,BODMAS / Simplification,Simplify: (16+8)÷(3×2).,4,5,3,6,A,"Apply brackets first, then multiplication/division, and finally addition/subtraction according to BODMAS.",Medium,RMS/Sainik Prep,True
+MATH210,6,Mathematics,BODMAS / Simplification,Simplify: 18+6×4.,42,46,38,50,A,"Apply brackets first, then multiplication/division, and finally addition/subtraction according to BODMAS.",Medium,RMS/Sainik Prep,True
+MATH211,6,Mathematics,BODMAS / Simplification,Simplify: (24+12)÷6.,6,7,5,8,A,"Apply brackets first, then multiplication/division, and finally addition/subtraction according to BODMAS.",Medium,RMS/Sainik Prep,True
+MATH212,6,Mathematics,BODMAS / Simplification,Simplify: 50−8×3.,26,28,24,30,A,"Apply brackets first, then multiplication/division, and finally addition/subtraction according to BODMAS.",Medium,RMS/Sainik Prep,True
+MATH213,6,Mathematics,BODMAS / Simplification,Simplify: 72÷(6+3).,8,9,7,10,A,"Apply brackets first, then multiplication/division, and finally addition/subtraction according to BODMAS.",Medium,RMS/Sainik Prep,True
+MATH214,6,Mathematics,BODMAS / Simplification,Simplify: 15+20÷5.,19,20,18,21,A,"Apply brackets first, then multiplication/division, and finally addition/subtraction according to BODMAS.",Medium,RMS/Sainik Prep,True
+MATH215,6,Mathematics,BODMAS / Simplification,Simplify: (9+7)×3.,48,52,44,56,A,"Apply brackets first, then multiplication/division, and finally addition/subtraction according to BODMAS.",Medium,RMS/Sainik Prep,True
+MATH216,6,Mathematics,BODMAS / Simplification,Simplify: 100−(18+12)÷5.,94,103,85,112,A,"Apply brackets first, then multiplication/division, and finally addition/subtraction according to BODMAS.",Medium,RMS/Sainik Prep,True
+MATH217,6,Mathematics,BODMAS / Simplification,Simplify: 8×(7−2)+6.,46,50,42,54,A,"Apply brackets first, then multiplication/division, and finally addition/subtraction according to BODMAS.",Medium,RMS/Sainik Prep,True
+MATH218,6,Mathematics,BODMAS / Simplification,Simplify: 64÷8+7×3.,29,31,27,33,A,"Apply brackets first, then multiplication/division, and finally addition/subtraction according to BODMAS.",Medium,RMS/Sainik Prep,True
+MATH219,6,Mathematics,BODMAS / Simplification,Simplify: (45−15)÷5+9.,15,16,14,17,A,"Apply brackets first, then multiplication/division, and finally addition/subtraction according to BODMAS.",Medium,RMS/Sainik Prep,True
+MATH220,6,Mathematics,BODMAS / Simplification,Simplify: 6+4×5−8.,18,19,17,20,A,"Apply brackets first, then multiplication/division, and finally addition/subtraction according to BODMAS.",Medium,RMS/Sainik Prep,True
+MATH221,6,Mathematics,BODMAS / Simplification,Simplify: 36÷6×4.,24,26,22,28,A,"Apply brackets first, then multiplication/division, and finally addition/subtraction according to BODMAS.",Medium,RMS/Sainik Prep,True
+MATH222,6,Mathematics,BODMAS / Simplification,Simplify: 5×(12+8)÷4.,25,27,23,29,A,"Apply brackets first, then multiplication/division, and finally addition/subtraction according to BODMAS.",Medium,RMS/Sainik Prep,True
+MATH223,6,Mathematics,HCF and LCM,Find the HCF of 12 and 18.,6,12,8,5,A,The greatest number that divides both 12 and 18 is 6.,Easy,RMS/Sainik Prep,True
+MATH224,6,Mathematics,HCF and LCM,Find the HCF of 15 and 25.,5,10,7,4,A,The greatest number that divides both 15 and 25 is 5.,Easy,RMS/Sainik Prep,True
+MATH225,6,Mathematics,HCF and LCM,Find the HCF of 24 and 36.,12,24,14,11,A,The greatest number that divides both 24 and 36 is 12.,Easy,RMS/Sainik Prep,True
+MATH226,6,Mathematics,HCF and LCM,Find the HCF of 28 and 42.,14,28,16,13,A,The greatest number that divides both 28 and 42 is 14.,Easy,RMS/Sainik Prep,True
+MATH227,6,Mathematics,HCF and LCM,Find the HCF of 32 and 48.,16,32,18,15,A,The greatest number that divides both 32 and 48 is 16.,Easy,RMS/Sainik Prep,True
+MATH228,6,Mathematics,HCF and LCM,Find the HCF of 45 and 60.,15,30,17,14,A,The greatest number that divides both 45 and 60 is 15.,Easy,RMS/Sainik Prep,True
+MATH229,6,Mathematics,HCF and LCM,Find the HCF of 18 and 30.,6,12,8,5,A,The greatest number that divides both 18 and 30 is 6.,Easy,RMS/Sainik Prep,True
+MATH230,6,Mathematics,HCF and LCM,Find the HCF of 27 and 36.,9,18,11,8,A,The greatest number that divides both 27 and 36 is 9.,Easy,RMS/Sainik Prep,True
+MATH231,6,Mathematics,HCF and LCM,Find the HCF of 40 and 64.,8,16,10,7,A,The greatest number that divides both 40 and 64 is 8.,Easy,RMS/Sainik Prep,True
+MATH232,6,Mathematics,HCF and LCM,Find the HCF of 54 and 72.,18,36,20,17,A,The greatest number that divides both 54 and 72 is 18.,Easy,RMS/Sainik Prep,True
+MATH233,6,Mathematics,HCF and LCM,Find the LCM of 6 and 8.,24,12,48,34,A,The least common multiple of 6 and 8 is 24.,Medium,RMS/Sainik Prep,True
+MATH234,6,Mathematics,HCF and LCM,Find the LCM of 9 and 12.,36,18,72,46,A,The least common multiple of 9 and 12 is 36.,Medium,RMS/Sainik Prep,True
+MATH235,6,Mathematics,HCF and LCM,Find the LCM of 10 and 15.,30,15,60,40,A,The least common multiple of 10 and 15 is 30.,Medium,RMS/Sainik Prep,True
+MATH236,6,Mathematics,HCF and LCM,Find the LCM of 12 and 18.,36,18,72,46,A,The least common multiple of 12 and 18 is 36.,Medium,RMS/Sainik Prep,True
+MATH237,6,Mathematics,HCF and LCM,Find the LCM of 14 and 21.,42,21,84,52,A,The least common multiple of 14 and 21 is 42.,Medium,RMS/Sainik Prep,True
+MATH238,6,Mathematics,HCF and LCM,Find the LCM of 16 and 20.,80,40,160,90,A,The least common multiple of 16 and 20 is 80.,Medium,RMS/Sainik Prep,True
+MATH239,6,Mathematics,HCF and LCM,Find the LCM of 18 and 24.,72,36,144,82,A,The least common multiple of 18 and 24 is 72.,Medium,RMS/Sainik Prep,True
+MATH240,6,Mathematics,HCF and LCM,Find the LCM of 20 and 30.,60,30,120,70,A,The least common multiple of 20 and 30 is 60.,Medium,RMS/Sainik Prep,True
+MATH241,6,Mathematics,Fractions,What is 1/2 + 1/4?,3/4,17/20,13/20,19/20,A,Using the appropriate fraction operation and simplifying gives 3/4.,Medium,RMS/Sainik Prep,True
+MATH242,6,Mathematics,Fractions,What is 3/4 − 1/8?,5/8,29/40,21/40,33/40,A,Using the appropriate fraction operation and simplifying gives 5/8.,Medium,RMS/Sainik Prep,True
+MATH243,6,Mathematics,Fractions,What is 2/3 + 1/6?,5/6,14/15,11/15,31/30,A,Using the appropriate fraction operation and simplifying gives 5/6.,Medium,RMS/Sainik Prep,True
+MATH244,6,Mathematics,Fractions,What is 5/6 − 1/3?,1/2,3/5,2/5,7/10,A,Using the appropriate fraction operation and simplifying gives 1/2.,Medium,RMS/Sainik Prep,True
+MATH245,6,Mathematics,Fractions,What is 3/5 × 2/3?,2/5,1/2,3/10,3/5,A,Using the appropriate fraction operation and simplifying gives 2/5.,Medium,RMS/Sainik Prep,True
+MATH246,6,Mathematics,Fractions,What is 4/7 ÷ 2/7?,2,21/10,19/10,11/5,A,Using the appropriate fraction operation and simplifying gives 2.,Medium,RMS/Sainik Prep,True
+MATH247,6,Mathematics,Fractions,What is 2/5 + 3/10?,7/10,4/5,3/5,9/10,A,Using the appropriate fraction operation and simplifying gives 7/10.,Medium,RMS/Sainik Prep,True
+MATH248,6,Mathematics,Fractions,What is 7/8 − 1/4?,5/8,29/40,21/40,33/40,A,Using the appropriate fraction operation and simplifying gives 5/8.,Medium,RMS/Sainik Prep,True
+MATH249,6,Mathematics,Fractions,What is 5/9 × 3/5?,1/3,13/30,7/30,8/15,A,Using the appropriate fraction operation and simplifying gives 1/3.,Medium,RMS/Sainik Prep,True
+MATH250,6,Mathematics,Fractions,What is 3/4 ÷ 3/8?,2,21/10,19/10,11/5,A,Using the appropriate fraction operation and simplifying gives 2.,Medium,RMS/Sainik Prep,True
+MATH251,6,Mathematics,Fractions,What is 1/2 + 1/4?,3/4,17/20,13/20,19/20,A,Using the appropriate fraction operation and simplifying gives 3/4.,Medium,RMS/Sainik Prep,True
+MATH252,6,Mathematics,Fractions,What is 3/4 − 1/8?,5/8,29/40,21/40,33/40,A,Using the appropriate fraction operation and simplifying gives 5/8.,Medium,RMS/Sainik Prep,True
+MATH253,6,Mathematics,Fractions,What is 2/3 + 1/6?,5/6,14/15,11/15,31/30,A,Using the appropriate fraction operation and simplifying gives 5/6.,Medium,RMS/Sainik Prep,True
+MATH254,6,Mathematics,Fractions,What is 5/6 − 1/3?,1/2,3/5,2/5,7/10,A,Using the appropriate fraction operation and simplifying gives 1/2.,Medium,RMS/Sainik Prep,True
+MATH255,6,Mathematics,Fractions,What is 3/5 × 2/3?,2/5,1/2,3/10,3/5,A,Using the appropriate fraction operation and simplifying gives 2/5.,Medium,RMS/Sainik Prep,True
+MATH256,6,Mathematics,Fractions,What is 4/7 ÷ 2/7?,2,21/10,19/10,11/5,A,Using the appropriate fraction operation and simplifying gives 2.,Medium,RMS/Sainik Prep,True
+MATH257,6,Mathematics,Fractions,What is 2/5 + 3/10?,7/10,4/5,3/5,9/10,A,Using the appropriate fraction operation and simplifying gives 7/10.,Medium,RMS/Sainik Prep,True
+MATH258,6,Mathematics,Fractions,What is 7/8 − 1/4?,5/8,29/40,21/40,33/40,A,Using the appropriate fraction operation and simplifying gives 5/8.,Medium,RMS/Sainik Prep,True
+MATH259,6,Mathematics,Fractions,What is 5/9 × 3/5?,1/3,13/30,7/30,8/15,A,Using the appropriate fraction operation and simplifying gives 1/3.,Medium,RMS/Sainik Prep,True
+MATH260,6,Mathematics,Fractions,What is 3/4 ÷ 3/8?,2,21/10,19/10,11/5,A,Using the appropriate fraction operation and simplifying gives 2.,Medium,RMS/Sainik Prep,True
+MATH261,6,Mathematics,Fractions,What is 1/2 + 1/4?,3/4,17/20,13/20,19/20,A,Using the appropriate fraction operation and simplifying gives 3/4.,Medium,RMS/Sainik Prep,True
+MATH262,6,Mathematics,Fractions,What is 3/4 − 1/8?,5/8,29/40,21/40,33/40,A,Using the appropriate fraction operation and simplifying gives 5/8.,Medium,RMS/Sainik Prep,True
+MATH263,6,Mathematics,Fractions,What is 2/3 + 1/6?,5/6,14/15,11/15,31/30,A,Using the appropriate fraction operation and simplifying gives 5/6.,Medium,RMS/Sainik Prep,True
+MATH264,6,Mathematics,Fractions,What is 5/6 − 1/3?,1/2,3/5,2/5,7/10,A,Using the appropriate fraction operation and simplifying gives 1/2.,Medium,RMS/Sainik Prep,True
+MATH265,6,Mathematics,Fractions,What is 3/5 × 2/3?,2/5,1/2,3/10,3/5,A,Using the appropriate fraction operation and simplifying gives 2/5.,Medium,RMS/Sainik Prep,True
+MATH266,6,Mathematics,Fractions,What is 4/7 ÷ 2/7?,2,21/10,19/10,11/5,A,Using the appropriate fraction operation and simplifying gives 2.,Medium,RMS/Sainik Prep,True
+MATH267,6,Mathematics,Fractions,What is 2/5 + 3/10?,7/10,4/5,3/5,9/10,A,Using the appropriate fraction operation and simplifying gives 7/10.,Medium,RMS/Sainik Prep,True
+MATH268,6,Mathematics,Fractions,What is 7/8 − 1/4?,5/8,29/40,21/40,33/40,A,Using the appropriate fraction operation and simplifying gives 5/8.,Medium,RMS/Sainik Prep,True
+MATH269,6,Mathematics,Fractions,What is 5/9 × 3/5?,1/3,13/30,7/30,8/15,A,Using the appropriate fraction operation and simplifying gives 1/3.,Medium,RMS/Sainik Prep,True
+MATH270,6,Mathematics,Fractions,What is 3/4 ÷ 3/8?,2,21/10,19/10,11/5,A,Using the appropriate fraction operation and simplifying gives 2.,Medium,RMS/Sainik Prep,True
+MATH271,6,Mathematics,Fractions,What is 3/10 + 2/5?,7/10,4/5,3/5,9/10,A,Using the appropriate fraction operation and simplifying gives 7/10.,Medium,RMS/Sainik Prep,True
+MATH272,6,Mathematics,Fractions,What is 7/12 − 1/6?,5/12,31/60,19/60,37/60,A,Using the appropriate fraction operation and simplifying gives 5/12.,Medium,RMS/Sainik Prep,True
+MATH273,6,Mathematics,Fractions,What is 2/3 × 3/4?,1/2,3/5,2/5,7/10,A,Using the appropriate fraction operation and simplifying gives 1/2.,Medium,RMS/Sainik Prep,True
+MATH274,6,Mathematics,Fractions,What is 5/8 ÷ 5/16?,2,21/10,19/10,11/5,A,Using the appropriate fraction operation and simplifying gives 2.,Medium,RMS/Sainik Prep,True
+MATH275,6,Mathematics,Fractions,Which is greater: 5/6 or 4/5?,5/6,4/5,1/2,3/4,A,Comparing with a common denominator shows 5/6 > 4/5.,Medium,RMS/Sainik Prep,True
+MATH276,6,Mathematics,Fractions,What type of fraction is 3/5?,Proper fraction,Improper fraction,Mixed fraction,Whole number,A,3/5 is a proper fraction in standard school classification.,Easy,RMS/Sainik Prep,True
+MATH277,6,Mathematics,Fractions,What type of fraction is 7/7?,Improper fraction,Proper fraction,Mixed fraction,Whole number,A,7/7 is a improper fraction in standard school classification.,Easy,RMS/Sainik Prep,True
+MATH278,6,Mathematics,Fractions,What type of fraction is 9/4?,Improper fraction,Proper fraction,Mixed fraction,Whole number,A,9/4 is a improper fraction in standard school classification.,Easy,RMS/Sainik Prep,True
+MATH279,6,Mathematics,Fractions,What type of fraction is 5/8?,Proper fraction,Improper fraction,Mixed fraction,Whole number,A,5/8 is a proper fraction in standard school classification.,Easy,RMS/Sainik Prep,True
+MATH280,6,Mathematics,Fractions,What type of fraction is 11/3?,Improper fraction,Proper fraction,Mixed fraction,Whole number,A,11/3 is a improper fraction in standard school classification.,Easy,RMS/Sainik Prep,True
+MATH281,6,Mathematics,Decimal Numbers,Find: 2.5 + 1.25.,3.75,4.75,2.75,4.25,A,Align decimal places and add the numbers.,Easy,RMS/Sainik Prep,True
+MATH282,6,Mathematics,Decimal Numbers,Find: 7.8 + 2.6.,5.2,6.2,4.2,5.7,A,Align decimal places and add the numbers.,Easy,RMS/Sainik Prep,True
+MATH283,6,Mathematics,Decimal Numbers,Find: 12.45 + 3.25.,15.7,16.7,14.7,16.2,A,Align decimal places and add the numbers.,Easy,RMS/Sainik Prep,True
+MATH284,6,Mathematics,Decimal Numbers,Find: 20.5 + 7.75.,12.75,13.75,11.75,13.25,A,Align decimal places and add the numbers.,Easy,RMS/Sainik Prep,True
+MATH285,6,Mathematics,Decimal Numbers,Find: 4.08 + 1.92.,2.16,3.16,1.1600000000000001,2.66,A,Align decimal places and add the numbers.,Easy,RMS/Sainik Prep,True
+MATH286,6,Mathematics,Decimal Numbers,Find: 15.6 + 2.4.,13.2,14.2,12.2,13.7,A,Align decimal places and add the numbers.,Easy,RMS/Sainik Prep,True
+MATH287,6,Mathematics,Decimal Numbers,Find: 3.75 + 1.5.,5.25,6.25,4.25,5.75,A,Align decimal places and add the numbers.,Easy,RMS/Sainik Prep,True
+MATH288,6,Mathematics,Decimal Numbers,Find: 10.01 + 2.99.,7.02,8.02,6.02,7.52,A,Align decimal places and add the numbers.,Easy,RMS/Sainik Prep,True
+MATH289,6,Mathematics,Decimal Numbers,Find: 8.4 + 0.6.,9.0,10.0,8.0,9.5,A,Align decimal places and add the numbers.,Easy,RMS/Sainik Prep,True
+MATH290,6,Mathematics,Decimal Numbers,Find: 6.25 + 2.5.,3.75,4.75,2.75,4.25,A,Align decimal places and add the numbers.,Easy,RMS/Sainik Prep,True
+MATH291,6,Mathematics,Decimal Numbers,Find: 8.5 − 2.25.,6.25,7.25,5.25,6.75,A,Align decimal places and subtract carefully.,Easy,RMS/Sainik Prep,True
+MATH292,6,Mathematics,Decimal Numbers,Find: 10.0 − 3.75.,6.25,7.25,5.25,6.75,A,Align decimal places and subtract carefully.,Easy,RMS/Sainik Prep,True
+MATH293,6,Mathematics,Decimal Numbers,Find: 9.6 − 4.08.,5.52,6.52,4.52,6.02,A,Align decimal places and subtract carefully.,Easy,RMS/Sainik Prep,True
+MATH294,6,Mathematics,Decimal Numbers,Find: 15.75 − 5.5.,10.25,11.25,9.25,10.75,A,Align decimal places and subtract carefully.,Easy,RMS/Sainik Prep,True
+MATH295,6,Mathematics,Decimal Numbers,Find: 20.2 − 7.85.,12.35,13.35,11.35,12.85,A,Align decimal places and subtract carefully.,Easy,RMS/Sainik Prep,True
+MATH296,6,Mathematics,Decimal Numbers,Find: 7.5 − 2.25.,5.25,6.25,4.25,5.75,A,Align decimal places and subtract carefully.,Easy,RMS/Sainik Prep,True
+MATH297,6,Mathematics,Decimal Numbers,Find: 11.11 − 1.01.,10.1,11.1,9.1,10.6,A,Align decimal places and subtract carefully.,Easy,RMS/Sainik Prep,True
+MATH298,6,Mathematics,Decimal Numbers,Find: 5.05 − 2.5.,2.55,3.55,1.5499999999999998,3.05,A,Align decimal places and subtract carefully.,Easy,RMS/Sainik Prep,True
+MATH299,6,Mathematics,Unitary Method,5 notebooks cost ₹60. What will 8 notebooks cost?,96.0,116.0,76.0,106.0,A,Cost of 1 notebook = ₹12; multiplying by 8 gives ₹96.,Medium,RMS/Sainik Prep,True
+MATH300,6,Mathematics,Unitary Method,7 notebooks cost ₹84. What will 12 notebooks cost?,144.0,164.0,124.0,154.0,A,Cost of 1 notebook = ₹12; multiplying by 12 gives ₹144.,Medium,RMS/Sainik Prep,True
+MATH301,6,Mathematics,Unitary Method,4 notebooks cost ₹100. What will 9 notebooks cost?,225.0,245.0,205.0,235.0,A,Cost of 1 notebook = ₹25; multiplying by 9 gives ₹225.,Medium,RMS/Sainik Prep,True
+MATH302,6,Mathematics,Unitary Method,6 notebooks cost ₹150. What will 10 notebooks cost?,250.0,270.0,230.0,260.0,A,Cost of 1 notebook = ₹25; multiplying by 10 gives ₹250.,Medium,RMS/Sainik Prep,True
+MATH303,6,Mathematics,Unitary Method,8 notebooks cost ₹240. What will 15 notebooks cost?,450.0,470.0,430.0,460.0,A,Cost of 1 notebook = ₹30; multiplying by 15 gives ₹450.,Medium,RMS/Sainik Prep,True
+MATH304,6,Mathematics,Unitary Method,3 notebooks cost ₹75. What will 12 notebooks cost?,300.0,320.0,280.0,310.0,A,Cost of 1 notebook = ₹25; multiplying by 12 gives ₹300.,Medium,RMS/Sainik Prep,True
+MATH305,6,Mathematics,Unitary Method,10 notebooks cost ₹450. What will 6 notebooks cost?,270.0,290.0,250.0,280.0,A,Cost of 1 notebook = ₹45; multiplying by 6 gives ₹270.,Medium,RMS/Sainik Prep,True
+MATH306,6,Mathematics,Unitary Method,9 notebooks cost ₹180. What will 14 notebooks cost?,280.0,300.0,260.0,290.0,A,Cost of 1 notebook = ₹20; multiplying by 14 gives ₹280.,Medium,RMS/Sainik Prep,True
+MATH307,6,Mathematics,Unitary Method,12 notebooks cost ₹360. What will 5 notebooks cost?,150.0,170.0,130.0,160.0,A,Cost of 1 notebook = ₹30; multiplying by 5 gives ₹150.,Medium,RMS/Sainik Prep,True
+MATH308,6,Mathematics,Unitary Method,4 notebooks cost ₹96. What will 15 notebooks cost?,360.0,380.0,340.0,370.0,A,Cost of 1 notebook = ₹24; multiplying by 15 gives ₹360.,Medium,RMS/Sainik Prep,True
+MATH309,6,Mathematics,Ratio and Proportion,Express the ratio 12:18 in its simplest form.,2:3,12:18,3:2,6:9,A,Divide both terms by their greatest common divisor.,Easy,RMS/Sainik Prep,True
+MATH310,6,Mathematics,Ratio and Proportion,Express the ratio 15:25 in its simplest form.,3:5,15:25,5:3,7:12,A,Divide both terms by their greatest common divisor.,Easy,RMS/Sainik Prep,True
+MATH311,6,Mathematics,Ratio and Proportion,Express the ratio 24:36 in its simplest form.,2:3,24:36,3:2,12:18,A,Divide both terms by their greatest common divisor.,Easy,RMS/Sainik Prep,True
+MATH312,6,Mathematics,Ratio and Proportion,Express the ratio 28:42 in its simplest form.,2:3,28:42,3:2,14:21,A,Divide both terms by their greatest common divisor.,Easy,RMS/Sainik Prep,True
+MATH313,6,Mathematics,Ratio and Proportion,Express the ratio 35:49 in its simplest form.,5:7,35:49,7:5,17:24,A,Divide both terms by their greatest common divisor.,Easy,RMS/Sainik Prep,True
+MATH314,6,Mathematics,Ratio and Proportion,Express the ratio 45:60 in its simplest form.,3:4,45:60,4:3,22:30,A,Divide both terms by their greatest common divisor.,Easy,RMS/Sainik Prep,True
+MATH315,6,Mathematics,Ratio and Proportion,Express the ratio 16:24 in its simplest form.,2:3,16:24,3:2,8:12,A,Divide both terms by their greatest common divisor.,Easy,RMS/Sainik Prep,True
+MATH316,6,Mathematics,Ratio and Proportion,Express the ratio 21:28 in its simplest form.,3:4,21:28,4:3,10:14,A,Divide both terms by their greatest common divisor.,Easy,RMS/Sainik Prep,True
+MATH317,6,Mathematics,Ratio and Proportion,Express the ratio 18:30 in its simplest form.,3:5,18:30,5:3,9:15,A,Divide both terms by their greatest common divisor.,Easy,RMS/Sainik Prep,True
+MATH318,6,Mathematics,Ratio and Proportion,Express the ratio 32:40 in its simplest form.,4:5,32:40,5:4,16:20,A,Divide both terms by their greatest common divisor.,Easy,RMS/Sainik Prep,True
+MATH319,6,Mathematics,Percentage,What is 15% of 200?,30.0,40.0,20.0,50.0,A,15% of 200 = 15/100 × 200 = 30.0.,Easy,RMS/Sainik Prep,True
+MATH320,6,Mathematics,Percentage,What is 20% of 500?,100.0,110.0,90.0,120.0,A,20% of 500 = 20/100 × 500 = 100.0.,Easy,RMS/Sainik Prep,True
+MATH321,6,Mathematics,Percentage,What is 25% of 800?,200.0,210.0,190.0,220.0,A,25% of 800 = 25/100 × 800 = 200.0.,Easy,RMS/Sainik Prep,True
+MATH322,6,Mathematics,Percentage,What is 10% of 1200?,120.0,130.0,110.0,140.0,A,10% of 1200 = 10/100 × 1200 = 120.0.,Easy,RMS/Sainik Prep,True
+MATH323,6,Mathematics,Percentage,What is 35% of 600?,210.0,220.0,200.0,230.0,A,35% of 600 = 35/100 × 600 = 210.0.,Easy,RMS/Sainik Prep,True
+MATH324,6,Mathematics,Percentage,What is 12% of 400?,48.0,58.0,38.0,68.0,A,12% of 400 = 12/100 × 400 = 48.0.,Easy,RMS/Sainik Prep,True
+MATH325,6,Mathematics,Percentage,What is 40% of 250?,100.0,110.0,90.0,120.0,A,40% of 250 = 40/100 × 250 = 100.0.,Easy,RMS/Sainik Prep,True
+MATH326,6,Mathematics,Percentage,What is 30% of 900?,270.0,280.0,260.0,290.0,A,30% of 900 = 30/100 × 900 = 270.0.,Easy,RMS/Sainik Prep,True
+MATH327,6,Mathematics,Percentage,What is 18% of 1500?,270.0,280.0,260.0,290.0,A,18% of 1500 = 18/100 × 1500 = 270.0.,Easy,RMS/Sainik Prep,True
+MATH328,6,Mathematics,Percentage,What is 16% of 750?,120.0,130.0,110.0,140.0,A,16% of 750 = 16/100 × 750 = 120.0.,Easy,RMS/Sainik Prep,True
+MATH329,6,Mathematics,Profit and Loss,A shopkeeper buys an item for ₹500 and sells it for ₹600. What is the profit?,₹100,₹150,₹50,₹200,A,Profit = SP − CP = ₹100.,Medium,RMS/Sainik Prep,True
+MATH330,6,Mathematics,Profit and Loss,An article is bought for ₹800 and sold for ₹720. What is the loss?,₹80,₹130,₹30,₹180,A,Loss = CP − SP = ₹80.,Medium,RMS/Sainik Prep,True
+MATH331,6,Mathematics,Profit and Loss,"A shopkeeper buys an item for ₹1,200 and sells it for ₹1,500. What is the profit?",₹300,₹350,₹250,₹400,A,Profit = SP − CP = ₹300.,Medium,RMS/Sainik Prep,True
+MATH332,6,Mathematics,Profit and Loss,A shopkeeper buys an item for ₹750 and sells it for ₹900. What is the profit?,₹150,₹200,₹100,₹250,A,Profit = SP − CP = ₹150.,Medium,RMS/Sainik Prep,True
+MATH333,6,Mathematics,Profit and Loss,"An article is bought for ₹1,000 and sold for ₹850. What is the loss?",₹150,₹200,₹100,₹250,A,Loss = CP − SP = ₹150.,Medium,RMS/Sainik Prep,True
+MATH334,6,Mathematics,Profit and Loss,"A shopkeeper buys an item for ₹1,500 and sells it for ₹1,800. What is the profit?",₹300,₹350,₹250,₹400,A,Profit = SP − CP = ₹300.,Medium,RMS/Sainik Prep,True
+MATH335,6,Mathematics,Profit and Loss,An article is bought for ₹900 and sold for ₹810. What is the loss?,₹90,₹140,₹40,₹190,A,Loss = CP − SP = ₹90.,Medium,RMS/Sainik Prep,True
+MATH336,6,Mathematics,Profit and Loss,"A shopkeeper buys an item for ₹2,000 and sells it for ₹2,400. What is the profit?",₹400,₹450,₹350,₹500,A,Profit = SP − CP = ₹400.,Medium,RMS/Sainik Prep,True
+MATH337,6,Mathematics,Profit and Loss,A shopkeeper buys an item for ₹400 and sells it for ₹460. What is the profit?,₹60,₹110,₹10,₹160,A,Profit = SP − CP = ₹60.,Medium,RMS/Sainik Prep,True
+MATH338,6,Mathematics,Profit and Loss,"An article is bought for ₹1,250 and sold for ₹1,000. What is the loss?",₹250,₹300,₹200,₹350,A,Loss = CP − SP = ₹250.,Medium,RMS/Sainik Prep,True
+MATH339,6,Mathematics,Simple Interest,"Find the simple interest on ₹1,000 at 5% per annum for 2 years.",₹100,₹200,₹0,₹300,A,SI = P × R × T / 100 = ₹100.,Medium,RMS/Sainik Prep,True
+MATH340,6,Mathematics,Simple Interest,"Find the simple interest on ₹2,000 at 6% per annum for 3 years.",₹360,₹460,₹260,₹560,A,SI = P × R × T / 100 = ₹360.,Medium,RMS/Sainik Prep,True
+MATH341,6,Mathematics,Simple Interest,"Find the simple interest on ₹5,000 at 4% per annum for 2 years.",₹400,₹500,₹300,₹600,A,SI = P × R × T / 100 = ₹400.,Medium,RMS/Sainik Prep,True
+MATH342,6,Mathematics,Simple Interest,"Find the simple interest on ₹3,000 at 8% per annum for 1 years.",₹240,₹340,₹140,₹440,A,SI = P × R × T / 100 = ₹240.,Medium,RMS/Sainik Prep,True
+MATH343,6,Mathematics,Simple Interest,"Find the simple interest on ₹4,000 at 5% per annum for 3 years.",₹600,₹700,₹500,₹800,A,SI = P × R × T / 100 = ₹600.,Medium,RMS/Sainik Prep,True
+MATH344,6,Mathematics,Simple Interest,"Find the simple interest on ₹2,500 at 10% per annum for 2 years.",₹500,₹600,₹400,₹700,A,SI = P × R × T / 100 = ₹500.,Medium,RMS/Sainik Prep,True
+MATH345,6,Mathematics,Simple Interest,"Find the simple interest on ₹6,000 at 7% per annum for 2 years.",₹840,₹940,₹740,"₹1,040",A,SI = P × R × T / 100 = ₹840.,Medium,RMS/Sainik Prep,True
+MATH346,6,Mathematics,Simple Interest,"Find the simple interest on ₹1,500 at 8% per annum for 3 years.",₹360,₹460,₹260,₹560,A,SI = P × R × T / 100 = ₹360.,Medium,RMS/Sainik Prep,True
+MATH347,6,Mathematics,Simple Interest,"Find the simple interest on ₹8,000 at 5% per annum for 1 years.",₹400,₹500,₹300,₹600,A,SI = P × R × T / 100 = ₹400.,Medium,RMS/Sainik Prep,True
+MATH348,6,Mathematics,Simple Interest,"Find the simple interest on ₹3,500 at 6% per annum for 2 years.",₹420,₹520,₹320,₹620,A,SI = P × R × T / 100 = ₹420.,Medium,RMS/Sainik Prep,True
+MATH349,6,Mathematics,Average,"Find the average of 12, 18, 20, 10.",15.0,17.0,13.0,20.0,A,Average = sum of values ÷ number of values = 15.0.,Easy,RMS/Sainik Prep,True
+MATH350,6,Mathematics,Average,"Find the average of 25, 30, 35, 40.",32.5,34.5,30.5,37.5,A,Average = sum of values ÷ number of values = 32.5.,Easy,RMS/Sainik Prep,True
+MATH351,6,Mathematics,Average,"Find the average of 8, 12, 16, 20.",14.0,16.0,12.0,19.0,A,Average = sum of values ÷ number of values = 14.0.,Easy,RMS/Sainik Prep,True
+MATH352,6,Mathematics,Average,"Find the average of 15, 17, 19, 21.",18.0,20.0,16.0,23.0,A,Average = sum of values ÷ number of values = 18.0.,Easy,RMS/Sainik Prep,True
+MATH353,6,Mathematics,Average,"Find the average of 42, 38, 40, 36.",39.0,41.0,37.0,44.0,A,Average = sum of values ÷ number of values = 39.0.,Easy,RMS/Sainik Prep,True
+MATH354,6,Mathematics,Average,"Find the average of 10, 20, 30, 40, 50.",30.0,32.0,28.0,35.0,A,Average = sum of values ÷ number of values = 30.0.,Easy,RMS/Sainik Prep,True
+MATH355,6,Mathematics,Average,"Find the average of 24, 28, 32, 36.",30.0,32.0,28.0,35.0,A,Average = sum of values ÷ number of values = 30.0.,Easy,RMS/Sainik Prep,True
+MATH356,6,Mathematics,Average,"Find the average of 7, 9, 11, 13, 15.",11.0,13.0,9.0,16.0,A,Average = sum of values ÷ number of values = 11.0.,Easy,RMS/Sainik Prep,True
+MATH357,6,Mathematics,Average,"Find the average of 55, 60, 65, 70.",62.5,64.5,60.5,67.5,A,Average = sum of values ÷ number of values = 62.5.,Easy,RMS/Sainik Prep,True
+MATH358,6,Mathematics,Average,"Find the average of 18, 22, 26, 30.",24.0,26.0,22.0,29.0,A,Average = sum of values ÷ number of values = 24.0.,Easy,RMS/Sainik Prep,True
+MATH359,6,Mathematics,"Time, Speed and Distance",A vehicle travels at 60 km/h for 2 hours. How far does it travel?,120,180,60,122,A,Distance = Speed × Time = 60 × 2 = 120 km.,Medium,RMS/Sainik Prep,True
+MATH360,6,Mathematics,"Time, Speed and Distance",A vehicle travels at 45 km/h for 3 hours. How far does it travel?,135,180,90,138,A,Distance = Speed × Time = 45 × 3 = 135 km.,Medium,RMS/Sainik Prep,True
+MATH361,6,Mathematics,"Time, Speed and Distance",A vehicle travels at 50 km/h for 4 hours. How far does it travel?,200,250,150,204,A,Distance = Speed × Time = 50 × 4 = 200 km.,Medium,RMS/Sainik Prep,True
+MATH362,6,Mathematics,"Time, Speed and Distance",A vehicle travels at 72 km/h for 2 hours. How far does it travel?,144,216,72,146,A,Distance = Speed × Time = 72 × 2 = 144 km.,Medium,RMS/Sainik Prep,True
+MATH363,6,Mathematics,"Time, Speed and Distance",A vehicle travels at 30 km/h for 5 hours. How far does it travel?,150,180,120,155,A,Distance = Speed × Time = 30 × 5 = 150 km.,Medium,RMS/Sainik Prep,True
+MATH364,6,Mathematics,"Time, Speed and Distance",A vehicle travels at 80 km/h for 3 hours. How far does it travel?,240,320,160,243,A,Distance = Speed × Time = 80 × 3 = 240 km.,Medium,RMS/Sainik Prep,True
+MATH365,6,Mathematics,"Time, Speed and Distance",A vehicle travels at 40 km/h for 2.5 hours. How far does it travel?,100,140,60,102.5,A,Distance = Speed × Time = 40 × 2.5 = 100 km.,Medium,RMS/Sainik Prep,True
+MATH366,6,Mathematics,"Time, Speed and Distance",A vehicle travels at 90 km/h for 4 hours. How far does it travel?,360,450,270,364,A,Distance = Speed × Time = 90 × 4 = 360 km.,Medium,RMS/Sainik Prep,True
+MATH367,6,Mathematics,"Time, Speed and Distance",A vehicle travels at 55 km/h for 2 hours. How far does it travel?,110,165,55,112,A,Distance = Speed × Time = 55 × 2 = 110 km.,Medium,RMS/Sainik Prep,True
+MATH368,6,Mathematics,"Time, Speed and Distance",A vehicle travels at 36 km/h for 5 hours. How far does it travel?,180,216,144,185,A,Distance = Speed × Time = 36 × 5 = 180 km.,Medium,RMS/Sainik Prep,True
+MATH369,6,Mathematics,Time and Work,A worker can complete a job in 5 days. What fraction of the job is completed in 1 day?,1/5,5/1,1/6,2/5,A,"In 1 day, the worker completes 1/5 of the whole job.",Medium,RMS/Sainik Prep,True
+MATH370,6,Mathematics,Time and Work,A worker can complete a job in 8 days. What fraction of the job is completed in 1 day?,1/8,8/1,1/9,2/8,A,"In 1 day, the worker completes 1/8 of the whole job.",Medium,RMS/Sainik Prep,True
+MATH371,6,Mathematics,Time and Work,A worker can complete a job in 10 days. What fraction of the job is completed in 1 day?,1/10,10/1,1/11,2/10,A,"In 1 day, the worker completes 1/10 of the whole job.",Medium,RMS/Sainik Prep,True
+MATH372,6,Mathematics,Time and Work,A worker can complete a job in 12 days. What fraction of the job is completed in 1 day?,1/12,12/1,1/13,2/12,A,"In 1 day, the worker completes 1/12 of the whole job.",Medium,RMS/Sainik Prep,True
+MATH373,6,Mathematics,Time and Work,A worker can complete a job in 15 days. What fraction of the job is completed in 1 day?,1/15,15/1,1/16,2/15,A,"In 1 day, the worker completes 1/15 of the whole job.",Medium,RMS/Sainik Prep,True
+MATH374,6,Mathematics,Time and Work,A worker can complete a job in 20 days. What fraction of the job is completed in 1 day?,1/20,20/1,1/21,2/20,A,"In 1 day, the worker completes 1/20 of the whole job.",Medium,RMS/Sainik Prep,True
+MATH375,6,Mathematics,Time and Work,A worker can complete a job in 6 days. What fraction of the job is completed in 1 day?,1/6,6/1,1/7,2/6,A,"In 1 day, the worker completes 1/6 of the whole job.",Medium,RMS/Sainik Prep,True
+MATH376,6,Mathematics,Time and Work,A worker can complete a job in 9 days. What fraction of the job is completed in 1 day?,1/9,9/1,1/10,2/9,A,"In 1 day, the worker completes 1/9 of the whole job.",Medium,RMS/Sainik Prep,True
+MATH377,6,Mathematics,Time and Work,A worker can complete a job in 16 days. What fraction of the job is completed in 1 day?,1/16,16/1,1/17,2/16,A,"In 1 day, the worker completes 1/16 of the whole job.",Medium,RMS/Sainik Prep,True
+MATH378,6,Mathematics,Time and Work,A worker can complete a job in 18 days. What fraction of the job is completed in 1 day?,1/18,18/1,1/19,2/18,A,"In 1 day, the worker completes 1/18 of the whole job.",Medium,RMS/Sainik Prep,True
+MATH379,6,Mathematics,Geometry,A line segment has how many endpoints?,0,1,2,3,C,The definition of the geometric figure or property identifies the correct answer.,Easy,RMS/Sainik Prep,True
+MATH380,6,Mathematics,Geometry,A ray has how many endpoints?,0,1,2,3,B,The definition of the geometric figure or property identifies the correct answer.,Easy,RMS/Sainik Prep,True
+MATH381,6,Mathematics,Geometry,A line has how many endpoints?,0,1,2,3,A,The definition of the geometric figure or property identifies the correct answer.,Easy,RMS/Sainik Prep,True
+MATH382,6,Mathematics,Geometry,How many points are needed to name a line segment?,1,2,3,4,B,The definition of the geometric figure or property identifies the correct answer.,Easy,RMS/Sainik Prep,True
+MATH383,6,Mathematics,Geometry,Which figure extends endlessly in both directions?,Ray,Line,Segment,Point,B,The definition of the geometric figure or property identifies the correct answer.,Easy,RMS/Sainik Prep,True
+MATH384,6,Mathematics,Geometry,Which figure has one endpoint and extends endlessly in one direction?,Ray,Line,Segment,Point,A,The definition of the geometric figure or property identifies the correct answer.,Easy,RMS/Sainik Prep,True
+MATH385,6,Mathematics,Geometry,"Which figure has no length, only position?",Ray,Line,Segment,Point,D,The definition of the geometric figure or property identifies the correct answer.,Easy,RMS/Sainik Prep,True
+MATH386,6,Mathematics,Geometry,How many right angles make a straight angle?,1,2,3,4,B,The definition of the geometric figure or property identifies the correct answer.,Easy,RMS/Sainik Prep,True
+MATH387,6,Mathematics,Geometry,A line segment is part of a,ray,line,circle,angle,B,The definition of the geometric figure or property identifies the correct answer.,Easy,RMS/Sainik Prep,True
+MATH388,6,Mathematics,Geometry,Two lines that never meet are,perpendicular,parallel,intersecting,curved,B,The definition of the geometric figure or property identifies the correct answer.,Easy,RMS/Sainik Prep,True
+MATH389,6,Mathematics,Angles,An angle measuring 30° is a/an ______ angle.,acute,right,obtuse,straight,A,"An angle less than 90° is acute, 90° is right, between 90° and 180° is obtuse, and 180° is straight.",Easy,RMS/Sainik Prep,True
+MATH390,6,Mathematics,Angles,An angle measuring 45° is a/an ______ angle.,acute,right,obtuse,straight,A,"An angle less than 90° is acute, 90° is right, between 90° and 180° is obtuse, and 180° is straight.",Easy,RMS/Sainik Prep,True
+MATH391,6,Mathematics,Angles,An angle measuring 60° is a/an ______ angle.,acute,right,obtuse,straight,A,"An angle less than 90° is acute, 90° is right, between 90° and 180° is obtuse, and 180° is straight.",Easy,RMS/Sainik Prep,True
+MATH392,6,Mathematics,Angles,An angle measuring 90° is a/an ______ angle.,right,acute,obtuse,straight,A,"An angle less than 90° is acute, 90° is right, between 90° and 180° is obtuse, and 180° is straight.",Easy,RMS/Sainik Prep,True
+MATH393,6,Mathematics,Angles,An angle measuring 120° is a/an ______ angle.,obtuse,acute,right,straight,A,"An angle less than 90° is acute, 90° is right, between 90° and 180° is obtuse, and 180° is straight.",Easy,RMS/Sainik Prep,True
+MATH394,6,Mathematics,Angles,An angle measuring 135° is a/an ______ angle.,obtuse,acute,right,straight,A,"An angle less than 90° is acute, 90° is right, between 90° and 180° is obtuse, and 180° is straight.",Easy,RMS/Sainik Prep,True
+MATH395,6,Mathematics,Angles,An angle measuring 150° is a/an ______ angle.,obtuse,acute,right,straight,A,"An angle less than 90° is acute, 90° is right, between 90° and 180° is obtuse, and 180° is straight.",Easy,RMS/Sainik Prep,True
+MATH396,6,Mathematics,Angles,An angle measuring 180° is a/an ______ angle.,straight,acute,right,obtuse,A,"An angle less than 90° is acute, 90° is right, between 90° and 180° is obtuse, and 180° is straight.",Easy,RMS/Sainik Prep,True
+MATH397,6,Mathematics,Angles,An angle measuring 360° is a/an ______ angle.,complete,acute,right,obtuse,A,"An angle less than 90° is acute, 90° is right, between 90° and 180° is obtuse, and 180° is straight.",Easy,RMS/Sainik Prep,True
+MATH398,6,Mathematics,Angles,An angle measuring 75° is a/an ______ angle.,acute,right,obtuse,straight,A,"An angle less than 90° is acute, 90° is right, between 90° and 180° is obtuse, and 180° is straight.",Easy,RMS/Sainik Prep,True
+MATH399,6,Mathematics,Angles,An angle measuring 100° is a/an ______ angle.,obtuse,acute,right,straight,A,"An angle less than 90° is acute, 90° is right, between 90° and 180° is obtuse, and 180° is straight.",Easy,RMS/Sainik Prep,True
+MATH400,6,Mathematics,Angles,An angle measuring 25° is a/an ______ angle.,acute,right,obtuse,straight,A,"An angle less than 90° is acute, 90° is right, between 90° and 180° is obtuse, and 180° is straight.",Easy,RMS/Sainik Prep,True
+MATH401,6,Mathematics,Angles,An angle measuring 110° is a/an ______ angle.,obtuse,acute,right,straight,A,"An angle less than 90° is acute, 90° is right, between 90° and 180° is obtuse, and 180° is straight.",Easy,RMS/Sainik Prep,True
+MATH402,6,Mathematics,Angles,An angle measuring 89° is a/an ______ angle.,acute,right,obtuse,straight,A,"An angle less than 90° is acute, 90° is right, between 90° and 180° is obtuse, and 180° is straight.",Easy,RMS/Sainik Prep,True
+MATH403,6,Mathematics,Angles,An angle measuring 91° is a/an ______ angle.,obtuse,acute,right,straight,A,"An angle less than 90° is acute, 90° is right, between 90° and 180° is obtuse, and 180° is straight.",Easy,RMS/Sainik Prep,True
+MATH404,6,Mathematics,Angles,What is the complement of 20°?,70,160,20,80,A,Complementary angles add to 90°. So 90° − 20° = 70°.,Medium,RMS/Sainik Prep,True
+MATH405,6,Mathematics,Angles,What is the complement of 35°?,55,145,35,65,A,Complementary angles add to 90°. So 90° − 35° = 55°.,Medium,RMS/Sainik Prep,True
+MATH406,6,Mathematics,Angles,What is the complement of 48°?,42,132,48,52,A,Complementary angles add to 90°. So 90° − 48° = 42°.,Medium,RMS/Sainik Prep,True
+MATH407,6,Mathematics,Triangles,A triangle has angles 50° and 60°. What is the third angle?,70,130,120,80,A,"By the Angle Sum Property, the three angles total 180°. Third angle = 180 − 50 − 60 = 70°.",Medium,RMS/Sainik Prep,True
+MATH408,6,Mathematics,Triangles,A triangle has angles 40° and 70°. What is the third angle?,70,140,110,80,A,"By the Angle Sum Property, the three angles total 180°. Third angle = 180 − 40 − 70 = 70°.",Medium,RMS/Sainik Prep,True
+MATH409,6,Mathematics,Triangles,A triangle has angles 30° and 80°. What is the third angle?,70,150,100,80,A,"By the Angle Sum Property, the three angles total 180°. Third angle = 180 − 30 − 80 = 70°.",Medium,RMS/Sainik Prep,True
+MATH410,6,Mathematics,Triangles,A triangle has angles 45° and 65°. What is the third angle?,70,135,115,80,A,"By the Angle Sum Property, the three angles total 180°. Third angle = 180 − 45 − 65 = 70°.",Medium,RMS/Sainik Prep,True
+MATH411,6,Mathematics,Triangles,A triangle has angles 55° and 35°. What is the third angle?,90,125,145,100,A,"By the Angle Sum Property, the three angles total 180°. Third angle = 180 − 55 − 35 = 90°.",Medium,RMS/Sainik Prep,True
+MATH412,6,Mathematics,Triangles,A triangle has angles 25° and 75°. What is the third angle?,80,155,105,90,A,"By the Angle Sum Property, the three angles total 180°. Third angle = 180 − 25 − 75 = 80°.",Medium,RMS/Sainik Prep,True
+MATH413,6,Mathematics,Triangles,A triangle has angles 60° and 60°. What is the third angle?,60,120,120 (option 2),70,A,"By the Angle Sum Property, the three angles total 180°. Third angle = 180 − 60 − 60 = 60°.",Medium,RMS/Sainik Prep,True
+MATH414,6,Mathematics,Triangles,A triangle has angles 20° and 90°. What is the third angle?,70,160,90,80,A,"By the Angle Sum Property, the three angles total 180°. Third angle = 180 − 20 − 90 = 70°.",Medium,RMS/Sainik Prep,True
+MATH415,6,Mathematics,Triangles,A triangle has angles 35° and 85°. What is the third angle?,60,145,95,70,A,"By the Angle Sum Property, the three angles total 180°. Third angle = 180 − 35 − 85 = 60°.",Medium,RMS/Sainik Prep,True
+MATH416,6,Mathematics,Triangles,A triangle has angles 50° and 50°. What is the third angle?,80,130,130 (option 2),90,A,"By the Angle Sum Property, the three angles total 180°. Third angle = 180 − 50 − 50 = 80°.",Medium,RMS/Sainik Prep,True
+MATH417,6,Mathematics,Triangles,A triangle has angles 70° and 40°. What is the third angle?,70,110,140,80,A,"By the Angle Sum Property, the three angles total 180°. Third angle = 180 − 70 − 40 = 70°.",Medium,RMS/Sainik Prep,True
+MATH418,6,Mathematics,Triangles,A triangle has angles 15° and 75°. What is the third angle?,90,165,105,100,A,"By the Angle Sum Property, the three angles total 180°. Third angle = 180 − 15 − 75 = 90°.",Medium,RMS/Sainik Prep,True
+MATH419,6,Mathematics,Triangles,A triangle has angles 80° and 30°. What is the third angle?,70,100,150,80,A,"By the Angle Sum Property, the three angles total 180°. Third angle = 180 − 80 − 30 = 70°.",Medium,RMS/Sainik Prep,True
+MATH420,6,Mathematics,Triangles,A triangle has angles 42° and 68°. What is the third angle?,70,138,112,80,A,"By the Angle Sum Property, the three angles total 180°. Third angle = 180 − 42 − 68 = 70°.",Medium,RMS/Sainik Prep,True
+MATH421,6,Mathematics,Triangles,A triangle has angles 25° and 65°. What is the third angle?,90,155,115,100,A,"By the Angle Sum Property, the three angles total 180°. Third angle = 180 − 25 − 65 = 90°.",Medium,RMS/Sainik Prep,True
+MATH422,6,Mathematics,Triangles,Which type of triangle is described as having all three sides equal?,equilateral,isosceles,scalene,right-angled,A,This is the standard classification of triangles based on their sides or angles.,Easy,RMS/Sainik Prep,True
+MATH423,6,Mathematics,Triangles,Which type of triangle is described as having two sides equal?,isosceles,equilateral,scalene,right-angled,A,This is the standard classification of triangles based on their sides or angles.,Easy,RMS/Sainik Prep,True
+MATH424,6,Mathematics,Triangles,Which type of triangle is described as having all three sides unequal?,scalene,equilateral,isosceles,right-angled,A,This is the standard classification of triangles based on their sides or angles.,Easy,RMS/Sainik Prep,True
+MATH425,6,Mathematics,Circle,A circle has radius 3 cm. What is its diameter?,6,3,8,4,A,Diameter = 2 × radius.,Easy,RMS/Sainik Prep,True
+MATH426,6,Mathematics,Circle,A circle has radius 5 cm. What is its diameter?,10,5,12,6,A,Diameter = 2 × radius.,Easy,RMS/Sainik Prep,True
+MATH427,6,Mathematics,Circle,A circle has radius 7 cm. What is its diameter?,14,7,16,8,A,Diameter = 2 × radius.,Easy,RMS/Sainik Prep,True
+MATH428,6,Mathematics,Circle,A circle has radius 10 cm. What is its diameter?,20,10,22,11,A,Diameter = 2 × radius.,Easy,RMS/Sainik Prep,True
+MATH429,6,Mathematics,Circle,A circle has radius 12 cm. What is its diameter?,24,12,26,13,A,Diameter = 2 × radius.,Easy,RMS/Sainik Prep,True
+MATH430,6,Mathematics,Circle,A circle has diameter 8 cm. What is its radius?,4.0,8,6.0,5.0,A,Radius = diameter ÷ 2.,Easy,RMS/Sainik Prep,True
+MATH431,6,Mathematics,Circle,A circle has diameter 14 cm. What is its radius?,7.0,14,9.0,8.0,A,Radius = diameter ÷ 2.,Easy,RMS/Sainik Prep,True
+MATH432,6,Mathematics,Circle,A circle has diameter 20 cm. What is its radius?,10.0,20,12.0,11.0,A,Radius = diameter ÷ 2.,Easy,RMS/Sainik Prep,True
+MATH433,6,Mathematics,Circle,A circle has diameter 30 cm. What is its radius?,15.0,30,17.0,16.0,A,Radius = diameter ÷ 2.,Easy,RMS/Sainik Prep,True
+MATH434,6,Mathematics,Circle,A circle has diameter 50 cm. What is its radius?,25.0,50,27.0,26.0,A,Radius = diameter ÷ 2.,Easy,RMS/Sainik Prep,True
+MATH435,6,Mathematics,Quadrilaterals and Polygons,How many sides does a square have?,4,5,3,6,A,A square has 4 sides.,Easy,RMS/Sainik Prep,True
+MATH436,6,Mathematics,Quadrilaterals and Polygons,How many sides does a rectangle have?,4,5,3,6,A,A rectangle has 4 sides.,Easy,RMS/Sainik Prep,True
+MATH437,6,Mathematics,Quadrilaterals and Polygons,How many sides does a triangle have?,3,4,2,5,A,A triangle has 3 sides.,Easy,RMS/Sainik Prep,True
+MATH438,6,Mathematics,Quadrilaterals and Polygons,How many sides does a pentagon have?,5,6,4,7,A,A pentagon has 5 sides.,Easy,RMS/Sainik Prep,True
+MATH439,6,Mathematics,Quadrilaterals and Polygons,How many sides does a hexagon have?,6,7,5,8,A,A hexagon has 6 sides.,Easy,RMS/Sainik Prep,True
+MATH440,6,Mathematics,Quadrilaterals and Polygons,How many sides does a heptagon have?,7,8,6,9,A,A heptagon has 7 sides.,Easy,RMS/Sainik Prep,True
+MATH441,6,Mathematics,Quadrilaterals and Polygons,How many sides does a octagon have?,8,9,7,10,A,A octagon has 8 sides.,Easy,RMS/Sainik Prep,True
+MATH442,6,Mathematics,Quadrilaterals and Polygons,How many sides does a nonagon have?,9,10,8,11,A,A nonagon has 9 sides.,Easy,RMS/Sainik Prep,True
+MATH443,6,Mathematics,Quadrilaterals and Polygons,How many sides does a decagon have?,10,11,9,12,A,A decagon has 10 sides.,Easy,RMS/Sainik Prep,True
+MATH444,6,Mathematics,Quadrilaterals and Polygons,How many sides does a quadrilateral have?,4,5,3,6,A,A quadrilateral has 4 sides.,Easy,RMS/Sainik Prep,True
+MATH445,6,Mathematics,Area and Perimeter,What is the area of a rectangle of length 8 cm and breadth 5 cm?,40,26,45,35,A,Area = length × breadth = 8 × 5 = 40 cm².,Easy,RMS/Sainik Prep,True
+MATH446,6,Mathematics,Area and Perimeter,What is the area of a rectangle of length 12 cm and breadth 7 cm?,84,38,89,79,A,Area = length × breadth = 12 × 7 = 84 cm².,Easy,RMS/Sainik Prep,True
+MATH447,6,Mathematics,Area and Perimeter,What is the area of a rectangle of length 15 cm and breadth 4 cm?,60,38,65,55,A,Area = length × breadth = 15 × 4 = 60 cm².,Easy,RMS/Sainik Prep,True
+MATH448,6,Mathematics,Area and Perimeter,What is the area of a rectangle of length 20 cm and breadth 6 cm?,120,52,125,115,A,Area = length × breadth = 20 × 6 = 120 cm².,Easy,RMS/Sainik Prep,True
+MATH449,6,Mathematics,Area and Perimeter,What is the area of a rectangle of length 9 cm and breadth 9 cm?,81,36,86,76,A,Area = length × breadth = 9 × 9 = 81 cm².,Easy,RMS/Sainik Prep,True
+MATH450,6,Mathematics,Area and Perimeter,What is the area of a rectangle of length 14 cm and breadth 5 cm?,70,38,75,65,A,Area = length × breadth = 14 × 5 = 70 cm².,Easy,RMS/Sainik Prep,True
+MATH451,6,Mathematics,Area and Perimeter,What is the area of a rectangle of length 25 cm and breadth 8 cm?,200,66,205,195,A,Area = length × breadth = 25 × 8 = 200 cm².,Easy,RMS/Sainik Prep,True
+MATH452,6,Mathematics,Area and Perimeter,What is the perimeter of a rectangle of length 8 cm and breadth 5 cm?,26,40,30,22,A,Perimeter = 2 × (length + breadth) = 26 cm.,Easy,RMS/Sainik Prep,True
+MATH453,6,Mathematics,Area and Perimeter,What is the perimeter of a rectangle of length 12 cm and breadth 7 cm?,38,84,42,34,A,Perimeter = 2 × (length + breadth) = 38 cm.,Easy,RMS/Sainik Prep,True
+MATH454,6,Mathematics,Area and Perimeter,What is the perimeter of a rectangle of length 15 cm and breadth 4 cm?,38,60,42,34,A,Perimeter = 2 × (length + breadth) = 38 cm.,Easy,RMS/Sainik Prep,True
+MATH455,6,Mathematics,Area and Perimeter,What is the perimeter of a rectangle of length 20 cm and breadth 6 cm?,52,120,56,48,A,Perimeter = 2 × (length + breadth) = 52 cm.,Easy,RMS/Sainik Prep,True
+MATH456,6,Mathematics,Area and Perimeter,What is the perimeter of a rectangle of length 9 cm and breadth 5 cm?,28,45,32,24,A,Perimeter = 2 × (length + breadth) = 28 cm.,Easy,RMS/Sainik Prep,True
+MATH457,6,Mathematics,Area and Perimeter,What is the perimeter of a rectangle of length 14 cm and breadth 5 cm?,38,70,42,34,A,Perimeter = 2 × (length + breadth) = 38 cm.,Easy,RMS/Sainik Prep,True
+MATH458,6,Mathematics,Area and Perimeter,What is the perimeter of a rectangle of length 25 cm and breadth 8 cm?,66,200,70,62,A,Perimeter = 2 × (length + breadth) = 66 cm.,Easy,RMS/Sainik Prep,True
+MATH459,6,Mathematics,Area and Perimeter,What is the area of a square with side 4 cm?,16,16 (option 2),20,12,A,Area of square = side × side = 4 × 4 = 16 cm².,Easy,RMS/Sainik Prep,True
+MATH460,6,Mathematics,Area and Perimeter,What is the area of a square with side 6 cm?,36,24,42,30,A,Area of square = side × side = 6 × 6 = 36 cm².,Easy,RMS/Sainik Prep,True
+MATH461,6,Mathematics,Area and Perimeter,What is the area of a square with side 8 cm?,64,32,72,56,A,Area of square = side × side = 8 × 8 = 64 cm².,Easy,RMS/Sainik Prep,True
+MATH462,6,Mathematics,Area and Perimeter,What is the area of a square with side 10 cm?,100,40,110,90,A,Area of square = side × side = 10 × 10 = 100 cm².,Easy,RMS/Sainik Prep,True
+MATH463,6,Mathematics,Volume,Find the volume of a cuboid measuring 4 cm × 3 cm × 2 cm.,24,34,14,48,A,Volume = length × breadth × height = 24 cm³.,Medium,RMS/Sainik Prep,True
+MATH464,6,Mathematics,Volume,Find the volume of a cuboid measuring 5 cm × 4 cm × 3 cm.,60,70,50,120,A,Volume = length × breadth × height = 60 cm³.,Medium,RMS/Sainik Prep,True
+MATH465,6,Mathematics,Volume,Find the volume of a cuboid measuring 6 cm × 5 cm × 2 cm.,60,70,50,120,A,Volume = length × breadth × height = 60 cm³.,Medium,RMS/Sainik Prep,True
+MATH466,6,Mathematics,Volume,Find the volume of a cuboid measuring 10 cm × 3 cm × 4 cm.,120,130,110,240,A,Volume = length × breadth × height = 120 cm³.,Medium,RMS/Sainik Prep,True
+MATH467,6,Mathematics,Volume,Find the volume of a cuboid measuring 8 cm × 2 cm × 5 cm.,80,90,70,160,A,Volume = length × breadth × height = 80 cm³.,Medium,RMS/Sainik Prep,True
+MATH468,6,Mathematics,Volume,Find the volume of a cuboid measuring 7 cm × 4 cm × 3 cm.,84,94,74,168,A,Volume = length × breadth × height = 84 cm³.,Medium,RMS/Sainik Prep,True
+MATH469,6,Mathematics,Volume,Find the volume of a cuboid measuring 9 cm × 3 cm × 2 cm.,54,64,44,108,A,Volume = length × breadth × height = 54 cm³.,Medium,RMS/Sainik Prep,True
+MATH470,6,Mathematics,Volume,Find the volume of a cuboid measuring 12 cm × 2 cm × 4 cm.,96,106,86,192,A,Volume = length × breadth × height = 96 cm³.,Medium,RMS/Sainik Prep,True
+MATH471,6,Mathematics,Volume,Find the volume of a cuboid measuring 5 cm × 5 cm × 2 cm.,50,60,40,100,A,Volume = length × breadth × height = 50 cm³.,Medium,RMS/Sainik Prep,True
+MATH472,6,Mathematics,Volume,Find the volume of a cuboid measuring 10 cm × 5 cm × 5 cm.,250,260,240,500,A,Volume = length × breadth × height = 250 cm³.,Medium,RMS/Sainik Prep,True
+MATH473,6,Mathematics,Conversion of Units,Convert 3 m to the indicated unit.,300 cm,30 cm,3000 cm,3 cm,A,Use the standard metric conversion factor.,Easy,RMS/Sainik Prep,True
+MATH474,6,Mathematics,Conversion of Units,Convert 5 kg to the indicated unit.,5000 g,500 g,50 g,50000 g,A,Use the standard metric conversion factor.,Easy,RMS/Sainik Prep,True
+MATH475,6,Mathematics,Conversion of Units,Convert 2.5 L to the indicated unit.,2500 mL,250 mL,25 mL,25000 mL,A,Use the standard metric conversion factor.,Easy,RMS/Sainik Prep,True
+MATH476,6,Mathematics,Conversion of Units,Convert 750 cm to the indicated unit.,7.5 m,75 m,0.75 m,7500 m,A,Use the standard metric conversion factor.,Easy,RMS/Sainik Prep,True
+MATH477,6,Mathematics,Conversion of Units,Convert 4.2 kg to the indicated unit.,4200 g,420 g,42 g,42000 g,A,Use the standard metric conversion factor.,Easy,RMS/Sainik Prep,True
+MATH478,6,Mathematics,Conversion of Units,Convert 3600 mL to the indicated unit.,3.6 L,36 L,0.36 L,360 L,A,Use the standard metric conversion factor.,Easy,RMS/Sainik Prep,True
+MATH479,6,Mathematics,Conversion of Units,Convert 5 km to the indicated unit.,5000 m,500 m,50 m,50000 m,A,Use the standard metric conversion factor.,Easy,RMS/Sainik Prep,True
+MATH480,6,Mathematics,Conversion of Units,Convert 9000 g to the indicated unit.,9 kg,90 kg,0.9 kg,900 kg,A,Use the standard metric conversion factor.,Easy,RMS/Sainik Prep,True
+MATH481,6,Mathematics,Conversion of Units,Convert 6 m² to the indicated unit.,60000 cm²,6000 cm²,600 cm²,600000 cm²,A,Use the standard metric conversion factor.,Easy,RMS/Sainik Prep,True
+MATH482,6,Mathematics,Conversion of Units,Convert 2 L to the indicated unit.,2000 mL,200 mL,20 mL,20000 mL,A,Use the standard metric conversion factor.,Easy,RMS/Sainik Prep,True
+MATH483,6,Mathematics,Temperature,Convert 0°C to Fahrenheit.,32.0°F,42.0°F,22.0°F,32°F,A,F = (C × 9/5) + 32 = 32.0°F.,Medium,RMS/Sainik Prep,True
+MATH484,6,Mathematics,Temperature,Convert 10°C to Fahrenheit.,50.0°F,60.0°F,40.0°F,42°F,A,F = (C × 9/5) + 32 = 50.0°F.,Medium,RMS/Sainik Prep,True
+MATH485,6,Mathematics,Temperature,Convert 20°C to Fahrenheit.,68.0°F,78.0°F,58.0°F,52°F,A,F = (C × 9/5) + 32 = 68.0°F.,Medium,RMS/Sainik Prep,True
+MATH486,6,Mathematics,Temperature,Convert 25°C to Fahrenheit.,77.0°F,87.0°F,67.0°F,57°F,A,F = (C × 9/5) + 32 = 77.0°F.,Medium,RMS/Sainik Prep,True
+MATH487,6,Mathematics,Temperature,Convert 30°C to Fahrenheit.,86.0°F,96.0°F,76.0°F,62°F,A,F = (C × 9/5) + 32 = 86.0°F.,Medium,RMS/Sainik Prep,True
+MATH488,6,Mathematics,Temperature,Convert 40°C to Fahrenheit.,104.0°F,114.0°F,94.0°F,72°F,A,F = (C × 9/5) + 32 = 104.0°F.,Medium,RMS/Sainik Prep,True
+MATH489,6,Mathematics,Temperature,Convert 50°C to Fahrenheit.,122.0°F,132.0°F,112.0°F,82°F,A,F = (C × 9/5) + 32 = 122.0°F.,Medium,RMS/Sainik Prep,True
+MATH490,6,Mathematics,Temperature,Convert 100°C to Fahrenheit.,212.0°F,222.0°F,202.0°F,132°F,A,F = (C × 9/5) + 32 = 212.0°F.,Medium,RMS/Sainik Prep,True
+MATH491,6,Mathematics,Data Handling,"What is the mode of the data 5, 7, 8, 10, 10?",10,5,10 (option 2),5 (option 2),A,The mode is the value that occurs most frequently; here it is 10.,Medium,RMS/Sainik Prep,True
+MATH492,6,Mathematics,Data Handling,"What is the mode of the data 12, 15, 14, 15, 19?",15,12,19,12 (option 2),A,The mode is the value that occurs most frequently; here it is 15.,Medium,RMS/Sainik Prep,True
+MATH493,6,Mathematics,Data Handling,"What is the mode of the data 4, 6, 6, 8, 10?",6,4,10,4 (option 2),A,The mode is the value that occurs most frequently; here it is 6.,Medium,RMS/Sainik Prep,True
+MATH494,6,Mathematics,Data Handling,"What is the mode of the data 20, 25, 30, 25, 15?",25,20,30,15,A,The mode is the value that occurs most frequently; here it is 25.,Medium,RMS/Sainik Prep,True
+MATH495,6,Mathematics,Data Handling,"What is the mode of the data 7, 9, 11, 9, 14?",9,7,14,7 (option 2),A,The mode is the value that occurs most frequently; here it is 9.,Medium,RMS/Sainik Prep,True
+MATH496,6,Mathematics,Data Handling,"What is the median of 2, 4, 6, 8, 10?",6,2,10,7,A,The median is the middle value after arranging the data in order.,Medium,RMS/Sainik Prep,True
+MATH497,6,Mathematics,Data Handling,"What is the median of 5, 7, 9, 11, 13?",9,5,13,10,A,The median is the middle value after arranging the data in order.,Medium,RMS/Sainik Prep,True
+MATH498,6,Mathematics,Data Handling,"What is the median of 10, 20, 30, 40, 50?",30,10,50,31,A,The median is the middle value after arranging the data in order.,Medium,RMS/Sainik Prep,True
+MATH499,6,Mathematics,Data Handling,"What is the median of 3, 6, 9, 12?",9,3,12,10,A,The median is the middle value after arranging the data in order.,Medium,RMS/Sainik Prep,True
+MATH500,6,Mathematics,Data Handling,"What is the median of 15, 20, 25, 30, 35?",25,15,35,26,A,The median is the middle value after arranging the data in order.,Medium,RMS/Sainik Prep,True

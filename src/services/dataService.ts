@@ -332,3 +332,11 @@ export function enableApi(): void {
 export async function clearLocalData(): Promise<void> {
   await storage.clearAllData();
 }
+
+/**
+ * Clear downloaded questions and topics while keeping learner settings and history.
+ */
+export async function clearCachedData(): Promise<void> {
+  await storage.clearQuestions();
+  await storage.clearTopics();
+}

@@ -98,6 +98,25 @@
   white-space: nowrap;
 }
 
+.setting-checkbox {
+  display: flex;
+  align-items: center;
+  gap: var(--spacing-xs);
+  color: var(--text-secondary);
+  font-size: 0.875rem;
+  white-space: nowrap;
+}
+
+.setting-checkbox input {
+  accent-color: var(--primary);
+}
+
+.cache-notification {
+  margin-top: var(--spacing-md);
+  color: var(--success, #107c10);
+  font-weight: 600;
+}
+
 .info-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
@@ -170,7 +189,8 @@
 
   .setting-control {
     width: 100%;
-    justify-content: space-between;
+    justify-content: flex-start;
+    flex-wrap: wrap;
   }
 
   .settings-actions {

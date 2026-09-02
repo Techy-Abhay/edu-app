@@ -110,7 +110,7 @@ const SubjectSelection = () => {
             >
               <span className="mode-icon">📝</span>
               <h3>Mock Test</h3>
-              <p>Timed assessment</p>
+              <p>Practice exam with a set question count</p>
             </Link>
           </div>
         </div>

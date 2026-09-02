@@ -53,12 +53,12 @@ ENG051,6,English,Conjunctions,Fill in the blank: 'Wait here ______ I return.',un
 ENG052,6,English,Conjunctions,Fill in the blank: 'You will not succeed ______ you work hard.',until,unless,if,because,B,'Unless' means 'if not' and expresses a condition.,Medium,RMS/Sainik Prep,True
 ENG053,6,English,Adverbs,Identify the adverb of frequency in: 'He always arrives on time.',arrives,always,time,on,B,"'Always' shows how often an action happens, so it is an adverb of frequency.",Easy,RMS/Sainik Prep,True
 ENG054,6,English,Adverbs,What is the adverb form of the adjective 'Fast'?,Fastly,Fast,Faster,Fastest,B,'Fast' serves as both an adjective and an adverb. 'Fastly' is incorrect.,Medium,RMS/Sainik Prep,True
-ENG055,6,English,Question Tags,"Add the correct question tag: 'She is a good singer, ______?'",isn't she,is she,doesn't she,wasn't she,A,A positive statement takes a negative tag using the auxiliary verb 'isn't she'.,Easy,RMS/Sainik Prep,True
-ENG056,6,English,Question Tags,"Add the correct question tag: 'They do not like sweets, ______?'",don't they,do they,aren't they,didn't they,B,A negative statement takes a positive tag 'do they'.,Easy,RMS/Sainik Prep,True
-ENG057,6,English,Question Tags,"Add the correct question tag: 'Let us play cricket, ______?'",will we,shall we,don't we,can we,B,Imperative sentences starting with 'Let us' or 'Let's' take 'shall we?' as the tag.,Hard,RMS/Sainik Prep,True
-ENG058,6,English,Sentence Types,Identify the type of sentence: 'How beautiful this scenery is!',Assertive,Interrogative,Imperative,Exclamatory,D,"The sentence expresses strong emotion and ends with an exclamation mark, so it is exclamatory.",Easy,RMS/Sainik Prep,True
-ENG059,6,English,Sentence Types,Identify the type of sentence: 'Please close the door.',Assertive,Imperative,Interrogative,Exclamatory,B,"A sentence that expresses a command, request, or instruction is an imperative sentence.",Easy,RMS/Sainik Prep,True
-ENG060,6,English,Jumbled Sentences,Rearrange to make a meaningful sentence: P: the sun / Q: rises / R: in / S: the east,P Q R S,Q P R S,S R Q P,R S P Q,A,The proper sequence is 'The sun rises in the east' (P-Q-R-S).,Easy,RMS/Sainik Prep,True
+ENG055,6,English,Sentences,"Add the correct question tag: 'She is a good singer, ______?'",isn't she,is she,doesn't she,wasn't she,A,A positive statement takes a negative tag using the auxiliary verb 'isn't she'.,Easy,RMS/Sainik Prep,True
+ENG056,6,English,Sentences,"Add the correct question tag: 'They do not like sweets, ______?'",don't they,do they,aren't they,didn't they,B,A negative statement takes a positive tag 'do they'.,Easy,RMS/Sainik Prep,True
+ENG057,6,English,Sentences,"Add the correct question tag: 'Let us play cricket, ______?'",will we,shall we,don't we,can we,B,Imperative sentences starting with 'Let us' or 'Let's' take 'shall we?' as the tag.,Hard,RMS/Sainik Prep,True
+ENG058,6,English,Sentences,Identify the type of sentence: 'How beautiful this scenery is!',Assertive,Interrogative,Imperative,Exclamatory,D,"The sentence expresses strong emotion and ends with an exclamation mark, so it is exclamatory.",Easy,RMS/Sainik Prep,True
+ENG059,6,English,Sentences,Identify the type of sentence: 'Please close the door.',Assertive,Imperative,Interrogative,Exclamatory,B,"A sentence that expresses a command, request, or instruction is an imperative sentence.",Easy,RMS/Sainik Prep,True
+ENG060,6,English,Sentences,Rearrange to make a meaningful sentence: P: the sun / Q: rises / R: in / S: the east,P Q R S,Q P R S,S R Q P,R S P Q,A,The proper sequence is 'The sun rises in the east' (P-Q-R-S).,Easy,RMS/Sainik Prep,True
 ENG061,6,English,Synonyms,What is the synonym of 'BRAVE'?,Cowardly,Fearful,Courageous,Weak,C,'Courageous' means brave or possessing courage.,Easy,RMS/Sainik Prep,True
 ENG062,6,English,Synonyms,What is the synonym of 'ANCIENT'?,Modern,Old,New,Recent,B,'Ancient' means belonging to the distant past (old).,Easy,RMS/Sainik Prep,True
 ENG063,6,English,Synonyms,What is the synonym of 'CONCEAL'?,Hide,Reveal,Show,Open,A,'Conceal' means to keep secret or hide from view.,Medium,RMS/Sainik Prep,True
@@ -77,19 +77,19 @@ ENG075,6,English,One Word Substitution,A place where birds are kept is known as 
 ENG076,6,English,One Word Substitution,A period of 100 years is called a ______.,Decade,Fortnight,Century,Millennium,C,A period of 100 years is a century.,Easy,RMS/Sainik Prep,True
 ENG077,6,English,One Word Substitution,A person who studies stars and planets is an ______.,Astronaut,Astronomer,Astrologer,Architect,B,An astronomer is a scientist who studies celestial objects.,Medium,RMS/Sainik Prep,True
 ENG078,6,English,One Word Substitution,Handwriting that cannot be read is described as ______.,Eligible,Illegible,Illicit,Illegal,B,'Illegible' means clear enough or neat enough to be read.,Hard,RMS/Sainik Prep,True
-ENG079,6,English,Idioms & Phrases,What does the idiom 'Once in a blue moon' mean?,Every night,Very rarely,Frequently,During a full moon,B,'Once in a blue moon' means something that happens very rarely.,Easy,RMS/Sainik Prep,True
-ENG080,6,English,Idioms & Phrases,What is the meaning of the idiom 'To spill the beans'?,To drop food,To reveal a secret,To work hard,To get angry,B,'Spill the beans' means to disclose secret information prematurely.,Medium,RMS/Sainik Prep,True
-ENG081,6,English,Idioms & Phrases,What does the idiom 'Apple of one's eye' mean?,A fruit,A favorite/beloved person,An enemy,An eye disease,B,'Apple of one's eye' refers to a person who is cherished above all others.,Easy,RMS/Sainik Prep,True
-ENG082,6,English,Idioms & Phrases,What is the meaning of 'To burn the midnight oil'?,To waste fuel,To work late into the night,To light a candle,To sleep early,B,'Burn the midnight oil' means to study or work late into the night.,Medium,RMS/Sainik Prep,True
+ENG079,6,English,Idioms,What does the idiom 'Once in a blue moon' mean?,Every night,Very rarely,Frequently,During a full moon,B,'Once in a blue moon' means something that happens very rarely.,Easy,RMS/Sainik Prep,True
+ENG080,6,English,Idioms,What is the meaning of the idiom 'To spill the beans'?,To drop food,To reveal a secret,To work hard,To get angry,B,'Spill the beans' means to disclose secret information prematurely.,Medium,RMS/Sainik Prep,True
+ENG081,6,English,Idioms,What does the idiom 'Apple of one's eye' mean?,A fruit,A favorite/beloved person,An enemy,An eye disease,B,'Apple of one's eye' refers to a person who is cherished above all others.,Easy,RMS/Sainik Prep,True
+ENG082,6,English,Idioms,What is the meaning of 'To burn the midnight oil'?,To waste fuel,To work late into the night,To light a candle,To sleep early,B,'Burn the midnight oil' means to study or work late into the night.,Medium,RMS/Sainik Prep,True
 ENG083,6,English,Spellings,Choose the correctly spelt word.,Recieve,Receive,Receeve,Ricieve,B,The correct spelling is 'Receive' (rule: 'i' before 'e' except after 'c').,Easy,RMS/Sainik Prep,True
 ENG084,6,English,Spellings,Choose the correctly spelt word.,Separate,Seperate,Saparate,Seperat,A,The correct spelling is 'Separate' (s-e-p-a-r-a-t-e).,Medium,RMS/Sainik Prep,True
 ENG085,6,English,Spellings,Choose the correctly spelt word.,Lieutenant,Leutenant,Lieuetenant,Luitenant,A,The correct spelling is 'Lieutenant'.,Hard,RMS/Sainik Prep,True
-ENG086,6,English,Active and Passive Voice,Change to passive voice: 'She writes a letter.',A letter was written by her.,A letter is written by her.,A letter has been written by her.,A letter is being written by her.,B,Simple Present Tense passive formula: Subject + is/am/are + V3 + by + Object.,Easy,RMS/Sainik Prep,True
-ENG087,6,English,Active and Passive Voice,Change to passive voice: 'The police caught the thief.',The thief was caught by the police.,The thief is caught by the police.,The thief had been caught by the police.,The thief has been caught by the police.,A,Simple Past Tense passive formula: Subject + was/were + V3 + by + Object.,Medium,RMS/Sainik Prep,True
-ENG088,6,English,Active and Passive Voice,Change to active voice: 'The car is being washed by John.',John washes the car.,John is washing the car.,John washed the car.,John has washed the car.,B,Present Continuous passive 'is being washed' changes back to active 'is washing'.,Medium,RMS/Sainik Prep,True
-ENG089,6,English,Direct and Indirect Speech,"Change to indirect speech: 'He said, ""I am feeling unwell.""'",He said that he is feeling unwell.,He said that he was feeling unwell.,He told that he was feeling unwell.,He says that he felt unwell.,B,Present continuous changes to past continuous in indirect speech.,Medium,RMS/Sainik Prep,True
-ENG090,6,English,Direct and Indirect Speech,"Change to indirect speech: 'The teacher said, ""The earth revolves around the sun.""'",The teacher said that the earth revolved around the sun.,The teacher said that the earth revolves around the sun.,The teacher told the earth revolves around the sun.,The teacher stated that earth is revolving around the sun.,B,Universal truths do not change tense when reported in indirect speech.,Hard,RMS/Sainik Prep,True
-ENG091,6,English,Direct and Indirect Speech,"Change to indirect speech: 'Raman said to me, ""Where are you going?""'",Raman asked me where I was going.,Raman told me where I am going.,Raman asked me where was I going.,Raman inquired me that where I was going.,A,Wh-questions change to 'asked + Wh-word + subject + verb'.,Hard,RMS/Sainik Prep,True
+ENG086,6,English,Verbs,Change to passive voice: 'She writes a letter.',A letter was written by her.,A letter is written by her.,A letter has been written by her.,A letter is being written by her.,B,Simple Present Tense passive formula: Subject + is/am/are + V3 + by + Object.,Easy,RMS/Sainik Prep,True
+ENG087,6,English,Verbs,Change to passive voice: 'The police caught the thief.',The thief was caught by the police.,The thief is caught by the police.,The thief had been caught by the police.,The thief has been caught by the police.,A,Simple Past Tense passive formula: Subject + was/were + V3 + by + Object.,Medium,RMS/Sainik Prep,True
+ENG088,6,English,Verbs,Change to active voice: 'The car is being washed by John.',John washes the car.,John is washing the car.,John washed the car.,John has washed the car.,B,Present Continuous passive 'is being washed' changes back to active 'is washing'.,Medium,RMS/Sainik Prep,True
+ENG089,6,English,Verbs,"Change to indirect speech: 'He said, ""I am feeling unwell.""'",He said that he is feeling unwell.,He said that he was feeling unwell.,He told that he was feeling unwell.,He says that he felt unwell.,B,Present continuous changes to past continuous in indirect speech.,Medium,RMS/Sainik Prep,True
+ENG090,6,English,Verbs,"Change to indirect speech: 'The teacher said, ""The earth revolves around the sun.""'",The teacher said that the earth revolved around the sun.,The teacher said that the earth revolves around the sun.,The teacher told the earth revolves around the sun.,The teacher stated that earth is revolving around the sun.,B,Universal truths do not change tense when reported in indirect speech.,Hard,RMS/Sainik Prep,True
+ENG091,6,English,Verbs,"Change to indirect speech: 'Raman said to me, ""Where are you going?""'",Raman asked me where I was going.,Raman told me where I am going.,Raman asked me where was I going.,Raman inquired me that where I was going.,A,Wh-questions change to 'asked + Wh-word + subject + verb'.,Hard,RMS/Sainik Prep,True
 ENG092,6,English,Spellings,Choose the correctly spelt word.,Grammer,Grammar,Gremmar,Grammerr,B,"The correct spelling is 'Grammar' (ending in -ar, not -er).",Easy,RMS/Sainik Prep,True
 ENG093,6,English,Spellings,Choose the correctly spelt word.,Necassary,Neccessary,Necessary,Necesary,C,"The correct spelling is 'Necessary' (one 'c', double 's').",Medium,RMS/Sainik Prep,True
 ENG094,6,English,One Word Substitution,A person who cannot read or write is called ______.,Literate,Illiterate,Ignorant,Scholar,B,An illiterate person is unable to read or write.,Easy,RMS/Sainik Prep,True
@@ -99,40 +99,40 @@ ENG097,6,English,Adjectives,Identify the proper adjective in: 'We love Indian cu
 ENG098,6,English,Nouns,What is the plural of 'Passer-by'?,Passer-bys,Passers-by,Passers-bys,Passerbyes,B,"In compound nouns, the primary noun receives the plural suffix ('Passers-by').",Hard,RMS/Sainik Prep,True
 ENG099,6,English,Conjunctions,"Fill in the blank: 'Although he is rich, ______ he is dissatisfied.'",but,yet,so,because,B,"'Although' is paired with 'yet' (or a comma), never with 'but'.",Hard,RMS/Sainik Prep,True
 ENG0100,6,English,Vocabulary,What is the young one of a Kangaroo called?,Calf,Cub,Joey,Kid,C,A young kangaroo is called a 'joey'.,Easy,RMS/Sainik Prep,True
-ENG101,6,English,Collective Nouns,The ___ of soldiers marched towards the fort.,army,crowd,team,class,A,Army is a collective noun for a group of soldiers.,Easy,RMS/Sainik Prep,True
-ENG102,6,English,Abstract Nouns,Choose the abstract noun: 'Her kindness impressed everyone.',her,kindness,everyone,impressed,B,Kindness names a quality or idea and cannot be touched.,Easy,RMS/Sainik Prep,True
-ENG103,6,English,Proper Nouns,Which is a proper noun in 'Delhi is the capital of India'?,capital,Delhi,India,city,B,Delhi is a specific place name and is a proper noun.,Easy,RMS/Sainik Prep,True
-ENG104,6,English,Common Nouns,Which is a common noun?,Rohan,Monday,river,India,C,River is a general name for a class of things.,Easy,RMS/Sainik Prep,True
-ENG105,6,English,Material Nouns,Which word is a material noun?,gold,ring,jeweller,shine,A,Gold names a material from which things are made.,Easy,RMS/Sainik Prep,True
-ENG106,6,English,Countable Nouns,Which noun is countable?,water,rice,apple,milk,C,"An apple can be counted: one apple, two apples.",Easy,RMS/Sainik Prep,True
-ENG107,6,English,Uncountable Nouns,Which noun is usually uncountable?,chair,book,sugar,coin,C,Sugar is generally treated as an uncountable noun.,Easy,RMS/Sainik Prep,True
-ENG108,6,English,Gender,What is the feminine form of 'nephew'?,niece,daughter,aunt,sister,A,The feminine form of nephew is niece.,Easy,RMS/Sainik Prep,True
-ENG109,6,English,Gender,What is the masculine form of 'mare'?,horse,stallion,foal,cow,B,A male horse is called a stallion.,Easy,RMS/Sainik Prep,True
+ENG101,6,English,Nouns,The ___ of soldiers marched towards the fort.,army,crowd,team,class,A,Army is a collective noun for a group of soldiers.,Easy,RMS/Sainik Prep,True
+ENG102,6,English,Nouns,Choose the abstract noun: 'Her kindness impressed everyone.',her,kindness,everyone,impressed,B,Kindness names a quality or idea and cannot be touched.,Easy,RMS/Sainik Prep,True
+ENG103,6,English,Nouns,Which is a proper noun in 'Delhi is the capital of India'?,capital,Delhi,India,city,B,Delhi is a specific place name and is a proper noun.,Easy,RMS/Sainik Prep,True
+ENG104,6,English,Nouns,Which is a common noun?,Rohan,Monday,river,India,C,River is a general name for a class of things.,Easy,RMS/Sainik Prep,True
+ENG105,6,English,Nouns,Which word is a material noun?,gold,ring,jeweller,shine,A,Gold names a material from which things are made.,Easy,RMS/Sainik Prep,True
+ENG106,6,English,Nouns,Which noun is countable?,water,rice,apple,milk,C,"An apple can be counted: one apple, two apples.",Easy,RMS/Sainik Prep,True
+ENG107,6,English,Nouns,Which noun is usually uncountable?,chair,book,sugar,coin,C,Sugar is generally treated as an uncountable noun.,Easy,RMS/Sainik Prep,True
+ENG108,6,English,Nouns,What is the feminine form of 'nephew'?,niece,daughter,aunt,sister,A,The feminine form of nephew is niece.,Easy,RMS/Sainik Prep,True
+ENG109,6,English,Nouns,What is the masculine form of 'mare'?,horse,stallion,foal,cow,B,A male horse is called a stallion.,Easy,RMS/Sainik Prep,True
 ENG110,6,English,Number,What is the plural of 'leaf'?,leafs,leaves,leafes,leavs,B,Leaf changes to leaves in the plural.,Easy,RMS/Sainik Prep,True
 ENG111,6,English,Number,What is the plural of 'mouse'?,mouses,mouse,mice,meese,C,Mouse has the irregular plural mice.,Easy,RMS/Sainik Prep,True
 ENG112,6,English,Number,What is the plural of 'child'?,childs,children,childes,childrens,B,The irregular plural of child is children.,Easy,RMS/Sainik Prep,True
 ENG113,6,English,Number,What is the plural of 'tooth'?,tooths,teeth,toothes,teeths,B,The irregular plural of tooth is teeth.,Easy,RMS/Sainik Prep,True
-ENG114,6,English,Noun Formation,What is the noun form of 'brave'?,bravely,bravery,bravenessly,braver,B,Bravery is the noun naming the quality of being brave.,Easy,RMS/Sainik Prep,True
-ENG115,6,English,Noun Formation,What is the noun form of 'wise'?,wisely,wisdom,wiseness,wiser,B,Wisdom is the noun form commonly used for wise.,Medium,RMS/Sainik Prep,True
-ENG116,6,English,Noun Formation,What is the abstract noun of 'poor'?,poorly,poverty,poornessful,poorer,B,Poverty is the abstract noun related to poor.,Medium,RMS/Sainik Prep,True
-ENG117,6,English,Noun Formation,What is the abstract noun of 'strong'?,strongly,strength,strongness,stronger,B,Strength names the quality of being strong.,Easy,RMS/Sainik Prep,True
-ENG118,6,English,Noun Identification,Identify the noun in: 'The puppy chased the ball.',chased,the,puppy,the,C,Puppy is a naming word for an animal.,Easy,RMS/Sainik Prep,True
-ENG119,6,English,Noun Identification,Which word is a noun in 'The farmer grows wheat'?,grows,farmer,the,quickly,B,Farmer names a person who works on a farm.,Easy,RMS/Sainik Prep,True
-ENG120,6,English,Possessive Noun,Choose the correct possessive form: 'the bag belonging to Riya'.,Riyas bag,Riya's bag,Riyas' bag,Riya bag's,B,Riya's shows possession by Riya.,Easy,RMS/Sainik Prep,True
-ENG121,6,English,Possessive Noun,Choose the correct form: 'the books belonging to the students'.,students book,student's books,students' books,students books',C,Students' shows possession by plural students.,Medium,RMS/Sainik Prep,True
-ENG122,6,English,Compound Noun,Which is a compound noun?,sunflower,sunny,flowered,sun,A,Sunflower is formed by combining sun and flower.,Easy,RMS/Sainik Prep,True
-ENG123,6,English,Compound Noun,Which word is a compound noun?,toothbrush,brushes,toothy,tooth,A,Toothbrush combines tooth and brush.,Easy,RMS/Sainik Prep,True
-ENG124,6,English,Noun Type,'Honesty' is what kind of noun?,Proper,Abstract,Collective,Material,B,Honesty names a quality and is abstract.,Easy,RMS/Sainik Prep,True
-ENG125,6,English,Noun Type,'Team' is what kind of noun?,Abstract,Material,Collective,Proper,C,Team refers to a group of people and is collective.,Easy,RMS/Sainik Prep,True
-ENG126,6,English,Noun Type,'Silver' is what kind of noun?,Material,Abstract,Collective,Proper,A,Silver names a material.,Easy,RMS/Sainik Prep,True
-ENG127,6,English,Noun Type,'Mumbai' is what kind of noun?,Common,Proper,Abstract,Collective,B,Mumbai is the specific name of a city.,Easy,RMS/Sainik Prep,True
-ENG128,6,English,Noun Type,'Teacher' is what kind of noun?,Proper,Common,Material,Abstract,B,Teacher is a general name for a person who teaches.,Easy,RMS/Sainik Prep,True
-ENG129,6,English,Plural Spelling,Which is the correct plural of 'potato'?,potatos,potatoes,potatoies,potatoses,B,The usual plural spelling is potatoes.,Easy,RMS/Sainik Prep,True
-ENG130,6,English,Plural Spelling,Which is the correct plural of 'knife'?,knifes,knifees,knives,knivs,C,Knife changes to knives in the plural.,Easy,RMS/Sainik Prep,True
-ENG131,6,English,Plural Spelling,Which is the correct plural of 'city'?,citys,cities,cityes,citis,B,A consonant before y changes y to i and adds es.,Easy,RMS/Sainik Prep,True
-ENG132,6,English,Plural Spelling,Which is the plural of 'deer'?,deers,deer,deeres,deerses,B,Deer has the same singular and plural form.,Medium,RMS/Sainik Prep,True
-ENG133,6,English,Noun Usage,Choose the correct sentence.,She gave me an advice.,She gave me some advice.,She gave me many advices.,She gave me an advices.,B,Advice is normally uncountable; 'some advice' is correct.,Medium,RMS/Sainik Prep,True
-ENG134,6,English,Noun Number,Which noun can be both singular and plural without a change in form?,deer,book,child,mouse,A,Deer can refer to one or several animals.,Medium,RMS/Sainik Prep,True
+ENG114,6,English,Nouns,What is the noun form of 'brave'?,bravely,bravery,bravenessly,braver,B,Bravery is the noun naming the quality of being brave.,Easy,RMS/Sainik Prep,True
+ENG115,6,English,Nouns,What is the noun form of 'wise'?,wisely,wisdom,wiseness,wiser,B,Wisdom is the noun form commonly used for wise.,Medium,RMS/Sainik Prep,True
+ENG116,6,English,Nouns,What is the abstract noun of 'poor'?,poorly,poverty,poornessful,poorer,B,Poverty is the abstract noun related to poor.,Medium,RMS/Sainik Prep,True
+ENG117,6,English,Nouns,What is the abstract noun of 'strong'?,strongly,strength,strongness,stronger,B,Strength names the quality of being strong.,Easy,RMS/Sainik Prep,True
+ENG118,6,English,Nouns,Identify the noun in: 'The puppy chased the ball.',chased,the,puppy,the,C,Puppy is a naming word for an animal.,Easy,RMS/Sainik Prep,True
+ENG119,6,English,Nouns,Which word is a noun in 'The farmer grows wheat'?,grows,farmer,the,quickly,B,Farmer names a person who works on a farm.,Easy,RMS/Sainik Prep,True
+ENG120,6,English,Nouns,Choose the correct possessive form: 'the bag belonging to Riya'.,Riyas bag,Riya's bag,Riyas' bag,Riya bag's,B,Riya's shows possession by Riya.,Easy,RMS/Sainik Prep,True
+ENG121,6,English,Nouns,Choose the correct form: 'the books belonging to the students'.,students book,student's books,students' books,students books',C,Students' shows possession by plural students.,Medium,RMS/Sainik Prep,True
+ENG122,6,English,Nouns,Which is a compound noun?,sunflower,sunny,flowered,sun,A,Sunflower is formed by combining sun and flower.,Easy,RMS/Sainik Prep,True
+ENG123,6,English,Nouns,Which word is a compound noun?,toothbrush,brushes,toothy,tooth,A,Toothbrush combines tooth and brush.,Easy,RMS/Sainik Prep,True
+ENG124,6,English,Nouns,'Honesty' is what kind of noun?,Proper,Abstract,Collective,Material,B,Honesty names a quality and is abstract.,Easy,RMS/Sainik Prep,True
+ENG125,6,English,Nouns,'Team' is what kind of noun?,Abstract,Material,Collective,Proper,C,Team refers to a group of people and is collective.,Easy,RMS/Sainik Prep,True
+ENG126,6,English,Nouns,'Silver' is what kind of noun?,Material,Abstract,Collective,Proper,A,Silver names a material.,Easy,RMS/Sainik Prep,True
+ENG127,6,English,Nouns,'Mumbai' is what kind of noun?,Common,Proper,Abstract,Collective,B,Mumbai is the specific name of a city.,Easy,RMS/Sainik Prep,True
+ENG128,6,English,Nouns,'Teacher' is what kind of noun?,Proper,Common,Material,Abstract,B,Teacher is a general name for a person who teaches.,Easy,RMS/Sainik Prep,True
+ENG129,6,English,Spellings,Which is the correct plural of 'potato'?,potatos,potatoes,potatoies,potatoses,B,The usual plural spelling is potatoes.,Easy,RMS/Sainik Prep,True
+ENG130,6,English,Spellings,Which is the correct plural of 'knife'?,knifes,knifees,knives,knivs,C,Knife changes to knives in the plural.,Easy,RMS/Sainik Prep,True
+ENG131,6,English,Spellings,Which is the correct plural of 'city'?,citys,cities,cityes,citis,B,A consonant before y changes y to i and adds es.,Easy,RMS/Sainik Prep,True
+ENG132,6,English,Spellings,Which is the plural of 'deer'?,deers,deer,deeres,deerses,B,Deer has the same singular and plural form.,Medium,RMS/Sainik Prep,True
+ENG133,6,English,Nouns,Choose the correct sentence.,She gave me an advice.,She gave me some advice.,She gave me many advices.,She gave me an advices.,B,Advice is normally uncountable; 'some advice' is correct.,Medium,RMS/Sainik Prep,True
+ENG134,6,English,Nouns,Which noun can be both singular and plural without a change in form?,deer,book,child,mouse,A,Deer can refer to one or several animals.,Medium,RMS/Sainik Prep,True
 ENG135,6,English,Pronouns,Choose the pronoun: 'Rahul said that he was tired.',Rahul,said,he,tired,C,He replaces Rahul and is a pronoun.,Easy,RMS/Sainik Prep,True
 ENG136,6,English,Pronouns,Which is a personal pronoun?,quickly,they,beautiful,under,B,They is a personal pronoun.,Easy,RMS/Sainik Prep,True
 ENG137,6,English,Pronouns,Riya and I completed ___ homework.,our,their,her,his,A,Our agrees with the subject Riya and I.,Easy,RMS/Sainik Prep,True
@@ -519,13 +519,13 @@ ENG517,6,English,Homophones,Choose the correct word: 'Please ___ the letter.',wr
 ENG518,6,English,Homophones,Choose the correct word: 'You are ___ about this.',write,right,rite,wright,B,Right means correct.,Easy,RMS/Sainik Prep,True
 ENG519,6,English,Homophones,Choose the correct word: 'I need a ___ to cut the paper.',pair,pear,pare,peir,A,Pair means two matching items; here it refers to a pair of scissors.,Medium,RMS/Sainik Prep,True
 ENG520,6,English,Homophones,Choose the correct word: 'She ate a juicy ___.',pair,pear,pare,peare,B,Pear is a fruit.,Easy,RMS/Sainik Prep,True
-ENG521,6,English,One-word Substitution,A person who cannot read or write is called ___.,literate,illiterate,scholar,author,B,Illiterate means unable to read or write.,Medium,RMS/Sainik Prep,True
-ENG522,6,English,One-word Substitution,A place where books are kept for reading is a ___.,laboratory,library,bakery,gallery,B,A library is a place where books are kept.,Easy,RMS/Sainik Prep,True
-ENG523,6,English,One-word Substitution,A person who writes poems is a ___.,poet,pilot,painter,poacher,A,A poet writes poems.,Easy,RMS/Sainik Prep,True
-ENG524,6,English,One-word Substitution,A person who travels on foot is a ___.,pedestrian,passenger,pilot,driver,A,"A pedestrian is a person walking, especially on a road.",Medium,RMS/Sainik Prep,True
-ENG525,6,English,One-word Substitution,A person who loves books is a ___.,bibliophile,biologist,geologist,philosopher,A,Bibliophile means a person who loves books.,Hard,RMS/Sainik Prep,True
-ENG526,6,English,One-word Substitution,A place where aircraft are kept is an ___.,airport,aquarium,orphanage,arsenal,A,An airport is a place for aircraft operations.,Easy,RMS/Sainik Prep,True
-ENG527,6,English,One-word Substitution,A person who looks after a garden is a ___.,gardener,guard,guardian,grocer,A,A gardener tends a garden.,Easy,RMS/Sainik Prep,True
+ENG521,6,English,One Word Substitution,A person who cannot read or write is called ___.,literate,illiterate,scholar,author,B,Illiterate means unable to read or write.,Medium,RMS/Sainik Prep,True
+ENG522,6,English,One Word Substitution,A place where books are kept for reading is a ___.,laboratory,library,bakery,gallery,B,A library is a place where books are kept.,Easy,RMS/Sainik Prep,True
+ENG523,6,English,One Word Substitution,A person who writes poems is a ___.,poet,pilot,painter,poacher,A,A poet writes poems.,Easy,RMS/Sainik Prep,True
+ENG524,6,English,One Word Substitution,A person who travels on foot is a ___.,pedestrian,passenger,pilot,driver,A,"A pedestrian is a person walking, especially on a road.",Medium,RMS/Sainik Prep,True
+ENG525,6,English,One Word Substitution,A person who loves books is a ___.,bibliophile,biologist,geologist,philosopher,A,Bibliophile means a person who loves books.,Hard,RMS/Sainik Prep,True
+ENG526,6,English,One Word Substitution,A place where aircraft are kept is an ___.,airport,aquarium,orphanage,arsenal,A,An airport is a place for aircraft operations.,Easy,RMS/Sainik Prep,True
+ENG527,6,English,One Word Substitution,A person who looks after a garden is a ___.,gardener,guard,guardian,grocer,A,A gardener tends a garden.,Easy,RMS/Sainik Prep,True
 ENG528,6,English,Word Formation,Choose the correct adjective from 'danger'.,dangerous,dangerously,danger,dangered,A,Dangerous is the adjective.,Easy,RMS/Sainik Prep,True
 ENG529,6,English,Word Formation,Choose the correct noun from 'kind'.,kindly,kindness,kinder,kindful,B,Kindness is the noun naming the quality.,Easy,RMS/Sainik Prep,True
 ENG530,6,English,Word Formation,Choose the correct verb from 'beauty'.,beautiful,beautify,beautifully,beautician,B,Beautify means make beautiful.,Medium,RMS/Sainik Prep,True

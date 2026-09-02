@@ -33,21 +33,21 @@ const Practice = () => {
       : { icon: '📚', label: topic ? `${subject} • ${topic}` : `${subject} Practice` };
 
   // Load settings from localStorage
-  const getQuestionCount = (practiceType: 'random' | 'topic') => {
+  const getQuestionCount = (practiceType: 'random' | 'topic' | 'test') => {
     try {
       const savedSettings = localStorage.getItem('appSettings');
       if (savedSettings) {
         const settings = JSON.parse(savedSettings);
-        return practiceType === 'random' 
-          ? settings.practiceQuestions || APP_CONFIG.DEFAULT_PRACTICE_QUESTIONS
-          : settings.topicQuestions || APP_CONFIG.DEFAULT_TOPIC_QUESTIONS;
+        if (practiceType === 'random') return settings.practiceQuestions ?? APP_CONFIG.DEFAULT_PRACTICE_QUESTIONS;
+        if (practiceType === 'topic') return settings.topicQuestions ?? APP_CONFIG.DEFAULT_TOPIC_QUESTIONS;
+        return settings.mockTestQuestions ?? APP_CONFIG.DEFAULT_MOCK_TEST_QUESTIONS;
       }
     } catch (error) {
       console.error('Error loading settings:', error);
     }
-    return practiceType === 'random' 
-      ? APP_CONFIG.DEFAULT_PRACTICE_QUESTIONS 
-      : APP_CONFIG.DEFAULT_TOPIC_QUESTIONS;
+    if (practiceType === 'random') return APP_CONFIG.DEFAULT_PRACTICE_QUESTIONS;
+    if (practiceType === 'topic') return APP_CONFIG.DEFAULT_TOPIC_QUESTIONS;
+    return APP_CONFIG.DEFAULT_MOCK_TEST_QUESTIONS;
   };
 
   useEffect(() => {
@@ -76,11 +76,11 @@ const Practice = () => {
           const shuffled = [...classQuestions].sort(() => Math.random() - 0.5);
           
           if (mode === 'random' || mode === 'test') {
-            const questionCount = getQuestionCount('random');
-            selectedQuestions = shuffled.slice(0, Math.min(questionCount, shuffled.length));
+            const questionCount = getQuestionCount(mode === 'test' ? 'test' : 'random');
+            selectedQuestions = questionCount === 0 ? shuffled : shuffled.slice(0, Math.min(questionCount, shuffled.length));
           } else if (mode === 'topic') {
             const questionCount = getQuestionCount('topic');
-            selectedQuestions = shuffled.slice(0, Math.min(questionCount, shuffled.length));
+            selectedQuestions = questionCount === 0 ? shuffled : shuffled.slice(0, Math.min(questionCount, shuffled.length));
           }
           
           // Check if we have questions after filtering
@@ -111,7 +111,7 @@ const Practice = () => {
           const questionCount = getQuestionCount('random');
           selectedQuestions = uniqueQuestions
             .sort(() => Math.random() - 0.5)
-            .slice(0, Math.min(questionCount, uniqueQuestions.length));
+            .slice(0, questionCount === 0 ? uniqueQuestions.length : Math.min(questionCount, uniqueQuestions.length));
           console.log(`✅ Selected ${selectedQuestions.length} unique random questions`);
         }
         

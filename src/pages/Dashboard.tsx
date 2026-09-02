@@ -17,6 +17,7 @@ const Dashboard = () => {
   const classLevel = Number(classParam) as ClassLevel;
   
   const [subjects, setSubjects] = useState<string[]>([]);
+  const [questionCounts, setQuestionCounts] = useState<Record<string, number>>({});
   const [sessions, setSessions] = useState<Session[]>([]);
   const [loading, setLoading] = useState(true);
 
@@ -25,7 +26,12 @@ const Dashboard = () => {
       try {
         // Load subjects
         const subjectsData = await dataService.getSubjects();
-        setSubjects(subjectsData.map(s => s.name));
+        const subjectNames = subjectsData.map(s => s.name);
+        setSubjects(subjectNames);
+        const questionsBySubject = await Promise.all(
+          subjectNames.map(async subject => [subject, (await dataService.getQuestions(subject)).filter(question => question.class === classLevel).length] as const)
+        );
+        setQuestionCounts(Object.fromEntries(questionsBySubject));
         
         // Load sessions from local storage
         const sessionsData = await dataService.getSessions(classLevel);
@@ -66,6 +72,7 @@ const Dashboard = () => {
     const subjectSessions = sessions.filter(s => s.subject === subject);
     return {
       subject,
+      questionCount: questionCounts[subject] || 0,
       sessionsCount: subjectSessions.length,
       accuracy: subjectSessions.length > 0
         ? Math.round(subjectSessions.reduce((sum, s) => sum + s.score, 0) / subjectSessions.length)
@@ -133,8 +140,8 @@ const Dashboard = () => {
             </Link>
             <Link to={`/class/${classLevel}/history`} className="action-card action-secondary">
               <span className="action-icon">📝</span>
-              <h3>Review Mistakes</h3>
-              <p>Learn from errors</p>
+              <h3>History</h3>
+              <p>Review past practice</p>
             </Link>
           </div>
         </div>
@@ -143,7 +150,7 @@ const Dashboard = () => {
         <div className="section">
           <h2>Subjects</h2>
           <div className="subject-grid">
-            {subjectStats.map(({ subject, accuracy, sessionsCount }) => (
+            {subjectStats.map(({ subject, questionCount, accuracy, sessionsCount }) => (
               <Link 
                 key={subject} 
                 to={`/class/${classLevel}/subject/${subject}`}
@@ -151,7 +158,10 @@ const Dashboard = () => {
               >
                 <div className="subject-header">
                   <span className="subject-icon">{subjectIcons[subject] || '📚'}</span>
-                  <h3>{subject}</h3>
+                  <div>
+                    <h3>{subject}</h3>
+                    <p className="text-secondary">{questionCount} questions available</p>
+                  </div>
                 </div>
                 <div className="subject-stats">
                   <div className="subject-stat">
