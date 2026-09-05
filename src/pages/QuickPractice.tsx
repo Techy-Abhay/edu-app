@@ -1,4 +1,4 @@
-import { useState, useEffect } from 'react';
+import { useState, useEffect, useLayoutEffect } from 'react';
 import { useNavigate, useParams } from 'react-router-dom';
 import * as dataService from '../services/dataService';
 import { Question, ClassLevel } from '../types';
@@ -24,6 +24,10 @@ const QuickPractice = () => {
   const [showFeedback, setShowFeedback] = useState(false);
   const [correctCount, setCorrectCount] = useState(0);
   const [incorrectCount, setIncorrectCount] = useState(0);
+
+  useLayoutEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
 
   // Load all questions on mount
   useEffect(() => {
@@ -71,9 +75,9 @@ const QuickPractice = () => {
       
       // Update counters
       if (answer === correctLabel) {
-        setCorrectCount(correctCount + 1);
+        setCorrectCount(count => count + 1);
       } else {
-        setIncorrectCount(incorrectCount + 1);
+        setIncorrectCount(count => count + 1);
       }
     }
   };

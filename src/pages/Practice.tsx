@@ -1,4 +1,4 @@
-import { useState, useEffect } from 'react';
+import { useState, useEffect, useLayoutEffect } from 'react';
 import { useParams, useNavigate, useSearchParams } from 'react-router-dom';
 import * as dataService from '../services/dataService';
 import { Question, ClassLevel } from '../types';
@@ -31,6 +31,10 @@ const Practice = () => {
     : mode === 'test'
       ? { icon: '📝', label: 'Mock Test' }
       : { icon: '📚', label: topic ? `${subject} • ${topic}` : `${subject} Practice` };
+
+  useLayoutEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
 
   // Load settings from localStorage
   const getQuestionCount = (practiceType: 'random' | 'topic' | 'test') => {
@@ -150,23 +154,23 @@ const Practice = () => {
     if (isLearningMode) {
       setShowFeedback(true);
     } else {
-      handleNext();
+      handleNext(newAnswers);
     }
   };
 
-  const handleNext = () => {
+  const handleNext = (answersForSession = answers) => {
     if (currentIndex < questions.length - 1) {
       setCurrentIndex(currentIndex + 1);
       setSelectedAnswer(null);
       setShowFeedback(false);
     } else {
       // Session complete
-      finishSession();
+      finishSession(answersForSession);
     }
   };
 
-  const finishSession = async () => {
-    const correctAnswers = Array.from(answers.entries()).filter(
+  const finishSession = async (answersForSession: Map<string, string>) => {
+    const correctAnswers = Array.from(answersForSession.entries()).filter(
       ([qId, answer]) => {
         const shuffledData = shuffledOptionsMap.get(qId);
         return shuffledData && shuffledData.correctLabel === answer;
@@ -203,8 +207,8 @@ const Practice = () => {
       console.log('✅ Session saved to local storage:', sessionId);
       
       // Save session details for review
-      const answersObj = Object.fromEntries(answers);
-      console.log('💾 Saving session with', answers.size, 'answers:', answersObj);
+      const answersObj = Object.fromEntries(answersForSession);
+      console.log('💾 Saving session with', answersForSession.size, 'answers:', answersObj);
       console.log('🔀 ShuffledOptionsMap keys:', Array.from(shuffledOptionsMap.keys()));
       
       await dataService.saveSessionDetails(sessionId, {
@@ -224,7 +228,7 @@ const Practice = () => {
         topic,
         mode,
         questions,
-        answers: Object.fromEntries(answers),
+        answers: Object.fromEntries(answersForSession),
         shuffledOptionsMap: Object.fromEntries(shuffledOptionsMap),
         score,
         correctAnswers,
@@ -386,7 +390,7 @@ const Practice = () => {
               ) : (
                 <button 
                   className="btn btn-primary btn-lg"
-                  onClick={handleNext}
+                  onClick={() => handleNext()}
                 >
                   {currentIndex < questions.length - 1 ? 'Next Question' : 'View Results'}
                 </button>
